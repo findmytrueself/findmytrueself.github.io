@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>임훈 DevLog ✍️</title>
+    <link>http://findmytrueself.github.io/</link>
+    <description>Recent content on 임훈 DevLog ✍️</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 05 May 2022 19:53:35 +0900</lastBuildDate><atom:link href="http://findmytrueself.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>자바스크립트에서의 비동기처리</title>
+      <link>http://findmytrueself.github.io/posts/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%EC%97%90%EC%84%9C%EC%9D%98-%EB%B9%84%EB%8F%99%EA%B8%B0%EC%B2%98%EB%A6%AC/</link>
+      <pubDate>Thu, 05 May 2022 19:53:35 +0900</pubDate>
+      
+      <guid>http://findmytrueself.github.io/posts/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%EC%97%90%EC%84%9C%EC%9D%98-%EB%B9%84%EB%8F%99%EA%B8%B0%EC%B2%98%EB%A6%AC/</guid>
+      <description>promise 자바스크립트 ES6이후에 등장하게 된 promise객체는 비동기 처리 작업 할 때 콜백함수가 쌓이게되는 콜백지옥을 해결하기 위해 처음 등장이 되었다.
+같은 원리이지만, promise객체를 통해 더 가독성이 쉽게 표시할 수 있어서 이용하게 되었고,
+promise 또한 많은 promise변수를 사용하여 리턴하게 되면 promise지옥을 경험 할 수 있다.
+콜백함수, promise, async/await의 응답속도 콜백함수나 promise의 응답속도는 거의 같다.
+처음 호이스팅 환경에서 차례로 읽기 때문에 비동기 처리 되는 영역은 처리 완료 되지 않은 상태에서 다음을 읽는다. 따라서, setTimeout함수와 같이 딜레이를 주게 되어도 응답속도는 딜레이를 무시하고 먼저 처리한다.</description>
+    </item>
+    
+    <item>
+      <title>웹서비스가 동작하게 하는 기본 플로우</title>
+      <link>http://findmytrueself.github.io/posts/%EC%9B%B9%EC%84%9C%EB%B9%84%EC%8A%A4%EA%B0%80-%EB%8F%99%EC%9E%91%ED%95%98%EA%B2%8C-%ED%95%98%EB%8A%94-%EA%B8%B0%EB%B3%B8-%ED%94%8C%EB%A1%9C%EC%9A%B0/</link>
+      <pubDate>Thu, 05 May 2022 19:30:13 +0900</pubDate>
+      
+      <guid>http://findmytrueself.github.io/posts/%EC%9B%B9%EC%84%9C%EB%B9%84%EC%8A%A4%EA%B0%80-%EB%8F%99%EC%9E%91%ED%95%98%EA%B2%8C-%ED%95%98%EB%8A%94-%EA%B8%B0%EB%B3%B8-%ED%94%8C%EB%A1%9C%EC%9A%B0/</guid>
+      <description>웹브라우저의 구성 요소
+ Call Stack : 자바스크립트에서 수행해야 할 함수들을 순차적으로 스택에 담아 처리 Web API : 웹 브라우저에서 제공하는 API로 AJAX나 TimeOut등의 비동기 작업 수행 Task Queue : Callback Queue 라고도 하며, Web API에서 넘겨받은 Callback함수를 저장. Event Loop : Call Stack이 비워져있다면, Task Queue의 작업을 Call Stack으로 옮김.  setTimeout(() =&amp;gt; console.log(&amp;#34;Async Hi hun&amp;#34;)); console.log(&amp;#34;Hello! World&amp;#34;); // Hello! World // Async Hi hun 비동기 코드는 먼저 실행됨에도 불구하고, 나중에 출력되는걸 볼 수 있다.</description>
+    </item>
+    
+    
+  </channel>
+</rss>
