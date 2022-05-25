@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on 임훈 DevLog ✍️</title>
+    <title>Posts on DevLog ✍️</title>
     <link>http://findmytrueself.github.io/posts/</link>
-    <description>Recent content in Posts on 임훈 DevLog ✍️</description>
+    <description>Recent content in Posts on DevLog ✍️</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 19 May 2022 16:53:04 +0900</lastBuildDate><atom:link href="http://findmytrueself.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
@@ -15,7 +15,7 @@
       <guid>http://findmytrueself.github.io/posts/%EB%A6%AC%EB%8D%95%EC%8A%A4%ED%88%B4%ED%82%B7-%EC%B0%8D%EB%A8%B9%ED%95%98%EA%B8%B0/</guid>
       <description>인트로 지금껏 프로젝트를 하면서, 리덕스를 사용하여 상태관리를 해왔다.
 상태관리 라이브러리는 정말 많다. 최근에 들어본 상태관리 라이브러리는 Mobx , Recoil, Zustand 등등..
-다른 상태관리를 직접 프로젝트에서 적용해보진 않았지만, 통계적으로 압도적이다.
+  npmTrends   다른 상태관리를 직접 프로젝트에서 적용해보진 않았지만, 통계적으로 압도적이다.
 지금까지 리액트와 리덕스를 사용하면서 큰 불편함을 느낀적은 없었다.
 하지만, 리덕스의 타입정의, 액션함수, 리듀서를 왔다갔다 하며 변경해줘야하는 번거로움이 있었다.
 리액트 18버전으로 업그레이드 하면서, 기존에 내가 사용하던 리덕스의 문법이 Legacy한 문법이라고 하여 찾다보니 리덕스 툴킷이라는 라이브러리가 기존의 리덕스의 불편함을 보완 해줄 수 있다고 어렴풋하게 알고있었다.</description>
