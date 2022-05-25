@@ -6,7 +6,23 @@
     <description>Recent content on DevLog ✍️</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 19 May 2022 16:53:04 +0900</lastBuildDate><atom:link href="http://findmytrueself.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 25 May 2022 18:22:35 +0900</lastBuildDate><atom:link href="http://findmytrueself.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LH전세대출로 집구하기</title>
+      <link>http://findmytrueself.github.io/post/lh/</link>
+      <pubDate>Wed, 25 May 2022 18:22:35 +0900</pubDate>
+      
+      <guid>http://findmytrueself.github.io/post/lh/</guid>
+      <description>인트로 요즘 현실은 월급을 받고 일을하려면 수도권에 와야한다.
+아니면, 공기업을 가던가 자영업을 하던가.. 일용직이나 알바를 하던가이다.
+그래서 나같은 사람들은 되게 수도권을 와야만 먹고산다. 하지만, 나는 전혀 수도권에 연고가 없다.
+결국 먹고 사려면 수도권에서 자리를 잡아야하는데, 그때부터는 이제 주거문제로 항상 골머리를 싸매야한다.
+살기 위해서 한달 고정 지출을 생각 해 보았는가?
+그중에 가장 큰 주거비용은 정말 숨만쉬어도 나가는 돈이다.
+사실 우리가 돈을 버는 이유는 무엇인가?
+나는 더 나은 삶의 질을 찾기 위해서 돈을 번다고 생각한다.</description>
+    </item>
+    
     <item>
       <title>리덕스툴킷 찍먹하기</title>
       <link>http://findmytrueself.github.io/post/reduxtoolkit/</link>
@@ -19,15 +35,6 @@
 지금까지 리액트와 리덕스를 사용하면서 큰 불편함을 느낀적은 없었다.
 하지만, 리덕스의 타입정의, 액션함수, 리듀서를 왔다갔다 하며 변경해줘야하는 번거로움이 있었다.
 리액트 18버전으로 업그레이드 하면서, 기존에 내가 사용하던 리덕스의 문법이 Legacy한 문법이라고 하여 찾다보니 리덕스 툴킷이라는 라이브러리가 기존의 리덕스의 불편함을 보완 해줄 수 있다고 어렴풋하게 알고있었다.</description>
-    </item>
-    
-    <item>
-      <title>LH전세대출로 집구하기 여정</title>
-      <link>http://findmytrueself.github.io/life/lh%EC%B2%AD%EB%85%84%EC%A0%84%EC%84%B8%EB%8C%80%EC%B6%9C%EB%A1%9C-%EC%A7%91%EA%B5%AC%ED%95%98%EA%B8%B0/</link>
-      <pubDate>Mon, 09 May 2022 13:16:04 +0900</pubDate>
-      
-      <guid>http://findmytrueself.github.io/life/lh%EC%B2%AD%EB%85%84%EC%A0%84%EC%84%B8%EB%8C%80%EC%B6%9C%EB%A1%9C-%EC%A7%91%EA%B5%AC%ED%95%98%EA%B8%B0/</guid>
-      <description>LH를 통해서 청년전세대출을</description>
     </item>
     
     <item>
