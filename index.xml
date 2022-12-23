@@ -6,7 +6,16 @@
     <description>Recent content on DevLog ✍️</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 25 May 2022 18:22:35 +0900</lastBuildDate><atom:link href="http://findmytrueself.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 23 Dec 2022 13:53:35 +0900</lastBuildDate><atom:link href="http://findmytrueself.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Redux Thunk 정리</title>
+      <link>http://findmytrueself.github.io/posts/reduxthunk/</link>
+      <pubDate>Fri, 23 Dec 2022 13:53:35 +0900</pubDate>
+      
+      <guid>http://findmytrueself.github.io/posts/reduxthunk/</guid>
+      <description> createAsyncThunk는 비동기 작업을 처리하는 Action을 만들어준다.  const asyncUpFetch = createAsyncThunk(&amp;#39;counterSlice/asyncUpFetch&amp;#39;, async () =&amp;gt; { const resp = await fetch(&amp;#39;https://api.aergo.io/~~&amp;#39;) const data = await resp.json() return data.value })   createAsyncThunk Flow   reducers를 사용하면, actionCreator를 툴킷이 자동으로 만들어주지만, 비동기작업에서는 actionCreator를 자동으로 만들어주지 못하기 때문에, extraReducers에 직접 만들어 주어야 한다.   </description>
+    </item>
+    
     <item>
       <title>LH전세대출로 집구하기</title>
       <link>http://findmytrueself.github.io/life/lh/</link>
