@@ -6,7 +6,21 @@
     <description>Recent content on Hun&#39;s Blog ✍️</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 23 Dec 2022 13:53:35 +0900</lastBuildDate><atom:link href="http://findmytrueself.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 23 Dec 2022 18:22:35 +0900</lastBuildDate><atom:link href="http://findmytrueself.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2022년 회고</title>
+      <link>http://findmytrueself.github.io/life/2022retrospect/</link>
+      <pubDate>Fri, 23 Dec 2022 18:22:35 +0900</pubDate>
+      
+      <guid>http://findmytrueself.github.io/life/2022retrospect/</guid>
+      <description>다사다난 했었던 1년이 이제 곧 지나간다.
+서른살이 되던 21년, 정말 마지막이라고 생각하고, 개발자로 전향을 목표로 목숨을 걸며, 1년간 치열히 살았던 기억밖에 없다.
+그리고 22년 올해가 시작되는 1월, 적성에 맞는 적절한 직업을 찾게 되었다.
+중국 왔다갔다하며 쓰던, 27인치 캐리어에 옷가지 몇벌과 취업 축하한다고 어머니께서 사주신 깔끔한 코트 한벌 들고 상경했다.
+아무것도 없었던 나는, 새로운 환경에 적응 하는데 꽤 시간이 걸렸고, 스스로의 노력이 필요했다.
+처음에는 긴장의 연속이었지만, 점점 나아졌다. 그 속에는 나를 좋아해주는 좋은 동료들이 있었다.</description>
+    </item>
+    
     <item>
       <title>Redux Thunk 정리</title>
       <link>http://findmytrueself.github.io/posts/reduxthunk/</link>
@@ -17,12 +31,19 @@
     </item>
     
     <item>
-      <title></title>
-      <link>http://findmytrueself.github.io/life/</link>
+      <title>LH전세대출로 집구하기</title>
+      <link>http://findmytrueself.github.io/life/lh/</link>
       <pubDate>Wed, 25 May 2022 18:22:35 +0900</pubDate>
       
-      <guid>http://findmytrueself.github.io/life/</guid>
-      <description>   </description>
+      <guid>http://findmytrueself.github.io/life/lh/</guid>
+      <description>인트로 요즘 현실은 월급을 받고 일을하려면 수도권에 와야한다.
+아니면, 공기업을 가던가 자영업을 하던가.. 일용직이나 알바를 하던가이다.
+그래서 나같은 사람들은 되게 수도권을 와야만 먹고산다. 하지만, 나는 전혀 수도권에 연고가 없다.
+결국 먹고 사려면 수도권에서 자리를 잡아야하는데, 그때부터는 이제 주거문제로 항상 골머리를 싸매야한다.
+살기 위해서 한달 고정 지출을 생각 해 보았는가?
+그중에 가장 큰 주거비용은 정말 숨만쉬어도 나가는 돈이다.
+사실 우리가 돈을 버는 이유는 무엇인가?
+나는 더 나은 삶의 질을 찾기 위해서 돈을 번다고 생각한다.</description>
     </item>
     
     <item>

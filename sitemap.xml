@@ -2,8 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://findmytrueself.github.io/life/2022retrospect/</loc>
+    <lastmod>2022-12-23T18:22:35+09:00</lastmod>
+  </url><url>
     <loc>http://findmytrueself.github.io/</loc>
-    <lastmod>2022-12-23T13:53:35+09:00</lastmod>
+    <lastmod>2022-12-23T18:22:35+09:00</lastmod>
+  </url><url>
+    <loc>http://findmytrueself.github.io/life/</loc>
+    <lastmod>2022-12-23T18:22:35+09:00</lastmod>
   </url><url>
     <loc>http://findmytrueself.github.io/posts/</loc>
     <lastmod>2022-12-23T13:53:35+09:00</lastmod>
@@ -11,7 +17,7 @@
     <loc>http://findmytrueself.github.io/posts/reduxthunk/</loc>
     <lastmod>2022-12-23T13:53:35+09:00</lastmod>
   </url><url>
-    <loc>http://findmytrueself.github.io/life/</loc>
+    <loc>http://findmytrueself.github.io/life/lh/</loc>
     <lastmod>2022-05-25T18:22:35+09:00</lastmod>
   </url><url>
     <loc>http://findmytrueself.github.io/posts/reduxtoolkit/</loc>
