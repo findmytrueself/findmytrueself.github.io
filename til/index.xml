@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>TILs on Hun&#39;s Blog ✍️</title>
+    <link>http://findmytrueself.github.io/til/</link>
+    <description>Recent content in TILs on Hun&#39;s Blog ✍️</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 25 May 2022 18:22:35 +0900</lastBuildDate><atom:link href="http://findmytrueself.github.io/til/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>23.1.10 TIL</title>
+      <link>http://findmytrueself.github.io/til/23.1.10/</link>
+      <pubDate>Wed, 25 May 2022 18:22:35 +0900</pubDate>
+      
+      <guid>http://findmytrueself.github.io/til/23.1.10/</guid>
+      <description>블로그에 코멘트를 추가했다. utterances를 이용하여 코멘트 템플릿을 추가했다. disqus는 많은 광고가 있어서 사용을 하지 않는다.
+  React 조건부 렌더링에 &amp;amp;&amp;amp; 사용하지 않기
+  자바스크립트 문법 중에 a &amp;amp;&amp;amp; b를 사용하는 문법이 있다. a가 true라면 b를 사용하라 인데, 리액트에서 사용할 때 버그를 야기한다고 한다.
+과거 프로젝트 진행 중 새로운 문법을 사용하고 싶어서 사용해봤는데, 버그를 경험한 적이 있음.
+  if condition is 0, 0 is displayed in the UI</description>
+    </item>
+    
+  </channel>
+</rss>
