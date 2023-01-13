@@ -6,7 +6,16 @@
     <description>Recent content in TILs on Hun&#39;s Blog ✍️</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 10 Jan 2023 13:41:35 +0900</lastBuildDate><atom:link href="http://findmytrueself.github.io/til/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 12 Jan 2023 13:41:35 +0900</lastBuildDate><atom:link href="http://findmytrueself.github.io/til/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>23.1.12 TIL</title>
+      <link>http://findmytrueself.github.io/til/23.1.12/</link>
+      <pubDate>Thu, 12 Jan 2023 13:41:35 +0900</pubDate>
+      
+      <guid>http://findmytrueself.github.io/til/23.1.12/</guid>
+      <description> React Query 기본 정리 -&amp;gt; 포스팅  </description>
+    </item>
+    
     <item>
       <title>23.1.10 TIL</title>
       <link>http://findmytrueself.github.io/til/23.1.10/</link>
@@ -18,15 +27,6 @@
   자바스크립트 문법 중에 a &amp;amp;&amp;amp; b를 사용하는 문법이 있다. a가 true라면 b를 사용하라 인데, 리액트에서 사용할 때 버그를 야기한다고 한다.
 과거 프로젝트 진행 중 새로운 문법을 사용하고 싶어서 사용해봤는데, 버그를 경험한 적이 있음.
   if condition is 0, 0 is displayed in the UI</description>
-    </item>
-    
-    <item>
-      <title>23.1.12 TIL</title>
-      <link>http://findmytrueself.github.io/til/23.1.12/</link>
-      <pubDate>Tue, 10 Jan 2023 13:41:35 +0900</pubDate>
-      
-      <guid>http://findmytrueself.github.io/til/23.1.12/</guid>
-      <description></description>
     </item>
     
   </channel>
