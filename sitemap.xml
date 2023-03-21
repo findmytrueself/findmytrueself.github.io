@@ -14,19 +14,10 @@
     <loc>http://findmytrueself.github.io/posts/reactquery/</loc>
     <lastmod>2023-01-12T13:53:35+09:00</lastmod>
   </url><url>
-    <loc>http://findmytrueself.github.io/til/23.1.12/</loc>
-    <lastmod>2023-01-12T13:41:35+09:00</lastmod>
-  </url><url>
-    <loc>http://findmytrueself.github.io/til/</loc>
-    <lastmod>2023-01-12T13:41:35+09:00</lastmod>
-  </url><url>
     <loc>http://findmytrueself.github.io/posts/reactcustomhooks/</loc>
     <lastmod>2023-01-10T18:22:35+09:00</lastmod>
   </url><url>
     <loc>http://findmytrueself.github.io/life/2023goal/</loc>
-    <lastmod>2023-01-10T13:41:35+09:00</lastmod>
-  </url><url>
-    <loc>http://findmytrueself.github.io/til/23.1.10/</loc>
     <lastmod>2023-01-10T13:41:35+09:00</lastmod>
   </url><url>
     <loc>http://findmytrueself.github.io/life/</loc>
@@ -54,6 +45,9 @@
     <lastmod>2022-05-05T19:30:13+09:00</lastmod>
   </url><url>
     <loc>http://findmytrueself.github.io/archives/</loc>
+  </url><url>
+    <loc>http://findmytrueself.github.io/resume/</loc>
+    <priority>0</priority>
   </url><url>
     <loc>http://findmytrueself.github.io/categories/</loc>
   </url><url>
