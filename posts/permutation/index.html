@@ -1,0 +1,60 @@
+<!doctype html><html><head lang=en><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><title>순열(Permutation) - Hun's Blog ✍️</title><meta name=viewport content="width=device-width,initial-scale=1">
+<meta name=description content="인트로
+순열은 고등학교 수학 때 배우는 개념이다.
+그때는 무작정 공식만 외웠기 때문에, 순열이 무엇인지, 언제 쓰이는지 몰랐다.
+공부를 잘못하는 이유가 있었다.
+순열이란?
+순열(Permutation)은 집합에 속한 모든 원소의 순서를 고려하여 배열하는 것을 의미합니다.
+즉, 주어진 n개의 원소를 모두 사용하여 만들 수 있는 가능한 모든 순서의 조합을 말합니다.
+순열의 특징
+
+
+순열은 순서가 중요합니다. 즉, {1, 2, 3}과 {3, 2, 1}은 서로 다른 순열로 취급됩니다."><meta property="og:image" content><meta property="og:url" content="http://findmytrueself.github.io/posts/permutation/"><meta property="og:site_name" content="Hun's Blog ✍️"><meta property="og:title" content="순열(Permutation)"><meta property="og:description" content="인트로
+순열은 고등학교 수학 때 배우는 개념이다.
+그때는 무작정 공식만 외웠기 때문에, 순열이 무엇인지, 언제 쓰이는지 몰랐다.
+공부를 잘못하는 이유가 있었다.
+순열이란?
+순열(Permutation)은 집합에 속한 모든 원소의 순서를 고려하여 배열하는 것을 의미합니다.
+즉, 주어진 n개의 원소를 모두 사용하여 만들 수 있는 가능한 모든 순서의 조합을 말합니다.
+순열의 특징
+순열은 순서가 중요합니다. 즉, {1, 2, 3}과 {3, 2, 1}은 서로 다른 순열로 취급됩니다."><meta property="og:locale" content="en_us"><meta property="og:type" content="article"><meta property="article:section" content="posts"><meta property="article:published_time" content="2024-09-02T11:53:04+09:00"><meta property="article:modified_time" content="2024-09-02T11:53:04+09:00"><meta name=twitter:card content="summary"><meta name=twitter:title content="순열(Permutation)"><meta name=twitter:description content="인트로
+순열은 고등학교 수학 때 배우는 개념이다.
+그때는 무작정 공식만 외웠기 때문에, 순열이 무엇인지, 언제 쓰이는지 몰랐다.
+공부를 잘못하는 이유가 있었다.
+순열이란?
+순열(Permutation)은 집합에 속한 모든 원소의 순서를 고려하여 배열하는 것을 의미합니다.
+즉, 주어진 n개의 원소를 모두 사용하여 만들 수 있는 가능한 모든 순서의 조합을 말합니다.
+순열의 특징
+순열은 순서가 중요합니다. 즉, {1, 2, 3}과 {3, 2, 1}은 서로 다른 순열로 취급됩니다."><link href=http://findmytrueself.github.io/css/fonts.2c2227b81b1970a03e760aa2e6121cd01f87c88586803cbb282aa224720a765f.css rel=stylesheet><link rel=stylesheet type=text/css media=screen href=http://findmytrueself.github.io/css/main.5cebd7d4fb2b97856af8d32a6def16164fcf7d844e98e236fcb3559655020373.css></head><body><div class=content><header><div class=main><a href=http://findmytrueself.github.io/>Hun's Blog ✍️</a></div><nav><a href=../../life>LIFE</a>
+<a href=../../posts>POSTS</a>
+<a href=../../pdfs/3%EB%85%84%EC%B0%A8_%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C_%EC%9E%84%ED%9B%88.pdf>RESUME</a></nav></header><main><article><div class=title><h1 class=title>순열(Permutation)</h1><div class=meta>Posted on Sep 2, 2024</div></div><section class=body><p><strong>인트로</strong></p><p>순열은 고등학교 수학 때 배우는 개념이다.</p><p>그때는 무작정 공식만 외웠기 때문에, 순열이 무엇인지, 언제 쓰이는지 몰랐다.</p><p>공부를 잘못하는 이유가 있었다.</p><p><strong>순열이란?</strong></p><p>순열(Permutation)은 집합에 속한 모든 원소의 순서를 고려하여 배열하는 것을 의미합니다.</p><p>즉, 주어진 n개의 원소를 모두 사용하여 만들 수 있는 가능한 모든 순서의 조합을 말합니다.</p><p><strong>순열의 특징</strong></p><ul><li><p>순열은 순서가 중요합니다. 즉, {1, 2, 3}과 {3, 2, 1}은 서로 다른 순열로 취급됩니다.</p></li><li><p>n개의 원소로 만들 수 있는 순열의 개수는 n! (n 팩토리얼)로 계산됩니다. 예를 들어, 3개의 원소가 있을 때 순열의 개수는 3! = 3 × 2 × 1 = 6개입니다.</p></li></ul><p><strong>순열의 활용</strong></p><ul><li><p>모든 가능한 순서를 고려해야 할 때 (예: 일정을 짜는 문제)</p></li><li><p>경우의 수를 모두 나열하여 최적의 선택을 해야 할 때 (예: 최단 경로 찾기)</p></li></ul><p><strong>JS 함수</strong></p><div class=highlight><pre tabindex=0 class=chroma><code class=language-js data-lang=js><span class=line><span class=cl><span class=kd>function</span> <span class=nx>getPermutations</span><span class=p>(</span><span class=nx>arr</span><span class=p>)</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>  <span class=kd>let</span> <span class=nx>results</span> <span class=o>=</span> <span class=p>[]</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>  <span class=kd>function</span> <span class=nx>permute</span><span class=p>(</span><span class=nx>current</span><span class=p>,</span> <span class=nx>remaining</span><span class=p>)</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>    <span class=k>if</span> <span class=p>(</span><span class=nx>remaining</span><span class=p>.</span><span class=nx>length</span> <span class=o>===</span> <span class=mi>0</span><span class=p>)</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>      <span class=nx>results</span><span class=p>.</span><span class=nx>push</span><span class=p>(</span><span class=nx>current</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>    <span class=p>}</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>    <span class=k>for</span> <span class=p>(</span><span class=kd>let</span> <span class=nx>i</span> <span class=o>=</span> <span class=mi>0</span><span class=p>;</span> <span class=nx>i</span> <span class=o>&lt;</span> <span class=nx>remaining</span><span class=p>.</span><span class=nx>length</span><span class=p>;</span> <span class=nx>i</span><span class=o>++</span><span class=p>)</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>      <span class=kd>let</span> <span class=nx>next</span> <span class=o>=</span> <span class=nx>current</span><span class=p>.</span><span class=nx>concat</span><span class=p>(</span><span class=nx>remaining</span><span class=p>[</span><span class=nx>i</span><span class=p>])</span>
+</span></span><span class=line><span class=cl>      <span class=kd>let</span> <span class=nx>newRemaining</span> <span class=o>=</span> <span class=nx>remaining</span><span class=p>.</span><span class=nx>slice</span><span class=p>(</span><span class=mi>0</span><span class=p>,</span> <span class=nx>i</span><span class=p>).</span><span class=nx>concat</span><span class=p>(</span><span class=nx>remaining</span><span class=p>.</span><span class=nx>slice</span><span class=p>(</span><span class=nx>i</span> <span class=o>+</span> <span class=mi>1</span><span class=p>))</span>
+</span></span><span class=line><span class=cl>      <span class=nx>permute</span><span class=p>(</span><span class=nx>next</span><span class=p>,</span> <span class=nx>newRemaining</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>    <span class=p>}</span>
+</span></span><span class=line><span class=cl>  <span class=p>}</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>  <span class=nx>permute</span><span class=p>([],</span> <span class=nx>arr</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>  <span class=k>return</span> <span class=nx>results</span>
+</span></span><span class=line><span class=cl><span class=p>}</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=kr>const</span> <span class=nx>array</span> <span class=o>=</span> <span class=p>[</span><span class=mi>1</span><span class=p>,</span> <span class=mi>2</span><span class=p>,</span> <span class=mi>3</span><span class=p>]</span>
+</span></span><span class=line><span class=cl><span class=kr>const</span> <span class=nx>permutations</span> <span class=o>=</span> <span class=nx>getPermutations</span><span class=p>(</span><span class=nx>array</span><span class=p>)</span>
+</span></span><span class=line><span class=cl><span class=nx>console</span><span class=p>.</span><span class=nx>log</span><span class=p>(</span><span class=nx>permutations</span><span class=p>)</span>
+</span></span><span class=line><span class=cl><span class=cm>/** [
+</span></span></span><span class=line><span class=cl><span class=cm>  [1, 2, 3],
+</span></span></span><span class=line><span class=cl><span class=cm>  [1, 3, 2],
+</span></span></span><span class=line><span class=cl><span class=cm>  [2, 1, 3],
+</span></span></span><span class=line><span class=cl><span class=cm>  [2, 3, 1],
+</span></span></span><span class=line><span class=cl><span class=cm>  [3, 1, 2],
+</span></span></span><span class=line><span class=cl><span class=cm>  [3, 2, 1]
+</span></span></span><span class=line><span class=cl><span class=cm>] */</span>
+</span></span></code></pre></div></section><div class=post-tags></div></article></main><footer><div style=display:flex></div><div class=footer-info>2024 <a href=https://github.com/athul/archie>Archie Theme</a> | Built with <a href=https://gohugo.io>Hugo</a></div></footer></div></body></html>

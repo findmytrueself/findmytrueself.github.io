@@ -1,0 +1,115 @@
+<!doctype html><html><head lang=en><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><title>Hun's Blog ✍️ | Home </title><meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="프론트엔드 개발자 성장기"><meta property="og:image" content><link rel=alternate type=application/rss+xml href=http://findmytrueself.github.io/index.xml title="Hun's Blog ✍️"><meta property="og:url" content="http://findmytrueself.github.io/"><meta property="og:site_name" content="Hun's Blog ✍️"><meta property="og:title" content="Hun's Blog ✍️"><meta property="og:description" content="프론트엔드 개발자 성장기"><meta property="og:locale" content="en_us"><meta property="og:type" content="website"><meta name=twitter:card content="summary"><meta name=twitter:title content="Hun's Blog ✍️"><meta name=twitter:description content="프론트엔드 개발자 성장기"><link href=http://findmytrueself.github.io/css/fonts.2c2227b81b1970a03e760aa2e6121cd01f87c88586803cbb282aa224720a765f.css rel=stylesheet><link rel=stylesheet type=text/css media=screen href=http://findmytrueself.github.io/css/main.5cebd7d4fb2b97856af8d32a6def16164fcf7d844e98e236fcb3559655020373.css></head><body><div class=content><header><div class=main><a href=http://findmytrueself.github.io/>Hun's Blog ✍️</a></div><nav><a href=../../life>LIFE</a>
+<a href=../../posts>POSTS</a>
+<a href=../../pdfs/3%EB%85%84%EC%B0%A8_%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C_%EC%9E%84%ED%9B%88.pdf>RESUME</a></nav></header><main class=list><div class=site-description></div><section class=list-item><h1 class=title><a href=../../posts/blockchainwalletchromeextension/>블록체인 지갑 Chrome Extension 개발기</a></h1><time>Mar 21, 2023</time><br><div class=description><p><strong>9월, 개발 세팅 및 코드 분석</strong></p><p>22년 9월, 기존 크롬에 배포 된 블록체인 지갑을 리뉴얼 하는 작업을 맡게 되었다.</p><p>최초 이 일을 맡게 되었을 당시에 정말 막막했었다. Vue2로 개발되어있던 기존 프로젝트를 수정해야 했었고, 크롬은 Manifest라는 정책을 따르기 때문에 관련해서 또 공부를 했어야 했다.</p><p>Manifest v3 이슈가 처음부터 있었고, 리액트로 개발을 주로 하였어서 처음부터 다시 짜는게 어떨까 생각하고, 시도를 해봤지만, 처음 구조부터 다시 짤 자신이 없었다.</p><p>SPA 구조를 알았기 때문에, Vue2 문법과 구조를 쉽게 파악 할 수 있었지만, 크롬 개발은 기존 웹개발과 또 다른 영역 같았다.</p>&mldr;</div><a class=readmore href=../../posts/blockchainwalletchromeextension/>Read more ⟶</a></section><section class=list-item><h1 class=title><a href=../../posts/reactquery/>React Query 정리</a></h1><time>Jan 12, 2023</time><br><div class=description><ul><li>특정한 키를 통해 데이터를 관리하므로, 중복 호출이 될 때, 한번만 호출 하므로 성능에 좋다.</li></ul><p>ex) custom hook을 통해, fetch문을 만들어, 사용하게 되면, 사용 될 때 마다 호출을 하기 때문에, 같은 데이터라도 불필요한 호출을 하게 된다.</p><p><strong>Query Keys</strong></p><p>React Query는 캐싱화된 쿼리들을 쿼리 키로써 관리한다. 복잡한 객체와 복잡하고 많은 문자열들을 배열로 관리하고 있다.</p><p>Serializable하므로, 유니크한 쿼리 데이터로 관리된다.</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-js data-lang=js><span class=line><span class=cl><span class=nx>useQuery</span><span class=p>([</span><span class=s1>&#39;todos&#39;</span><span class=p>],</span> <span class=p>()</span> <span class=p>=&gt;</span> <span class=p>{...})</span>
+</span></span><span class=line><span class=cl><span class=nx>useQuery</span><span class=p>([</span><span class=s1>&#39;todos&#39;</span><span class=p>,</span> <span class=mi>5</span><span class=p>,</span> <span class=p>{</span> <span class=nx>preview</span> <span class=o>:</span> <span class=kc>true</span> <span class=p>}],</span> <span class=p>()</span> <span class=p>=&gt;</span> <span class=p>{...})</span>
+</span></span><span class=line><span class=cl><span class=nx>useQuery</span><span class=p>([</span><span class=s1>&#39;todos&#39;</span><span class=p>,</span> <span class=p>{</span> <span class=nx>type</span><span class=o>:</span> <span class=s1>&#39;done&#39;</span><span class=p>}],</span> <span class=p>()</span> <span class=p>=&gt;</span> <span class=p>{...})</span>
+</span></span></code></pr&hellip;
+	
+</div>
+					<a class=readmore href=../../posts/reactquery/>Read more ⟶</a>
+				</section>
+				
+				<section class=list-item>
+					<h1 class=title><a href=../../posts/reactcustomhooks/>React Custom hooks 정확한 이해</a></h1>
+					<time>Jan 10, 2023</time>
+					<br><div class=description>
+	
+	<p><strong>인트로</strong></p>
+<p>그동안 리액트를 사용해 오면서, 기본 hooks를 이용하여 대부분의 로직을 수행했다. 하지만 반복되는 코드에 대해 항상 어떻게 하면 재사용성을 늘릴 수 있을까 고민 했었다.</p>
+<p>커스텀 훅을 잘 사용하면 더 높은 레벨의 프론트엔드 개발자가 될 것 같았다.</p>
+<p>커스텀 훅의 가장 중요한 원칙은 &lsquo;값의 재사용이 아닌 로직의 재사용&rsquo; 이다.</p>
+<p>훅 내부에 상태 변화에 대한 값만 매개변수로 지정해주어, Side effect에 따른 로직을 정해준다.</p>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-jsx data-lang=jsx><span class=line><span class=cl><span class=kr>import</span> <span class=p>{</span> <span class=nx>useState</span> <span class=p>}</span> <span class=nx>from</span> <span class=s1>&#39;react&#39;</span>
+</span></span><span class=line><span class=cl><span class=kd>function</span> <span class=nx>App</span><span class=p>()</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>  <span class=kr>const</span> <span class=p>[</span><span class=nx>inputValue</span><span class=p>,</span> <span class=nx>setInputValue</span><span class=p>]</span> <span class=o>=</span> <span class=nx>useState</span><span class=p>(</span><span class=s1>&#39;&#39;</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>  <span class=kr>const</span> <span class=nx>handleChange</span> <span class=o>=</span> <span class=p>(</span><span class=nx>e</span><span class=p>)</span> <span class=p>=&gt;</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>    <span class=nx>setInputValue</span><span class=p>(</span><span class=nx>e</span><span class=p>.</span><span class=nx>target</span><span class=p>.</span><span class=nx>value</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>  <span class=p>}</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>  <span class=kr>const</span> <span class=nx>handleSubmit</span> <span class=o>=</span> <span class=p>()</span> <span class=p>=&gt;</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>    <span class=nx>setInputValue</span><span class=p>(</span><span class=s1>&#39;&#39;</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>  <span class=p>}</span>
+</span></span><span class=line><span class=cl>  <span class=k>return</span> <span class=p>(</span>
+</span></span><span class=line><span class=cl>    <span class=p>&lt;</span><span class=nt>div</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl>      <span class=p>&lt;</span><span class=nt>input</span> <span class=na>value</span><span class=o>=</span><span class=p>{</span><span class=nx>inputValue</span><span class=p>}</span> <span class=na>onChange</span><span class=o>=</span><span class=p>{</span><span class=nx>handleChange</span><span class=p>}</span> <span class=p>/&gt;</span>
+</span></span><span class=line><span class=cl>      <span class=p>&lt;</span><span class=nt>button</span> <span class=na>onClick</span><span class=o>=</span><span class=p>{</span><span class=nx>handleSubmit</span><span class=p>}&gt;</span><span class=nx>확인</span><span class=p>&lt;/</span><span class=nt>button</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=p>&lt;/</span><span class=nt>div</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl>  <span class=p>)</span>
+</span></span><span class=line><span class=cl><span class=p>}</span>
+</span></span></code></pr&hellip;
+	
+</div>
+					<a class=readmore href=../../posts/reactcustomhooks/>Read more ⟶</a>
+				</section>
+				
+				<section class=list-item>
+					<h1 class=title><a href=../../posts/reduxthunk/>Redux Thunk 정리</a></h1>
+					<time>Dec 23, 2022</time>
+					<br><div class=description>
+	
+	<ol>
+<li>createAsyncThunk는 비동기 작업을 처리하는 Action을 만들어준다.</li>
+</ol>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-js data-lang=js><span class=line><span class=cl><span class=kr>const</span> <span class=nx>asyncUpFetch</span> <span class=o>=</span> <span class=nx>createAsyncThunk</span><span class=p>(</span><span class=s1>&#39;counterSlice/asyncUpFetch&#39;</span><span class=p>,</span> <span class=kr>async</span> <span class=p>()</span> <span class=p>=&gt;</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>  <span class=kr>const</span> <span class=nx>resp</span> <span class=o>=</span> <span class=kr>await</span> <span class=nx>fetch</span><span class=p>(</span><span class=s1>&#39;https://api.aergo.io/~~&#39;</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>  <span class=kr>const</span> <span class=nx>data</span> <span class=o>=</span> <span class=kr>await</span> <span class=nx>resp</span><span class=p>.</span><span class=nx>json</span><span class=p>()</span>
+</span></span><span class=line><span class=cl>  <span class=k>return</span> <span class=nx>data</span><span class=p>.</span><span class=nx>value</span>
+</span></span><span class=line><span class=cl><span class=p>})</span>
+</span></span></code></pr&hellip;
+	
+</div>
+					<a class=readmore href=../../posts/reduxthunk/>Read more ⟶</a>
+				</section>
+				
+				<section class=list-item>
+					<h1 class=title><a href=../../posts/imgmask/>리액트에서 이미지 마스킹하기</a></h1>
+					<time>May 30, 2022</time>
+					<br><div class=description>
+	
+	<div class=highlight><pre tabindex=0 class=chroma><code class=language-tsx data-lang=tsx><span class=line><span class=cl><span class=p>&lt;</span><span class=nt>Button</span> <span class=na>variant</span><span class=o>=</span><span class=s>&#34;contained&#34;</span> <span class=na>component</span><span class=o>=</span><span class=s>&#34;label&#34;</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl>  <span class=err>아이콘</span> <span class=err>업로드</span>
+</span></span><span class=line><span class=cl>  <span class=p>&lt;</span><span class=nt>input</span>
+</span></span><span class=line><span class=cl>    <span class=na>accept</span><span class=o>=</span><span class=s>&#34;image/*&#34;</span>
+</span></span><span class=line><span class=cl>    <span class=na>multiple</span>
+</span></span><span class=line><span class=cl>    <span class=na>type</span><span class=o>=</span><span class=s>&#34;file&#34;</span>
+</span></span><span class=line><span class=cl>    <span class=na>hidden</span>
+</span></span><span class=line><span class=cl>    <span class=na>onChange</span><span class=o>=</span><span class=p>{(</span><span class=nx>e</span>: <span class=kt>ChangeEvent</span><span class=p>&lt;</span><span class=nt>HTMLInputElement</span><span class=p>&gt;)</span><span class=o>:</span> <span class=k>void</span> <span class=o>=&gt;</span> <span class=nx>handleUploadIcon</span><span class=p>(</span><span class=nx>e</span><span class=p>)}</span>
+</span></span><span class=line><span class=cl>  <span class=p>/&gt;</span>
+</span></span><span class=line><span class=cl><span class=p>&lt;/</span><span class=nt>Button</span><span class=p>&gt;</span>
+</span></span></code></pr&hellip;
+	
+</div>
+					<a class=readmore href=../../posts/imgmask/>Read more ⟶</a>
+				</section>
+				
+				
+
+<ul class=pagination>
+	<span class="page-item page-prev">
+	
+    <a href=../../ class=page-link aria-label=Previous><span aria-hidden=true>← Prev</span></a>
+	
+	</span>
+	<span class="page-item page-next">
+	
+    <a href=../../page/3/ class=page-link aria-label=Next><span aria-hidden=true>Next →</span></a>
+	
+	</span>
+</ul>
+
+
+			</main>
+			<footer>
+  <div style=display:flex></div>
+  <div class=footer-info>
+    2024  <a href=https://github.com/athul/archie>Archie Theme</a> | Built with <a href=https://gohugo.io>Hugo</a>
+  </div>
+</footer>
+
+
+
+		</div>
+		
+	</body>
+</html>
