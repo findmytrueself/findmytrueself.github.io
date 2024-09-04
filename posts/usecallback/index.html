@@ -5,7 +5,7 @@
 그렇다면 함수를 props로 받아올 땐 어떤가? 고민해보았다.
 함수가 의존성 배열에 들어가는 이유
 리액트 컴포넌트가 렌더링될 때마다 함수는 다시 생성된다.
-자바스크립트에서는 함수가 일급 객체이므로, 동일한 이름의 함수라도 매 렌더링 시 새롭게 생성된 함수는 이전 함수와 다르게 취급된다."><meta property="og:image" content><meta property="og:url" content="http://findmytrueself.github.io/posts/usecallback/"><meta property="og:site_name" content="Hun's Blog ✍️"><meta property="og:title" content="useCallback"><meta property="og:description" content="인트로
+자바스크립트에서는 함수가 일급 객체이므로, 동일한 이름의 함수라도 매 렌더링 시 새롭게 생성된 함수는 이전 함수와 다르게 취급된다."><meta property="og:image" content><meta property="og:url" content="https://findmytrueself.github.io/posts/usecallback/"><meta property="og:site_name" content="Hun's Blog ✍️"><meta property="og:title" content="useCallback"><meta property="og:description" content="인트로
 해당 궁금증을 해소 하기 전 배경에는, useEffect dependency 배열에 함수가 들어가는 상황에 대해서 공부하고 있던 시점이다.
 보통 커스텀 훅을 만들 때에는 해당 훅 컴포넌트의 props에 상태 값을 받아오고, 그 상태 값을 useEffect 내부 dependency배열에 넣어 동작을 처리 한다.
 그렇다면 함수를 props로 받아올 땐 어떤가? 고민해보았다.
@@ -17,7 +17,7 @@
 그렇다면 함수를 props로 받아올 땐 어떤가? 고민해보았다.
 함수가 의존성 배열에 들어가는 이유
 리액트 컴포넌트가 렌더링될 때마다 함수는 다시 생성된다.
-자바스크립트에서는 함수가 일급 객체이므로, 동일한 이름의 함수라도 매 렌더링 시 새롭게 생성된 함수는 이전 함수와 다르게 취급된다."><link href=http://findmytrueself.github.io/css/fonts.2c2227b81b1970a03e760aa2e6121cd01f87c88586803cbb282aa224720a765f.css rel=stylesheet><link rel=stylesheet type=text/css media=screen href=http://findmytrueself.github.io/css/main.5cebd7d4fb2b97856af8d32a6def16164fcf7d844e98e236fcb3559655020373.css></head><body><div class=content><header><div class=main><a href=http://findmytrueself.github.io/>Hun's Blog ✍️</a></div><nav><a href=../../life>LIFE</a>
+자바스크립트에서는 함수가 일급 객체이므로, 동일한 이름의 함수라도 매 렌더링 시 새롭게 생성된 함수는 이전 함수와 다르게 취급된다."><link href=https://findmytrueself.github.io/css/fonts.2c2227b81b1970a03e760aa2e6121cd01f87c88586803cbb282aa224720a765f.css rel=stylesheet><link rel=stylesheet type=text/css media=screen href=https://findmytrueself.github.io/css/main.5cebd7d4fb2b97856af8d32a6def16164fcf7d844e98e236fcb3559655020373.css></head><body><div class=content><header><div class=main><a href=https://findmytrueself.github.io/>Hun's Blog ✍️</a></div><nav><a href=../../life>LIFE</a>
 <a href=../../posts>POSTS</a>
 <a href=../../pdfs/3%EB%85%84%EC%B0%A8_%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C_%EC%9E%84%ED%9B%88.pdf>RESUME</a></nav></header><main><article><div class=title><h1 class=title>useCallback</h1><div class=meta>Posted on Apr 2, 2024</div></div><section class=body><p><strong>인트로</strong></p><p>해당 궁금증을 해소 하기 전 배경에는, useEffect dependency 배열에 함수가 들어가는 상황에 대해서 공부하고 있던 시점이다.</p><p>보통 커스텀 훅을 만들 때에는 해당 훅 컴포넌트의 props에 상태 값을 받아오고, 그 상태 값을 useEffect 내부 dependency배열에 넣어 동작을 처리 한다.</p><p>그렇다면 함수를 props로 받아올 땐 어떤가? 고민해보았다.</p><p><strong>함수가 의존성 배열에 들어가는 이유</strong></p><p>리액트 컴포넌트가 렌더링될 때마다 함수는 다시 생성된다.</p><p>자바스크립트에서는 함수가 일급 객체이므로, 동일한 이름의 함수라도 매 렌더링 시 새롭게 생성된 함수는 이전 함수와 다르게 취급된다.</p><p>따라서, 의존성 배열에 함수가 포함되면 그 함수가 매 렌더링마다 재생성될 때마다 useEffect가 다시 실행된다.</p><p><strong>useCallback을 사용 할 때 예제</strong></p><div class=highlight><pre tabindex=0 class=chroma><code class=language-js data-lang=js><span class=line><span class=cl><span class=kr>import</span> <span class=nx>React</span><span class=p>,</span> <span class=p>{</span> <span class=nx>useState</span><span class=p>,</span> <span class=nx>useEffect</span><span class=p>,</span> <span class=nx>useCallback</span> <span class=p>}</span> <span class=nx>from</span> <span class=s1>&#39;react&#39;</span>
 </span></span><span class=line><span class=cl>
