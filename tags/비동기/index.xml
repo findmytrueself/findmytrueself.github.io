@@ -1,27 +1,34 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>비동기통신 on Hun&#39;s Blog ✍️</title>
-    <link>http://localhost:1313/tags/%EB%B9%84%EB%8F%99%EA%B8%B0%ED%86%B5%EC%8B%A0/</link>
-    <description>Recent content in 비동기통신 on Hun&#39;s Blog ✍️</description>
+    <title>비동기 on Hun&#39;s Blog ✍️</title>
+    <link>https://findmytrueself.github.io/tags/%EB%B9%84%EB%8F%99%EA%B8%B0/</link>
+    <description>Recent content in 비동기 on Hun&#39;s Blog ✍️</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© Im Hun</copyright>
     <lastBuildDate>Thu, 12 Jan 2023 13:53:35 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/%EB%B9%84%EB%8F%99%EA%B8%B0%ED%86%B5%EC%8B%A0/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://findmytrueself.github.io/tags/%EB%B9%84%EB%8F%99%EA%B8%B0/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>React Query 정리</title>
-      <link>http://localhost:1313/posts/reactquery/</link>
+      <link>https://findmytrueself.github.io/posts/reactquery/</link>
       <pubDate>Thu, 12 Jan 2023 13:53:35 +0900</pubDate>
-      <guid>http://localhost:1313/posts/reactquery/</guid>
+      <guid>https://findmytrueself.github.io/posts/reactquery/</guid>
       <description>&lt;ul&gt;&#xA;&lt;li&gt;특정한 키를 통해 데이터를 관리하므로, 중복 호출이 될 때, 한번만 호출 하므로 성능에 좋다.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;ex) custom hook을 통해, fetch문을 만들어, 사용하게 되면, 사용 될 때 마다 호출을 하기 때문에, 같은 데이터라도 불필요한 호출을 하게 된다.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Query Keys&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;React Query는 캐싱화된 쿼리들을 쿼리 키로써 관리한다. 복잡한 객체와 복잡하고 많은 문자열들을 배열로 관리하고 있다.&lt;/p&gt;&#xA;&lt;p&gt;Serializable하므로, 유니크한 쿼리 데이터로 관리된다.&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;useQuery&lt;/span&gt;([&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;todos&amp;#39;&lt;/span&gt;], () =&amp;gt; {...})&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;useQuery&lt;/span&gt;([&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;todos&amp;#39;&lt;/span&gt;, &lt;span style=&#34;color:#ae81ff&#34;&gt;5&lt;/span&gt;, { &lt;span style=&#34;color:#a6e22e&#34;&gt;preview&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;true&lt;/span&gt; }], () =&amp;gt; {...})&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;useQuery&lt;/span&gt;([&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;todos&amp;#39;&lt;/span&gt;, { &lt;span style=&#34;color:#a6e22e&#34;&gt;type&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;done&amp;#39;&lt;/span&gt;}], () =&amp;gt; {...})&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pr</description>
     </item>
     <item>
       <title>Redux Thunk 정리</title>
-      <link>http://localhost:1313/posts/reduxthunk/</link>
+      <link>https://findmytrueself.github.io/posts/reduxthunk/</link>
       <pubDate>Fri, 23 Dec 2022 13:53:35 +0900</pubDate>
-      <guid>http://localhost:1313/posts/reduxthunk/</guid>
+      <guid>https://findmytrueself.github.io/posts/reduxthunk/</guid>
       <description>&lt;ol&gt;&#xA;&lt;li&gt;createAsyncThunk는 비동기 작업을 처리하는 Action을 만들어준다.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;const&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;asyncUpFetch&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;createAsyncThunk&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;counterSlice/asyncUpFetch&amp;#39;&lt;/span&gt;, &lt;span style=&#34;color:#66d9ef&#34;&gt;async&lt;/span&gt; () =&amp;gt; {&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;const&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;resp&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;await&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;fetch&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;https://api.aergo.io/~~&amp;#39;&lt;/span&gt;)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;const&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;data&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;await&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;resp&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;json&lt;/span&gt;()&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;data&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;value&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;})&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;&#xA;&lt;li&gt;createAsyncThunk Flow&#xA;&lt;img src=&#34;images/reduxthunk1.png&#34; alt=&#34;createAsyncThunk&#34;&gt;&lt;/li&gt;&#xA;&lt;li&gt;reducers를 사용하면, actionCreator를 툴킷이 자동으로 만들어주지만, 비동기작업에서는 actionCreator를 자동으로 만들어주지 못하기 때문에, extraReducers에 직접 만들어 주어야 한다.&#xA;&lt;img src=&#34;images/reduxthunk2.png&#34; alt=&#34;actionCreator&#34;&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>자바스크립트에서의 비동기처리</title>
+      <link>https://findmytrueself.github.io/posts/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%EC%97%90%EC%84%9C%EC%9D%98-%EB%B9%84%EB%8F%99%EA%B8%B0%EC%B2%98%EB%A6%AC/</link>
+      <pubDate>Thu, 05 May 2022 19:53:35 +0900</pubDate>
+      <guid>https://findmytrueself.github.io/posts/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%EC%97%90%EC%84%9C%EC%9D%98-%EB%B9%84%EB%8F%99%EA%B8%B0%EC%B2%98%EB%A6%AC/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Promise&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;자바스크립트 ES6이후에 등장하게 된 promise객체는 비동기 처리 작업 할 때 콜백함수가 쌓이게되는 콜백지옥을 해결하기 위해 처음 등장이 되었다.&lt;/p&gt;&#xA;&lt;p&gt;같은 원리이지만, promise객체를 통해 더 가독성이 쉽게 표시할 수 있어서 이용하게 되었고,&lt;/p&gt;&#xA;&lt;p&gt;promise 또한 많은 promise변수를 사용하여 리턴하게 되면 promise지옥을 경험 할 수 있다.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;콜백함수, promise, async/await의 응답속도&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;콜백함수나 promise의 응답속도는 거의 같다.&lt;/p&gt;&#xA;&lt;p&gt;처음 호이스팅 환경에서 차례로 읽기 때문에 비동기 처리 되는 영역은 처리 완료 되지 않은 상태에서 다음을 읽는다. 따라서, setTimeout함수와 같이 딜레이를 주게 되어도 응답속도는 딜레이를 무시하고 먼저 처리한다.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
