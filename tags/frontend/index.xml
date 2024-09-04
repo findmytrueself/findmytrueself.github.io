@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Frontend on Hun&#39;s Blog ✍️</title>
+    <link>https://findmytrueself.github.io/tags/frontend/</link>
+    <description>Recent content in Frontend on Hun&#39;s Blog ✍️</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>© Im Hun</copyright>
+    <lastBuildDate>Tue, 02 Apr 2024 11:53:04 +0900</lastBuildDate>
+    <atom:link href="https://findmytrueself.github.io/tags/frontend/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>useCallback</title>
+      <link>https://findmytrueself.github.io/posts/usecallback/</link>
+      <pubDate>Tue, 02 Apr 2024 11:53:04 +0900</pubDate>
+      <guid>https://findmytrueself.github.io/posts/usecallback/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;인트로&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;해당 궁금증을 해소 하기 전 배경에는, useEffect dependency 배열에 함수가 들어가는 상황에 대해서 공부하고 있던 시점이다.&lt;/p&gt;&#xA;&lt;p&gt;보통 커스텀 훅을 만들 때에는 해당 훅 컴포넌트의 props에 상태 값을 받아오고, 그 상태 값을 useEffect 내부 dependency배열에 넣어 동작을 처리 한다.&lt;/p&gt;&#xA;&lt;p&gt;그렇다면 함수를 props로 받아올 땐 어떤가? 고민해보았다.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;함수가 의존성 배열에 들어가는 이유&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;리액트 컴포넌트가 렌더링될 때마다 함수는 다시 생성된다.&lt;/p&gt;&#xA;&lt;p&gt;자바스크립트에서는 함수가 일급 객체이므로, 동일한 이름의 함수라도 매 렌더링 시 새롭게 생성된 함수는 이전 함수와 다르게 취급된다.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>리덕스툴킷 찍먹하기</title>
+      <link>https://findmytrueself.github.io/posts/reduxtoolkit/</link>
+      <pubDate>Thu, 19 May 2022 16:53:04 +0900</pubDate>
+      <guid>https://findmytrueself.github.io/posts/reduxtoolkit/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;인트로&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;지금껏 프로젝트를 하면서, 리덕스를 사용하여 상태관리를 해왔다.&lt;/p&gt;&#xA;&lt;p&gt;상태관리 라이브러리는 정말 많다. 최근에 들어본 상태관리 라이브러리는 Mobx , Recoil, Zustand 등등..&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;images/redux.png&#34; alt=&#34;NpmTrends&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;다른 상태관리를 직접 프로젝트에서 적용해보진 않았지만, 통계적으로 압도적이다.&lt;/p&gt;&#xA;&lt;p&gt;지금까지 리액트와 리덕스를 사용하면서 큰 불편함을 느낀적은 없었다.&lt;/p&gt;&#xA;&lt;p&gt;하지만, 리덕스의 타입정의, 액션함수, 리듀서를 왔다갔다 하며 변경해줘야하는 번거로움이 있었다.&lt;/p&gt;&#xA;&lt;p&gt;리액트 18버전으로 업그레이드 하면서, 기존에 내가 사용하던 리덕스의 문법이 Legacy한 문법이라고 하여 찾다보니 리덕스 툴킷이라는 라이브러리가 기존의 리덕스의 불편함을 보완 해줄 수 있다고 어렴풋하게 알고있었다.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

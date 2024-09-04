@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Math on Hun&#39;s Blog ✍️</title>
+    <link>https://findmytrueself.github.io/tags/math/</link>
+    <description>Recent content in Math on Hun&#39;s Blog ✍️</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>© Im Hun</copyright>
+    <lastBuildDate>Mon, 02 Sep 2024 11:53:04 +0900</lastBuildDate>
+    <atom:link href="https://findmytrueself.github.io/tags/math/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>순열(Permutation)</title>
+      <link>https://findmytrueself.github.io/posts/permutation/</link>
+      <pubDate>Mon, 02 Sep 2024 11:53:04 +0900</pubDate>
+      <guid>https://findmytrueself.github.io/posts/permutation/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;인트로&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;순열은 고등학교 수학 때 배우는 개념이다.&lt;/p&gt;&#xA;&lt;p&gt;그때는 무작정 공식만 외웠기 때문에, 순열이 무엇인지, 언제 쓰이는지 몰랐다.&lt;/p&gt;&#xA;&lt;p&gt;공부를 잘못하는 이유가 있었다.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;순열이란?&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;순열(Permutation)은 집합에 속한 모든 원소의 순서를 고려하여 배열하는 것을 의미합니다.&lt;/p&gt;&#xA;&lt;p&gt;즉, 주어진 n개의 원소를 모두 사용하여 만들 수 있는 가능한 모든 순서의 조합을 말합니다.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;순열의 특징&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;순열은 순서가 중요합니다. 즉, {1, 2, 3}과 {3, 2, 1}은 서로 다른 순열로 취급됩니다.&lt;/li&gt;&#xA;&lt;li&gt;n개의 원소로 만들 수 있는 순열의 개수는 n! (n 팩토리얼)로 계산됩니다. 예를 들어, 3개의 원소가 있을 때 순열의 개수는 3! = 3 × 2 × 1 = 6개입니다.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;순열의 활용&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

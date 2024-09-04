@@ -1,18 +1,19 @@
-<!doctype html><html><head lang=en><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><title>Hun's Blog ✍️ | Home </title><meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="프론트엔드 개발자 성장기"><meta property="og:image" content><link rel=alternate type=application/rss+xml href=https://findmytrueself.github.io/index.xml title="Hun's Blog ✍️"><meta property="og:url" content="https://findmytrueself.github.io/"><meta property="og:site_name" content="Hun's Blog ✍️"><meta property="og:title" content="Hun's Blog ✍️"><meta property="og:description" content="프론트엔드 개발자 성장기"><meta property="og:locale" content="en_us"><meta property="og:type" content="website"><meta name=twitter:card content="summary"><meta name=twitter:title content="Hun's Blog ✍️"><meta name=twitter:description content="프론트엔드 개발자 성장기"><link href=https://findmytrueself.github.io/css/fonts.2c2227b81b1970a03e760aa2e6121cd01f87c88586803cbb282aa224720a765f.css rel=stylesheet><link rel=stylesheet type=text/css media=screen href=https://findmytrueself.github.io/css/main.5cebd7d4fb2b97856af8d32a6def16164fcf7d844e98e236fcb3559655020373.css></head><body><div class=content><header><div class=main><a href=https://findmytrueself.github.io/>Hun's Blog ✍️</a></div><nav><a href=./life>LIFE</a>
-<a href=./posts>POSTS</a>
-<a href=./pdfs/3%EB%85%84%EC%B0%A8_%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C_%EC%9E%84%ED%9B%88.pdf>RESUME</a></nav></header><main class=list><div class=site-description></div><section class=list-item><h1 class=title><a href=./posts/permutation/>순열(Permutation)</a></h1><time>Sep 2, 2024</time><br><div class=description><p><strong>인트로</strong></p><p>순열은 고등학교 수학 때 배우는 개념이다.</p><p>그때는 무작정 공식만 외웠기 때문에, 순열이 무엇인지, 언제 쓰이는지 몰랐다.</p><p>공부를 잘못하는 이유가 있었다.</p><p><strong>순열이란?</strong></p><p>순열(Permutation)은 집합에 속한 모든 원소의 순서를 고려하여 배열하는 것을 의미합니다.</p><p>즉, 주어진 n개의 원소를 모두 사용하여 만들 수 있는 가능한 모든 순서의 조합을 말합니다.</p><p><strong>순열의 특징</strong></p><ul><li><p>순열은 순서가 중요합니다. 즉, {1, 2, 3}과 {3, 2, 1}은 서로 다른 순열로 취급됩니다.</p>&mldr;</div><a class=readmore href=./posts/permutation/>Read more ⟶</a></section><section class=list-item><h1 class=title><a href=./posts/arrayat/>Array.at과 Array[idx]의 차이</a></h1><time>Aug 2, 2024</time><br><div class=description><p><strong>인트로</strong></p><p><code>Array.at(idx)</code>은 <code>es2022</code>부터 등장한 메소드이다.</p><p>기존 방식의 <code>Array[idx]</code>과 어떤 차이가 있는지 알아보자.</p><p><strong>차이</strong></p><p>가장 극명한 차이는 음수 인덱스 지원에 있다.</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-js data-lang=js><span class=line><span class=cl><span class=kr>const</span> <span class=nx>arr</span> <span class=o>=</span> <span class=p>[</span><span class=mi>10</span><span class=p>,</span> <span class=mi>20</span><span class=p>,</span> <span class=mi>30</span><span class=p>]</span>
-</span></span><span class=line><span class=cl><span class=nx>console</span><span class=p>.</span><span class=nx>log</span><span class=p>(</span><span class=nx>arr</span><span class=p>[</span><span class=o>-</span><span class=mi>1</span><span class=p>])</span> <span class=c1>// undefined
-</span></span></span><span class=line><span class=cl><span class=c1></span>
-</span></span><span class=line><span class=cl><span class=kr>const</span> <span class=nx>arr</span> <span class=o>=</span> <span class=p>[</span><span class=mi>10</span><span class=p>,</span> <span class=mi>20</span><span class=p>,</span> <span class=mi>30</span><span class=p>]</span>
-</span></span><span class=line><span class=cl><span class=nx>console</span><span class=p>.</span><span class=nx>log</span><span class=p>(</span><span class=nx>arr</span><span class=p>.</span><span class=nx>at</span><span class=p>(</span><span class=o>-</span><span class=mi>1</span><span class=p>))</span> <span class=c1>// 30
+<!doctype html><html><head lang=en><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><title>Hun's Blog ✍️ | Home </title><meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="프론트엔드 개발자 성장기"><meta property="og:image" content><link rel=alternate type=application/rss+xml href=https://findmytrueself.github.io/index.xml title="Hun's Blog ✍️"><meta property="og:url" content="https://findmytrueself.github.io/"><meta property="og:site_name" content="Hun's Blog ✍️"><meta property="og:title" content="Hun's Blog ✍️"><meta property="og:description" content="프론트엔드 개발자 성장기"><meta property="og:locale" content="en_us"><meta property="og:type" content="website"><meta name=twitter:card content="summary"><meta name=twitter:title content="Hun's Blog ✍️"><meta name=twitter:description content="프론트엔드 개발자 성장기"><link href=https://findmytrueself.github.io/css/fonts.2c2227b81b1970a03e760aa2e6121cd01f87c88586803cbb282aa224720a765f.css rel=stylesheet><link rel=stylesheet type=text/css media=screen href=https://findmytrueself.github.io/css/main.5cebd7d4fb2b97856af8d32a6def16164fcf7d844e98e236fcb3559655020373.css><link id=darkModeStyle rel=stylesheet type=text/css href=https://findmytrueself.github.io/css/dark.d22e2a2879d933a4b781535fc4c4c716e9f9d35ea4986dd0cbabda82effc4bdd.css media="(prefers-color-scheme: dark)"></head><body><div class=content><header><div class=main><a href=https://findmytrueself.github.io/>Hun's Blog ✍️</a></div><nav><a href=/life>LIFE</a>
+<a href=/posts>POSTS</a>
+<a href=/pdfs/3%EB%85%84%EC%B0%A8_%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C_%EC%9E%84%ED%9B%88.pdf>RESUME</a>
+<a href=/tags>TAGS</a></nav></header><main class=list><div class=site-description></div><section class=list-item><h1 class=title><a href=/posts/permutation/>순열(Permutation)</a></h1><time>Sep 2, 2024</time><br><div class=description><p><strong>인트로</strong></p><p>순열은 고등학교 수학 때 배우는 개념이다.</p><p>그때는 무작정 공식만 외웠기 때문에, 순열이 무엇인지, 언제 쓰이는지 몰랐다.</p><p>공부를 잘못하는 이유가 있었다.</p><p><strong>순열이란?</strong></p><p>순열(Permutation)은 집합에 속한 모든 원소의 순서를 고려하여 배열하는 것을 의미합니다.</p><p>즉, 주어진 n개의 원소를 모두 사용하여 만들 수 있는 가능한 모든 순서의 조합을 말합니다.</p><p><strong>순열의 특징</strong></p><ul><li>순열은 순서가 중요합니다. 즉, {1, 2, 3}과 {3, 2, 1}은 서로 다른 순열로 취급됩니다.</li><li>n개의 원소로 만들 수 있는 순열의 개수는 n! (n 팩토리얼)로 계산됩니다. 예를 들어, 3개의 원소가 있을 때 순열의 개수는 3! = 3 × 2 × 1 = 6개입니다.</li></ul><p><strong>순열의 활용</strong></p>&mldr;</div><a class=readmore href=/posts/permutation/>Read more ⟶</a></section><section class=list-item><h1 class=title><a href=/posts/arrayat/>Array.at과 Array[idx]의 차이</a></h1><time>Aug 2, 2024</time><br><div class=description><p><strong>인트로</strong></p><p><code>Array.at(idx)</code>은 <code>es2022</code>부터 등장한 메소드이다.</p><p>기존 방식의 <code>Array[idx]</code>과 어떤 차이가 있는지 알아보자.</p><p><strong>차이</strong></p><p>가장 극명한 차이는 음수 인덱스 지원에 있다.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-js data-lang=js><span style=display:flex><span><span style=color:#66d9ef>const</span> <span style=color:#a6e22e>arr</span> <span style=color:#f92672>=</span> [<span style=color:#ae81ff>10</span>, <span style=color:#ae81ff>20</span>, <span style=color:#ae81ff>30</span>]
+</span></span><span style=display:flex><span><span style=color:#a6e22e>console</span>.<span style=color:#a6e22e>log</span>(<span style=color:#a6e22e>arr</span>[<span style=color:#f92672>-</span><span style=color:#ae81ff>1</span>]) <span style=color:#75715e>// undefined
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>const</span> <span style=color:#a6e22e>arr</span> <span style=color:#f92672>=</span> [<span style=color:#ae81ff>10</span>, <span style=color:#ae81ff>20</span>, <span style=color:#ae81ff>30</span>]
+</span></span><span style=display:flex><span><span style=color:#a6e22e>console</span>.<span style=color:#a6e22e>log</span>(<span style=color:#a6e22e>arr</span>.<span style=color:#a6e22e>at</span>(<span style=color:#f92672>-</span><span style=color:#ae81ff>1</span>)) <span style=color:#75715e>// 30
 </span></span></span></code></pr&hellip;
 	
 </div>
-					<a class=readmore href=./posts/arrayat/>Read more ⟶</a>
+					<a class=readmore href=/posts/arrayat/>Read more ⟶</a>
 				</section>
 				
 				<section class=list-item>
-					<h1 class=title><a href=./posts/makearraywithnumber/>N개의 숫자의 배열 만들기</a></h1>
+					<h1 class=title><a href=/posts/makearraywithnumber/>N개의 숫자의 배열 만들기</a></h1>
 					<time>Jun 2, 2024</time>
 					<br><div class=description>
 	
@@ -23,21 +24,21 @@
 <ol>
 <li>for</li>
 </ol>
-<div class=highlight><pre tabindex=0 class=chroma><code class=language-js data-lang=js><span class=line><span class=cl><span class=kd>function</span> <span class=nx>createArray</span><span class=p>(</span><span class=nx>n</span><span class=p>)</span> <span class=p>{</span>
-</span></span><span class=line><span class=cl>  <span class=kr>const</span> <span class=nx>result</span> <span class=o>=</span> <span class=p>[]</span>
-</span></span><span class=line><span class=cl>  <span class=k>for</span> <span class=p>(</span><span class=kd>let</span> <span class=nx>i</span> <span class=o>=</span> <span class=mi>1</span><span class=p>;</span> <span class=nx>i</span> <span class=o>&lt;=</span> <span class=nx>n</span><span class=p>;</span> <span class=nx>i</span><span class=o>++</span><span class=p>)</span> <span class=p>{</span>
-</span></span><span class=line><span class=cl>    <span class=nx>result</span><span class=p>.</span><span class=nx>push</span><span class=p>(</span><span class=nx>i</span><span class=p>)</span>
-</span></span><span class=line><span class=cl>  <span class=p>}</span>
-</span></span><span class=line><span class=cl>  <span class=k>return</span> <span class=nx>result</span>
-</span></span><span class=line><span class=cl><span class=p>}</span>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-js data-lang=js><span style=display:flex><span><span style=color:#66d9ef>function</span> <span style=color:#a6e22e>createArray</span>(<span style=color:#a6e22e>n</span>) {
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>const</span> <span style=color:#a6e22e>result</span> <span style=color:#f92672>=</span> []
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>for</span> (<span style=color:#66d9ef>let</span> <span style=color:#a6e22e>i</span> <span style=color:#f92672>=</span> <span style=color:#ae81ff>1</span>; <span style=color:#a6e22e>i</span> <span style=color:#f92672>&lt;=</span> <span style=color:#a6e22e>n</span>; <span style=color:#a6e22e>i</span><span style=color:#f92672>++</span>) {
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>result</span>.<span style=color:#a6e22e>push</span>(<span style=color:#a6e22e>i</span>)
+</span></span><span style=display:flex><span>  }
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>return</span> <span style=color:#a6e22e>result</span>
+</span></span><span style=display:flex><span>}
 </span></span></code></pr&hellip;
 	
 </div>
-					<a class=readmore href=./posts/makearraywithnumber/>Read more ⟶</a>
+					<a class=readmore href=/posts/makearraywithnumber/>Read more ⟶</a>
 				</section>
 				
 				<section class=list-item>
-					<h1 class=title><a href=./posts/usecallback/>useCallback</a></h1>
+					<h1 class=title><a href=/posts/usecallback/>useCallback</a></h1>
 					<time>Apr 2, 2024</time>
 					<br><div class=description>
 	
@@ -50,11 +51,11 @@
 <p>자바스크립트에서는 함수가 일급 객체이므로, 동일한 이름의 함수라도 매 렌더링 시 새롭게 생성된 함수는 이전 함수와 다르게 취급된다.</p>&hellip;
 	
 </div>
-					<a class=readmore href=./posts/usecallback/>Read more ⟶</a>
+					<a class=readmore href=/posts/usecallback/>Read more ⟶</a>
 				</section>
 				
 				<section class=list-item>
-					<h1 class=title><a href=./posts/flexbox/>FlexBox</a></h1>
+					<h1 class=title><a href=/posts/flexbox/>FlexBox</a></h1>
 					<time>Feb 27, 2024</time>
 					<br><div class=description>
 	
@@ -71,7 +72,108 @@
 <p>박스의 화면을 초과 하면 밑으로 내릴 수 있다.</p>&hellip;
 	
 </div>
-					<a class=readmore href=./posts/flexbox/>Read more ⟶</a>
+					<a class=readmore href=/posts/flexbox/>Read more ⟶</a>
+				</section>
+				
+				<section class=list-item>
+					<h1 class=title><a href=/posts/blockchainwalletchromeextension/>블록체인 지갑 Chrome Extension 개발기</a></h1>
+					<time>Mar 21, 2023</time>
+					<br><div class=description>
+	
+	<p><strong>9월, 개발 세팅 및 코드 분석</strong></p>
+<p>22년 9월, 기존 크롬에 배포 된 블록체인 지갑을 리뉴얼 하는 작업을 맡게 되었다.</p>
+<p>최초 이 일을 맡게 되었을 당시에 정말 막막했었다. Vue2로 개발되어있던 기존 프로젝트를 수정해야 했었고, 크롬은 Manifest라는 정책을 따르기 때문에 관련해서 또 공부를 했어야 했다.</p>
+<p>Manifest v3 이슈가 처음부터 있었고, 리액트로 개발을 주로 하였어서 처음부터 다시 짜는게 어떨까 생각하고, 시도를 해봤지만, 처음 구조부터 다시 짤 자신이 없었다.</p>
+<p>SPA 구조를 알았기 때문에, Vue2 문법과 구조를 쉽게 파악 할 수 있었지만, 크롬 개발은 기존 웹개발과 또 다른 영역 같았다.</p>&hellip;
+	
+</div>
+					<a class=readmore href=/posts/blockchainwalletchromeextension/>Read more ⟶</a>
+				</section>
+				
+				<section class=list-item>
+					<h1 class=title><a href=/posts/reactquery/>React Query 정리</a></h1>
+					<time>Jan 12, 2023</time>
+					<br><div class=description>
+	
+	<ul>
+<li>특정한 키를 통해 데이터를 관리하므로, 중복 호출이 될 때, 한번만 호출 하므로 성능에 좋다.</li>
+</ul>
+<p>ex) custom hook을 통해, fetch문을 만들어, 사용하게 되면, 사용 될 때 마다 호출을 하기 때문에, 같은 데이터라도 불필요한 호출을 하게 된다.</p>
+<p><strong>Query Keys</strong></p>
+<p>React Query는 캐싱화된 쿼리들을 쿼리 키로써 관리한다. 복잡한 객체와 복잡하고 많은 문자열들을 배열로 관리하고 있다.</p>
+<p>Serializable하므로, 유니크한 쿼리 데이터로 관리된다.</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-js data-lang=js><span style=display:flex><span><span style=color:#a6e22e>useQuery</span>([<span style=color:#e6db74>&#39;todos&#39;</span>], () =&gt; {...})
+</span></span><span style=display:flex><span><span style=color:#a6e22e>useQuery</span>([<span style=color:#e6db74>&#39;todos&#39;</span>, <span style=color:#ae81ff>5</span>, { <span style=color:#a6e22e>preview</span> <span style=color:#f92672>:</span> <span style=color:#66d9ef>true</span> }], () =&gt; {...})
+</span></span><span style=display:flex><span><span style=color:#a6e22e>useQuery</span>([<span style=color:#e6db74>&#39;todos&#39;</span>, { <span style=color:#a6e22e>type</span><span style=color:#f92672>:</span> <span style=color:#e6db74>&#39;done&#39;</span>}], () =&gt; {...})
+</span></span></code></pr&hellip;
+	
+</div>
+					<a class=readmore href=/posts/reactquery/>Read more ⟶</a>
+				</section>
+				
+				<section class=list-item>
+					<h1 class=title><a href=/posts/reactcustomhooks/>React Custom hooks 정확한 이해</a></h1>
+					<time>Jan 10, 2023</time>
+					<br><div class=description>
+	
+	<p><strong>인트로</strong></p>
+<p>그동안 리액트를 사용해 오면서, 기본 hooks를 이용하여 대부분의 로직을 수행했다. 하지만 반복되는 코드에 대해 항상 어떻게 하면 재사용성을 늘릴 수 있을까 고민 했었다.</p>
+<p>커스텀 훅을 잘 사용하면 더 높은 레벨의 프론트엔드 개발자가 될 것 같았다.</p>
+<p>커스텀 훅의 가장 중요한 원칙은 &lsquo;값의 재사용이 아닌 로직의 재사용&rsquo; 이다.</p>
+<p>훅 내부에 상태 변화에 대한 값만 매개변수로 지정해주어, Side effect에 따른 로직을 정해준다.</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-jsx data-lang=jsx><span style=display:flex><span><span style=color:#66d9ef>import</span> { <span style=color:#a6e22e>useState</span> } <span style=color:#a6e22e>from</span> <span style=color:#e6db74>&#39;react&#39;</span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>function</span> <span style=color:#a6e22e>App</span>() {
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>const</span> [<span style=color:#a6e22e>inputValue</span>, <span style=color:#a6e22e>setInputValue</span>] <span style=color:#f92672>=</span> <span style=color:#a6e22e>useState</span>(<span style=color:#e6db74>&#39;&#39;</span>)
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>const</span> <span style=color:#a6e22e>handleChange</span> <span style=color:#f92672>=</span> (<span style=color:#a6e22e>e</span>) =&gt; {
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>setInputValue</span>(<span style=color:#a6e22e>e</span>.<span style=color:#a6e22e>target</span>.<span style=color:#a6e22e>value</span>)
+</span></span><span style=display:flex><span>  }
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>const</span> <span style=color:#a6e22e>handleSubmit</span> <span style=color:#f92672>=</span> () =&gt; {
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>setInputValue</span>(<span style=color:#e6db74>&#39;&#39;</span>)
+</span></span><span style=display:flex><span>  }
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>return</span> (
+</span></span><span style=display:flex><span>    &lt;<span style=color:#f92672>div</span>&gt;
+</span></span><span style=display:flex><span>      &lt;<span style=color:#f92672>input</span> <span style=color:#a6e22e>value</span><span style=color:#f92672>=</span>{<span style=color:#a6e22e>inputValue</span>} <span style=color:#a6e22e>onChange</span><span style=color:#f92672>=</span>{<span style=color:#a6e22e>handleChange</span>} /&gt;
+</span></span><span style=display:flex><span>      &lt;<span style=color:#f92672>button</span> <span style=color:#a6e22e>onClick</span><span style=color:#f92672>=</span>{<span style=color:#a6e22e>handleSubmit</span>}&gt;<span style=color:#a6e22e>확인</span>&lt;/<span style=color:#f92672>button</span>&gt;
+</span></span><span style=display:flex><span>    &lt;/<span style=color:#f92672>div</span>&gt;
+</span></span><span style=display:flex><span>  )
+</span></span><span style=display:flex><span>}
+</span></span></code></pr&hellip;
+	
+</div>
+					<a class=readmore href=/posts/reactcustomhooks/>Read more ⟶</a>
+				</section>
+				
+				<section class=list-item>
+					<h1 class=title><a href=/posts/reduxthunk/>Redux Thunk 정리</a></h1>
+					<time>Dec 23, 2022</time>
+					<br><div class=description>
+	
+	<ol>
+<li>createAsyncThunk는 비동기 작업을 처리하는 Action을 만들어준다.</li>
+</ol>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-js data-lang=js><span style=display:flex><span><span style=color:#66d9ef>const</span> <span style=color:#a6e22e>asyncUpFetch</span> <span style=color:#f92672>=</span> <span style=color:#a6e22e>createAsyncThunk</span>(<span style=color:#e6db74>&#39;counterSlice/asyncUpFetch&#39;</span>, <span style=color:#66d9ef>async</span> () =&gt; {
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>const</span> <span style=color:#a6e22e>resp</span> <span style=color:#f92672>=</span> <span style=color:#66d9ef>await</span> <span style=color:#a6e22e>fetch</span>(<span style=color:#e6db74>&#39;https://api.aergo.io/~~&#39;</span>)
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>const</span> <span style=color:#a6e22e>data</span> <span style=color:#f92672>=</span> <span style=color:#66d9ef>await</span> <span style=color:#a6e22e>resp</span>.<span style=color:#a6e22e>json</span>()
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>return</span> <span style=color:#a6e22e>data</span>.<span style=color:#a6e22e>value</span>
+</span></span><span style=display:flex><span>})
+</span></span></code></pre></div><ul><li>createAsyncThunk Flow
+<img src=images/reduxthunk1.png alt=createAsyncThunk></li><li>reducers를 사용하면, actionCreator를 툴킷이 자동으로 만들어주지만, 비동기작업에서는 actionCreator를 자동으로 만들어주지 못하기 때문에, extraReducers에 직접 만들어 주어야 한다.
+<img src=images/reduxthunk2.png alt=actionCreator></li></ul>&mldr;</div><a class=readmore href=/posts/reduxthunk/>Read more ⟶</a></section><section class=list-item><h1 class=title><a href=/posts/imgmask/>리액트에서 이미지 마스킹하기</a></h1><time>May 30, 2022</time><br><div class=description><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-tsx data-lang=tsx><span style=display:flex><span>&lt;<span style=color:#f92672>Button</span> <span style=color:#a6e22e>variant</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;contained&#34;</span> <span style=color:#a6e22e>component</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;label&#34;</span>&gt;
+</span></span><span style=display:flex><span>  <span style=color:#960050;background-color:#1e0010>아이콘</span> <span style=color:#960050;background-color:#1e0010>업로드</span>
+</span></span><span style=display:flex><span>  &lt;<span style=color:#f92672>input</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>accept</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;image/*&#34;</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>multiple</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>type</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;file&#34;</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>hidden</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>onChange</span><span style=color:#f92672>=</span>{(<span style=color:#a6e22e>e</span>: <span style=color:#66d9ef>ChangeEvent</span>&lt;<span style=color:#f92672>HTMLInputElement</span>&gt;)<span style=color:#f92672>:</span> <span style=color:#66d9ef>void</span> <span style=color:#f92672>=&gt;</span> <span style=color:#a6e22e>handleUploadIcon</span>(<span style=color:#a6e22e>e</span>)}
+</span></span><span style=display:flex><span>  /&gt;
+</span></span><span style=display:flex><span>&lt;/<span style=color:#f92672>Button</span>&gt;
+</span></span></code></pr&hellip;
+	
+</div>
+					<a class=readmore href=/posts/imgmask/>Read more ⟶</a>
 				</section>
 				
 				
@@ -82,7 +184,7 @@
 	</span>
 	<span class="page-item page-next">
 	
-    <a href=./page/2/ class=page-link aria-label=Next><span aria-hidden=true>Next →</span></a>
+    <a href=/page/2/ class=page-link aria-label=Next><span aria-hidden=true>Next →</span></a>
 	
 	</span>
 </ul>
@@ -92,7 +194,7 @@
 			<footer>
   <div style=display:flex></div>
   <div class=footer-info>
-    2024  <a href=https://github.com/athul/archie>Archie Theme</a> | Built with <a href=https://gohugo.io>Hugo</a>
+    2024  © Im Hun |  <a href=https://github.com/athul/archie>Archie Theme</a> | Built with <a href=https://gohugo.io>Hugo</a>
   </div>
 </footer>
 
