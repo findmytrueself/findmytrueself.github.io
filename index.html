@@ -13,6 +13,28 @@
 				</section>
 				
 				<section class=list-item>
+					<h1 class=title><a href=/posts/set/>Set을 사용하는 배열</a></h1>
+					<time>Aug 2, 2024</time>
+					<br><div class=description>
+	
+	<p><strong>Set의 사용</strong></p>
+<p>일반 배열을 사용한 방식의 차이는 <code>중복된 요소를 어떻게 처리하는가</code>이다.</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-js data-lang=js><span style=display:flex><span><span style=color:#66d9ef>let</span> <span style=color:#a6e22e>setArr</span> <span style=color:#f92672>=</span> <span style=color:#66d9ef>new</span> <span style=color:#a6e22e>Set</span>([<span style=color:#e6db74>&#39;a&#39;</span>,<span style=color:#e6db74>&#39;b&#39;</span>,<span style=color:#e6db74>&#39;c&#39;</span>,<span style=color:#e6db74>&#39;d&#39;</span>,<span style=color:#e6db74>&#39;a&#39;</span>])
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#a6e22e>console</span>.<span style=color:#a6e22e>log</span>(<span style=color:#a6e22e>setArr</span>)
+</span></span><span style=display:flex><span><span style=color:#75715e>// 출력: Set(4) { &#39;a&#39;, &#39;b&#39;, &#39;c&#39;, &#39;d&#39; }
+</span></span></span></code></pre></div><ul><li>Set은 중복을 허용하지 않는 데이터 구조이다.</li><li>즉, Set에 같은 값을 여러 번 추가하려고 해도, 중복된 값은 하나만 유지된다.</li><li>Set을 배열로 변환하려면 <code>Array.from()</code>을 사용 할 수 있다.</li></ul><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-js data-lang=js><span style=display:flex><span><span style=color:#66d9ef>let</span> <span style=color:#a6e22e>report</span> <span style=color:#f92672>=</span> [<span style=color:#e6db74>&#34;muzi frodo&#34;</span>, <span style=color:#e6db74>&#34;apeach frodo&#34;</span>, <span style=color:#e6db74>&#34;frodo neo&#34;</span>, <span style=color:#e6db74>&#34;muzi neo&#34;</span>, <span style=color:#e6db74>&#34;muzi frodo&#34;</span>];
+</span></span><span style=display:flex><span><span style=color:#66d9ef>let</span> <span style=color:#a6e22e>uniqueReports</span> <span style=color:#f92672>=</span> <span style=color:#66d9ef>new</span> <span style=color:#a6e22e>Set</span>(<span style=color:#a6e22e>report</span>);
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#a6e22e>console</span>.<span style=color:#a6e22e>log</span>(<span style=color:#a6e22e>uniqueReports</span>); 
+</span></span><span style=display:flex><span><span style=color:#75715e>// 출력: Set(4) { &#39;muzi frodo&#39;, &#39;apeach frodo&#39;, &#39;frodo neo&#39;, &#39;muzi neo&#39; }
+</span></span></span></code></pr&hellip;
+	
+</div>
+					<a class=readmore href=/posts/set/>Read more ⟶</a>
+				</section>
+				
+				<section class=list-item>
 					<h1 class=title><a href=/posts/makearraywithnumber/>N개의 숫자의 배열 만들기</a></h1>
 					<time>Jun 2, 2024</time>
 					<br><div class=description>
@@ -160,47 +182,4 @@
 </span></span><span style=display:flex><span>})
 </span></span></code></pre></div><ul><li>createAsyncThunk Flow
 <img src=images/reduxthunk1.png alt=createAsyncThunk></li><li>reducers를 사용하면, actionCreator를 툴킷이 자동으로 만들어주지만, 비동기작업에서는 actionCreator를 자동으로 만들어주지 못하기 때문에, extraReducers에 직접 만들어 주어야 한다.
-<img src=images/reduxthunk2.png alt=actionCreator></li></ul>&mldr;</div><a class=readmore href=/posts/reduxthunk/>Read more ⟶</a></section><section class=list-item><h1 class=title><a href=/posts/imgmask/>리액트에서 이미지 마스킹하기</a></h1><time>May 30, 2022</time><br><div class=description><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-tsx data-lang=tsx><span style=display:flex><span>&lt;<span style=color:#f92672>Button</span> <span style=color:#a6e22e>variant</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;contained&#34;</span> <span style=color:#a6e22e>component</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;label&#34;</span>&gt;
-</span></span><span style=display:flex><span>  <span style=color:#960050;background-color:#1e0010>아이콘</span> <span style=color:#960050;background-color:#1e0010>업로드</span>
-</span></span><span style=display:flex><span>  &lt;<span style=color:#f92672>input</span>
-</span></span><span style=display:flex><span>    <span style=color:#a6e22e>accept</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;image/*&#34;</span>
-</span></span><span style=display:flex><span>    <span style=color:#a6e22e>multiple</span>
-</span></span><span style=display:flex><span>    <span style=color:#a6e22e>type</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;file&#34;</span>
-</span></span><span style=display:flex><span>    <span style=color:#a6e22e>hidden</span>
-</span></span><span style=display:flex><span>    <span style=color:#a6e22e>onChange</span><span style=color:#f92672>=</span>{(<span style=color:#a6e22e>e</span>: <span style=color:#66d9ef>ChangeEvent</span>&lt;<span style=color:#f92672>HTMLInputElement</span>&gt;)<span style=color:#f92672>:</span> <span style=color:#66d9ef>void</span> <span style=color:#f92672>=&gt;</span> <span style=color:#a6e22e>handleUploadIcon</span>(<span style=color:#a6e22e>e</span>)}
-</span></span><span style=display:flex><span>  /&gt;
-</span></span><span style=display:flex><span>&lt;/<span style=color:#f92672>Button</span>&gt;
-</span></span></code></pr&hellip;
-	
-</div>
-					<a class=readmore href=/posts/imgmask/>Read more ⟶</a>
-				</section>
-				
-				
-
-<ul class=pagination>
-	<span class="page-item page-prev">
-	
-	</span>
-	<span class="page-item page-next">
-	
-    <a href=/page/2/ class=page-link aria-label=Next><span aria-hidden=true>Next →</span></a>
-	
-	</span>
-</ul>
-
-
-			</main>
-			<footer>
-  <div style=display:flex></div>
-  <div class=footer-info>
-    2024  © Im Hun |  <a href=https://github.com/athul/archie>Archie Theme</a> | Built with <a href=https://gohugo.io>Hugo</a>
-  </div>
-</footer>
-
-
-
-		</div>
-		
-	</body>
-</html>
+<img src=images/reduxthunk2.png alt=actionCreator></li></ul>&mldr;</div><a class=readmore href=/posts/reduxthunk/>Read more ⟶</a></section><ul class=pagination><span class="page-item page-prev"></span><span class="page-item page-next"><a href=/page/2/ class=page-link aria-label=Next><span aria-hidden=true>Next →</span></a></span></ul></main><footer><div style=display:flex></div><div class=footer-info>2024 © Im Hun | <a href=https://github.com/athul/archie>Archie Theme</a> | Built with <a href=https://gohugo.io>Hugo</a></div></footer></div></body></html>
