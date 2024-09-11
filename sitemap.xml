@@ -2,9 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://findmytrueself.github.io/tags/closure/</loc>
-    <lastmod>2024-09-11T13:53:35+09:00</lastmod>
-  </url><url>
     <loc>https://findmytrueself.github.io/</loc>
     <lastmod>2024-09-11T13:53:35+09:00</lastmod>
   </url><url>
@@ -23,9 +20,6 @@
     <loc>https://findmytrueself.github.io/posts/%EB%A6%AC%EC%95%A1%ED%8A%B8%EC%97%90%EC%84%9C%EC%9D%98-%ED%81%B4%EB%A1%9C%EC%A0%80/</loc>
     <lastmod>2024-09-11T13:53:35+09:00</lastmod>
   </url><url>
-    <loc>https://findmytrueself.github.io/tags/%ED%81%B4%EB%A1%9C%EC%A0%80/</loc>
-    <lastmod>2024-09-11T13:53:35+09:00</lastmod>
-  </url><url>
     <loc>https://findmytrueself.github.io/life/</loc>
     <lastmod>2024-09-09T14:52:35+09:00</lastmod>
   </url><url>
@@ -33,9 +27,6 @@
     <lastmod>2024-09-09T14:52:35+09:00</lastmod>
   </url><url>
     <loc>https://findmytrueself.github.io/tags/algorithm/</loc>
-    <lastmod>2024-09-06T11:53:04+09:00</lastmod>
-  </url><url>
-    <loc>https://findmytrueself.github.io/tags/programmers/</loc>
     <lastmod>2024-09-06T11:53:04+09:00</lastmod>
   </url><url>
     <loc>https://findmytrueself.github.io/posts/set/</loc>
@@ -47,9 +38,6 @@
     <loc>https://findmytrueself.github.io/life/2024/</loc>
     <lastmod>2024-09-02T12:41:35+09:00</lastmod>
   </url><url>
-    <loc>https://findmytrueself.github.io/tags/math/</loc>
-    <lastmod>2024-09-02T11:53:04+09:00</lastmod>
-  </url><url>
     <loc>https://findmytrueself.github.io/posts/permutation/</loc>
     <lastmod>2024-09-02T11:53:04+09:00</lastmod>
   </url><url>
@@ -58,9 +46,6 @@
   </url><url>
     <loc>https://findmytrueself.github.io/posts/makearraywithnumber/</loc>
     <lastmod>2024-06-02T11:53:04+09:00</lastmod>
-  </url><url>
-    <loc>https://findmytrueself.github.io/tags/frontend/</loc>
-    <lastmod>2024-04-02T11:53:04+09:00</lastmod>
   </url><url>
     <loc>https://findmytrueself.github.io/posts/usecallback/</loc>
     <lastmod>2024-04-02T11:53:04+09:00</lastmod>
@@ -74,9 +59,6 @@
     <loc>https://findmytrueself.github.io/tags/blockchain/</loc>
     <lastmod>2023-03-21T13:30:13+09:00</lastmod>
   </url><url>
-    <loc>https://findmytrueself.github.io/tags/blockchainwallet/</loc>
-    <lastmod>2023-03-21T13:30:13+09:00</lastmod>
-  </url><url>
     <loc>https://findmytrueself.github.io/tags/web3/</loc>
     <lastmod>2023-03-21T13:30:13+09:00</lastmod>
   </url><url>
@@ -84,12 +66,6 @@
     <lastmod>2023-03-21T13:30:13+09:00</lastmod>
   </url><url>
     <loc>https://findmytrueself.github.io/posts/reactquery/</loc>
-    <lastmod>2023-01-12T13:53:35+09:00</lastmod>
-  </url><url>
-    <loc>https://findmytrueself.github.io/tags/%EB%B9%84%EB%8F%99%EA%B8%B0/</loc>
-    <lastmod>2023-01-12T13:53:35+09:00</lastmod>
-  </url><url>
-    <loc>https://findmytrueself.github.io/tags/%EC%83%81%ED%83%9C%EA%B4%80%EB%A6%AC/</loc>
     <lastmod>2023-01-12T13:53:35+09:00</lastmod>
   </url><url>
     <loc>https://findmytrueself.github.io/posts/reactcustomhooks/</loc>
@@ -110,7 +86,7 @@
     <loc>https://findmytrueself.github.io/life/lh/</loc>
     <lastmod>2022-05-25T18:22:35+09:00</lastmod>
   </url><url>
-    <loc>https://findmytrueself.github.io/tags/redux/</loc>
+    <loc>https://findmytrueself.github.io/tags/frontend/</loc>
     <lastmod>2022-05-19T16:53:04+09:00</lastmod>
   </url><url>
     <loc>https://findmytrueself.github.io/posts/reduxtoolkit/</loc>
