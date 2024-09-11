@@ -1,7 +1,37 @@
 <!doctype html><html><head lang=en><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><title>Hun's Blog ✍️ | Home </title><meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="프론트엔드 개발자 성장기"><meta property="og:image" content><link rel=alternate type=application/rss+xml href=https://findmytrueself.github.io/index.xml title="Hun's Blog ✍️"><meta property="og:url" content="https://findmytrueself.github.io/"><meta property="og:site_name" content="Hun's Blog ✍️"><meta property="og:title" content="Hun's Blog ✍️"><meta property="og:description" content="프론트엔드 개발자 성장기"><meta property="og:locale" content="en_us"><meta property="og:type" content="website"><meta name=twitter:card content="summary"><meta name=twitter:title content="Hun's Blog ✍️"><meta name=twitter:description content="프론트엔드 개발자 성장기"><link href=https://findmytrueself.github.io/css/fonts.2c2227b81b1970a03e760aa2e6121cd01f87c88586803cbb282aa224720a765f.css rel=stylesheet><link rel=stylesheet type=text/css media=screen href=https://findmytrueself.github.io/css/main.5cebd7d4fb2b97856af8d32a6def16164fcf7d844e98e236fcb3559655020373.css><link id=darkModeStyle rel=stylesheet type=text/css href=https://findmytrueself.github.io/css/dark.d22e2a2879d933a4b781535fc4c4c716e9f9d35ea4986dd0cbabda82effc4bdd.css media="(prefers-color-scheme: dark)"></head><body><div class=content><header><div class=main><a href=https://findmytrueself.github.io/>Hun's Blog ✍️</a></div><nav><a href=/life>LIFE</a>
 <a href=/posts>POSTS</a>
 <a href=/pdfs/3%EB%85%84%EC%B0%A8_%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C_%EC%9E%84%ED%9B%88.pdf>RESUME</a>
-<a href=/tags>TAGS</a></nav></header><main class=list><div class=site-description></div><section class=list-item><h1 class=title><a href=/posts/set/>Set을 사용하는 배열</a></h1><time>Sep 6, 2024</time><br><div class=description><p><strong>Set의 사용</strong></p><p>일반 배열을 사용한 방식의 차이는 <code>중복된 요소를 어떻게 처리하는가</code>이다.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-js data-lang=js><span style=display:flex><span><span style=color:#66d9ef>let</span> <span style=color:#a6e22e>setArr</span> <span style=color:#f92672>=</span> <span style=color:#66d9ef>new</span> <span style=color:#a6e22e>Set</span>([<span style=color:#e6db74>&#39;a&#39;</span>,<span style=color:#e6db74>&#39;b&#39;</span>,<span style=color:#e6db74>&#39;c&#39;</span>,<span style=color:#e6db74>&#39;d&#39;</span>,<span style=color:#e6db74>&#39;a&#39;</span>])
+<a href=/tags>TAGS</a></nav></header><main class=list><div class=site-description></div><section class=list-item><h1 class=title><a href=/posts/%EB%A6%AC%EC%95%A1%ED%8A%B8%EC%97%90%EC%84%9C%EC%9D%98-%ED%81%B4%EB%A1%9C%EC%A0%80/>리액트에서의 클로저</a></h1><time>Sep 11, 2024</time><br><div class=description><p><strong>인트로</strong>
+클로저는 자바스크립트에서 기본이 되는 아주 중요한 개념이다.</p><p>항상, 기술면접으로 1순위로 물어보는 개념이기 때문에, 말그대로 답변을 달달달 외우며, 기술면접을 준비했던 기억이 난다.</p><p>하지만, 여전히 실무에서 어떻게 쓰여아하는지는 이해를 못했고, 응용을 못하고 있었던 때, 해당 개념을 더 심도있게 공부해보고자 한다.</p><p><strong>문제</strong>
+<em>customHook에 함수를 parameter로 넘겨줄 때, useCustom 컴포넌트가 unmount되는 상황에 실행될 때, 해당 함수가 출력되고, 함수에 포함된 state값은 어떻게 출력이 되는가?</em></p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-jsx data-lang=jsx><span style=display:flex><span><span style=color:#66d9ef>import</span> <span style=color:#a6e22e>useCustom</span> <span style=color:#a6e22e>from</span> <span style=color:#e6db74>&#39;./hooks/useCustom&#39;</span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>import</span> { <span style=color:#a6e22e>useState</span> } <span style=color:#a6e22e>from</span> <span style=color:#e6db74>&#39;react&#39;</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>export</span> <span style=color:#66d9ef>default</span> <span style=color:#66d9ef>function</span> <span style=color:#a6e22e>Home</span>() {
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>const</span> [<span style=color:#a6e22e>state</span>, <span style=color:#a6e22e>setState</span>] <span style=color:#f92672>=</span> <span style=color:#a6e22e>useState</span>(<span style=color:#ae81ff>0</span>)
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>  <span style=color:#a6e22e>useCustom</span>(() =&gt; <span style=color:#a6e22e>console</span>.<span style=color:#a6e22e>log</span>(<span style=color:#e6db74>&#39;inner func state:&#39;</span>, <span style=color:#a6e22e>state</span>))
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>return</span> (
+</span></span><span style=display:flex><span>    &lt;<span style=color:#f92672>div</span> <span style=color:#a6e22e>className</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]&#34;</span>&gt;
+</span></span><span style=display:flex><span>      &lt;<span style=color:#f92672>div</span>&gt;{<span style=color:#a6e22e>state</span>}&lt;/<span style=color:#f92672>div</span>&gt;
+</span></span><span style=display:flex><span>      &lt;<span style=color:#f92672>button</span> <span style=color:#a6e22e>onClick</span><span style=color:#f92672>=</span>{() =&gt; <span style=color:#a6e22e>setState</span>(<span style=color:#a6e22e>state</span> <span style=color:#f92672>+</span> <span style=color:#ae81ff>1</span>)}&gt;<span style=color:#f92672>+</span>&lt;/<span style=color:#f92672>button</span>&gt;
+</span></span><span style=display:flex><span>    &lt;/<span style=color:#f92672>div</span>&gt;
+</span></span><span style=display:flex><span>  )
+</span></span><span style=display:flex><span>}
+</span></span></code></pr&hellip;
+	
+</div>
+					<a class=readmore href=/posts/%EB%A6%AC%EC%95%A1%ED%8A%B8%EC%97%90%EC%84%9C%EC%9D%98-%ED%81%B4%EB%A1%9C%EC%A0%80/>Read more ⟶</a>
+				</section>
+				
+				<section class=list-item>
+					<h1 class=title><a href=/posts/set/>Set을 사용하는 배열</a></h1>
+					<time>Sep 6, 2024</time>
+					<br><div class=description>
+	
+	<p><strong>Set의 사용</strong></p>
+<p>일반 배열을 사용한 방식의 차이는 <code>중복된 요소를 어떻게 처리하는가</code>이다.</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-js data-lang=js><span style=display:flex><span><span style=color:#66d9ef>let</span> <span style=color:#a6e22e>setArr</span> <span style=color:#f92672>=</span> <span style=color:#66d9ef>new</span> <span style=color:#a6e22e>Set</span>([<span style=color:#e6db74>&#39;a&#39;</span>,<span style=color:#e6db74>&#39;b&#39;</span>,<span style=color:#e6db74>&#39;c&#39;</span>,<span style=color:#e6db74>&#39;d&#39;</span>,<span style=color:#e6db74>&#39;a&#39;</span>])
 </span></span><span style=display:flex><span>
 </span></span><span style=display:flex><span><span style=color:#a6e22e>console</span>.<span style=color:#a6e22e>log</span>(<span style=color:#a6e22e>setArr</span>)
 </span></span><span style=display:flex><span><span style=color:#75715e>// 출력: Set(4) { &#39;a&#39;, &#39;b&#39;, &#39;c&#39;, &#39;d&#39; }
@@ -193,19 +223,31 @@
 					<a class=readmore href=/posts/reactcustomhooks/>Read more ⟶</a>
 				</section>
 				
-				<section class=list-item>
-					<h1 class=title><a href=/posts/reduxthunk/>Redux Thunk 정리</a></h1>
-					<time>Dec 23, 2022</time>
-					<br><div class=description>
+				
+
+<ul class=pagination>
+	<span class="page-item page-prev">
 	
-	<ol>
-<li>createAsyncThunk는 비동기 작업을 처리하는 Action을 만들어준다.</li>
-</ol>
-<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-js data-lang=js><span style=display:flex><span><span style=color:#66d9ef>const</span> <span style=color:#a6e22e>asyncUpFetch</span> <span style=color:#f92672>=</span> <span style=color:#a6e22e>createAsyncThunk</span>(<span style=color:#e6db74>&#39;counterSlice/asyncUpFetch&#39;</span>, <span style=color:#66d9ef>async</span> () =&gt; {
-</span></span><span style=display:flex><span>  <span style=color:#66d9ef>const</span> <span style=color:#a6e22e>resp</span> <span style=color:#f92672>=</span> <span style=color:#66d9ef>await</span> <span style=color:#a6e22e>fetch</span>(<span style=color:#e6db74>&#39;https://api.aergo.io/~~&#39;</span>)
-</span></span><span style=display:flex><span>  <span style=color:#66d9ef>const</span> <span style=color:#a6e22e>data</span> <span style=color:#f92672>=</span> <span style=color:#66d9ef>await</span> <span style=color:#a6e22e>resp</span>.<span style=color:#a6e22e>json</span>()
-</span></span><span style=display:flex><span>  <span style=color:#66d9ef>return</span> <span style=color:#a6e22e>data</span>.<span style=color:#a6e22e>value</span>
-</span></span><span style=display:flex><span>})
-</span></span></code></pre></div><ul><li>createAsyncThunk Flow
-<img src=images/reduxthunk1.png alt=createAsyncThunk></li><li>reducers를 사용하면, actionCreator를 툴킷이 자동으로 만들어주지만, 비동기작업에서는 actionCreator를 자동으로 만들어주지 못하기 때문에, extraReducers에 직접 만들어 주어야 한다.
-<img src=images/reduxthunk2.png alt=actionCreator></li></ul>&mldr;</div><a class=readmore href=/posts/reduxthunk/>Read more ⟶</a></section><ul class=pagination><span class="page-item page-prev"></span><span class="page-item page-next"><a href=/page/2/ class=page-link aria-label=Next><span aria-hidden=true>Next →</span></a></span></ul></main><footer><div style=display:flex></div><div class=footer-info>2024 © Im Hun | <a href=https://github.com/athul/archie>Archie Theme</a> | Built with <a href=https://gohugo.io>Hugo</a></div></footer></div></body></html>
+	</span>
+	<span class="page-item page-next">
+	
+    <a href=/page/2/ class=page-link aria-label=Next><span aria-hidden=true>Next →</span></a>
+	
+	</span>
+</ul>
+
+
+			</main>
+			<footer>
+  <div style=display:flex></div>
+  <div class=footer-info>
+    2024  © Im Hun |  <a href=https://github.com/athul/archie>Archie Theme</a> | Built with <a href=https://gohugo.io>Hugo</a>
+  </div>
+</footer>
+
+
+
+		</div>
+		
+	</body>
+</html>
