@@ -80,11 +80,11 @@
       <description>&lt;p&gt;&lt;strong&gt;flex-basis&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;width&lt;/code&gt; 랑 비슷한 개념&lt;/p&gt;&#xA;&lt;p&gt;최초의 박스의 크기를 지정 할 수 있다.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;flex-grow&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;전체 박스의 크기에서 빈 부분을 값을 1을 주면 채울 수 있다.&#xA;기본값 0&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;flex-shrink&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;동적으로 해당 박스의 크기를 줄일 수 있다.&#xA;기본값 1&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;flex-wrap&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;박스의 화면을 초과 하면 밑으로 내릴 수 있다.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Ethereum Private Blockchain A.K.A BESU</title>
+      <title>Ethereum Private Blockchain A.K.A Hyperledger Besu</title>
       <link>https://findmytrueself.github.io/posts/besu/</link>
       <pubDate>Tue, 21 Mar 2023 13:30:13 +0900</pubDate>
       <guid>https://findmytrueself.github.io/posts/besu/</guid>
-      <description></description>
+      <description>&lt;p&gt;&lt;strong&gt;인트로&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;기업에서 사용 될 이더리움 기반 프라이빗 블록체인 Hyperledger Besu에 대해 알아보자.&lt;/p&gt;</description>
     </item>
     <item>
       <title>블록체인 지갑 Chrome Extension 개발기</title>

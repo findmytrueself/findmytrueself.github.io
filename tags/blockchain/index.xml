@@ -10,11 +10,11 @@
     <lastBuildDate>Tue, 21 Mar 2023 13:30:13 +0900</lastBuildDate>
     <atom:link href="https://findmytrueself.github.io/tags/blockchain/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Ethereum Private Blockchain A.K.A BESU</title>
+      <title>Ethereum Private Blockchain A.K.A Hyperledger Besu</title>
       <link>https://findmytrueself.github.io/posts/besu/</link>
       <pubDate>Tue, 21 Mar 2023 13:30:13 +0900</pubDate>
       <guid>https://findmytrueself.github.io/posts/besu/</guid>
-      <description></description>
+      <description>&lt;p&gt;&lt;strong&gt;인트로&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;기업에서 사용 될 이더리움 기반 프라이빗 블록체인 Hyperledger Besu에 대해 알아보자.&lt;/p&gt;</description>
     </item>
     <item>
       <title>블록체인 지갑 Chrome Extension 개발기</title>
