@@ -1,7 +1,39 @@
-<!doctype html><html><head lang=en><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><title>Hun's Blog ✍️ | Home </title><meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="프론트엔드 개발자 성장기"><meta property="og:image" content><link rel=alternate type=application/rss+xml href=https://findmytrueself.github.io/index.xml title="Hun's Blog ✍️"><meta property="og:url" content="https://findmytrueself.github.io/"><meta property="og:site_name" content="Hun's Blog ✍️"><meta property="og:title" content="Hun's Blog ✍️"><meta property="og:description" content="프론트엔드 개발자 성장기"><meta property="og:locale" content="en_us"><meta property="og:type" content="website"><meta name=twitter:card content="summary"><meta name=twitter:title content="Hun's Blog ✍️"><meta name=twitter:description content="프론트엔드 개발자 성장기"><link href=https://findmytrueself.github.io/css/fonts.2c2227b81b1970a03e760aa2e6121cd01f87c88586803cbb282aa224720a765f.css rel=stylesheet><link rel=stylesheet type=text/css media=screen href=https://findmytrueself.github.io/css/main.5cebd7d4fb2b97856af8d32a6def16164fcf7d844e98e236fcb3559655020373.css><link id=darkModeStyle rel=stylesheet type=text/css href=https://findmytrueself.github.io/css/dark.d22e2a2879d933a4b781535fc4c4c716e9f9d35ea4986dd0cbabda82effc4bdd.css media="(prefers-color-scheme: dark)"></head><body><div class=content><header><div class=main><a href=https://findmytrueself.github.io/>Hun's Blog ✍️</a></div><nav><a href=/life>LIFE</a>
+<!doctype html><html><head lang=en><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><title>Hun's Blog ✍️ | Home </title><meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="프론트엔드 개발자 성장기"><meta property="og:image" content><link rel=alternate type=application/rss+xml href=https://findmytrueself.github.io/index.xml title="Hun's Blog ✍️"><meta property="og:url" content="https://findmytrueself.github.io/"><meta property="og:site_name" content="Hun's Blog ✍️"><meta property="og:title" content="Hun's Blog ✍️"><meta property="og:description" content="프론트엔드 개발자 성장기"><meta property="og:locale" content="en_us"><meta property="og:type" content="website"><meta name=twitter:card content="summary"><meta name=twitter:title content="Hun's Blog ✍️"><meta name=twitter:description content="프론트엔드 개발자 성장기"><script src=https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js></script><link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@1,500&display=swap" rel=stylesheet><link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel=stylesheet><link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel=stylesheet><link rel=stylesheet type=text/css media=screen href=https://findmytrueself.github.io/css/main.fa747a9bb099b7bfd5d71b78a6e8ca2e23a425384e48bf533f1d357aeb61d265.css><link id=darkModeStyle rel=stylesheet type=text/css href=https://findmytrueself.github.io/css/dark.acc27faeb64bfb288fd545d29d5ec804495d962a1c2bee862cc5f8270ee6f6f8.css disabled><script type=text/javascript src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script><script type=text/x-mathjax-config>
+		MathJax.Hub.Config({
+			tex2jax: {
+				inlineMath: [['$','$'], ['\\(','\\)']],
+				displayMath: [['$$','$$'], ['\[','\]']],
+				processEscapes: true,
+				processEnvironments: true,
+				skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+				TeX: { equationNumbers: { autoNumber: "AMS" },
+						 extensions: ["AMSmath.js", "AMSsymbols.js"] }
+			}
+		});
+		</script><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.min.css><script defer src=https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.min.js></script><script defer src=https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/contrib/auto-render.min.js onload=renderMathInElement(document.body)></script><script>document.addEventListener("DOMContentLoaded",function(){renderMathInElement(document.body,{delimiters:[{left:"$$",right:"$$",display:!0},{left:"$",right:"$",display:!1}]})})</script></head><body><div class=content><header><div class=main><a href=https://findmytrueself.github.io/>Hun's Blog ✍️</a></div><nav><a href=/life>LIFE</a>
 <a href=/posts>POSTS</a>
 <a href=/pdfs/3%EB%85%84%EC%B0%A8_%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C_%EC%9E%84%ED%9B%88.pdf>RESUME</a>
-<a href=/tags>TAGS</a></nav></header><main class=list><div class=site-description></div><section class=list-item><h1 class=title><a href=/posts/reduxthunk/>Redux Thunk 정리</a></h1><time>Dec 23, 2022</time><br><div class=description><ol><li>createAsyncThunk는 비동기 작업을 처리하는 Action을 만들어준다.</li></ol><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-js data-lang=js><span style=display:flex><span><span style=color:#66d9ef>const</span> <span style=color:#a6e22e>asyncUpFetch</span> <span style=color:#f92672>=</span> <span style=color:#a6e22e>createAsyncThunk</span>(<span style=color:#e6db74>&#39;counterSlice/asyncUpFetch&#39;</span>, <span style=color:#66d9ef>async</span> () =&gt; {
+<a href=/tags>TAGS</a>
+| <span id=dark-mode-toggle onclick=toggleTheme()></span>
+<script src=https://findmytrueself.github.io/js/themetoggle.js></script></nav></header><main class=list><div class=site-description></div><section class=list-item><h1 class=title><a href=/posts/reactcustomhooks/>React Custom hooks 정확한 이해</a></h1><time>Jan 10, 2023</time><br><div class=description><p><strong>인트로</strong></p><p>그동안 리액트를 사용해 오면서, 기본 hooks를 이용하여 대부분의 로직을 수행했다. 하지만 반복되는 코드에 대해 항상 어떻게 하면 재사용성을 늘릴 수 있을까 고민 했었다.</p><p>커스텀 훅을 잘 사용하면 더 높은 레벨의 프론트엔드 개발자가 될 것 같았다.</p><p>커스텀 훅의 가장 중요한 원칙은 &lsquo;값의 재사용이 아닌 로직의 재사용&rsquo; 이다.</p><p>훅 내부에 상태 변화에 대한 값만 매개변수로 지정해주어, Side effect에 따른 로직을 정해준다.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-jsx data-lang=jsx><span style=display:flex><span><span style=color:#66d9ef>import</span> { <span style=color:#a6e22e>useState</span> } <span style=color:#a6e22e>from</span> <span style=color:#e6db74>&#39;react&#39;</span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>function</span> <span style=color:#a6e22e>App</span>() {
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>const</span> [<span style=color:#a6e22e>inputValue</span>, <span style=color:#a6e22e>setInputValue</span>] <span style=color:#f92672>=</span> <span style=color:#a6e22e>useState</span>(<span style=color:#e6db74>&#39;&#39;</span>)
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>const</span> <span style=color:#a6e22e>handleChange</span> <span style=color:#f92672>=</span> (<span style=color:#a6e22e>e</span>) =&gt; {
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>setInputValue</span>(<span style=color:#a6e22e>e</span>.<span style=color:#a6e22e>target</span>.<span style=color:#a6e22e>value</span>)
+</span></span><span style=display:flex><span>  }
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>const</span> <span style=color:#a6e22e>handleSubmit</span> <span style=color:#f92672>=</span> () =&gt; {
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>setInputValue</span>(<span style=color:#e6db74>&#39;&#39;</span>)
+</span></span><span style=display:flex><span>  }
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>return</span> (
+</span></span><span style=display:flex><span>    &lt;<span style=color:#f92672>div</span>&gt;
+</span></span><span style=display:flex><span>      &lt;<span style=color:#f92672>input</span> <span style=color:#a6e22e>value</span><span style=color:#f92672>=</span>{<span style=color:#a6e22e>inputValue</span>} <span style=color:#a6e22e>onChange</span><span style=color:#f92672>=</span>{<span style=color:#a6e22e>handleChange</span>} /&gt;
+</span></span><span style=display:flex><span>      &lt;<span style=color:#f92672>button</span> <span style=color:#a6e22e>onClick</span><span style=color:#f92672>=</span>{<span style=color:#a6e22e>handleSubmit</span>}&gt;<span style=color:#a6e22e>확인</span>&lt;/<span style=color:#f92672>button</span>&gt;
+</span></span><span style=display:flex><span>    &lt;/<span style=color:#f92672>div</span>&gt;
+</span></span><span style=display:flex><span>  )
+</span></span><span style=display:flex><span>}
+</span></span></code></pre></div><p>위의 코드를 custom hook으로 만들어보자.</p>&mldr;</div><a class=readmore href=/posts/reactcustomhooks/>Read more ⟶</a></section><section class=list-item><h1 class=title><a href=/posts/reduxthunk/>Redux Thunk 정리</a></h1><time>Dec 23, 2022</time><br><div class=description><ol><li>createAsyncThunk는 비동기 작업을 처리하는 Action을 만들어준다.</li></ol><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-js data-lang=js><span style=display:flex><span><span style=color:#66d9ef>const</span> <span style=color:#a6e22e>asyncUpFetch</span> <span style=color:#f92672>=</span> <span style=color:#a6e22e>createAsyncThunk</span>(<span style=color:#e6db74>&#39;counterSlice/asyncUpFetch&#39;</span>, <span style=color:#66d9ef>async</span> () =&gt; {
 </span></span><span style=display:flex><span>  <span style=color:#66d9ef>const</span> <span style=color:#a6e22e>resp</span> <span style=color:#f92672>=</span> <span style=color:#66d9ef>await</span> <span style=color:#a6e22e>fetch</span>(<span style=color:#e6db74>&#39;https://api.aergo.io/~~&#39;</span>)
 </span></span><span style=display:flex><span>  <span style=color:#66d9ef>const</span> <span style=color:#a6e22e>data</span> <span style=color:#f92672>=</span> <span style=color:#66d9ef>await</span> <span style=color:#a6e22e>resp</span>.<span style=color:#a6e22e>json</span>()
 </span></span><span style=display:flex><span>  <span style=color:#66d9ef>return</span> <span style=color:#a6e22e>data</span>.<span style=color:#a6e22e>value</span>
@@ -18,94 +50,36 @@
 </span></span><span style=display:flex><span>    <span style=color:#a6e22e>onChange</span><span style=color:#f92672>=</span>{(<span style=color:#a6e22e>e</span>: <span style=color:#66d9ef>ChangeEvent</span>&lt;<span style=color:#f92672>HTMLInputElement</span>&gt;)<span style=color:#f92672>:</span> <span style=color:#66d9ef>void</span> <span style=color:#f92672>=&gt;</span> <span style=color:#a6e22e>handleUploadIcon</span>(<span style=color:#a6e22e>e</span>)}
 </span></span><span style=display:flex><span>  /&gt;
 </span></span><span style=display:flex><span>&lt;/<span style=color:#f92672>Button</span>&gt;
-</span></span></code></pr&hellip;
-	
-</div>
-					<a class=readmore href=/posts/imgmask/>Read more ⟶</a>
-				</section>
-				
-				<section class=list-item>
-					<h1 class=title><a href=/posts/reduxtoolkit/>리덕스툴킷 찍먹하기</a></h1>
-					<time>May 19, 2022</time>
-					<br><div class=description>
-	
-	<p><strong>인트로</strong></p>
-<p>지금껏 프로젝트를 하면서, 리덕스를 사용하여 상태관리를 해왔다.</p>
-<p>상태관리 라이브러리는 정말 많다. 최근에 들어본 상태관리 라이브러리는 Mobx , Recoil, Zustand 등등..</p>
-<p><img src=images/redux.png alt=NpmTrends></p>
-<p>다른 상태관리를 직접 프로젝트에서 적용해보진 않았지만, 통계적으로 압도적이다.</p>
-<p>지금까지 리액트와 리덕스를 사용하면서 큰 불편함을 느낀적은 없었다.</p>
-<p>하지만, 리덕스의 타입정의, 액션함수, 리듀서를 왔다갔다 하며 변경해줘야하는 번거로움이 있었다.</p>
-<p>리액트 18버전으로 업그레이드 하면서, 기존에 내가 사용하던 리덕스의 문법이 Legacy한 문법이라고 하여 찾다보니 리덕스 툴킷이라는 라이브러리가 기존의 리덕스의 불편함을 보완 해줄 수 있다고 어렴풋하게 알고있었다.</p>&hellip;
-	
-</div>
-					<a class=readmore href=/posts/reduxtoolkit/>Read more ⟶</a>
-				</section>
-				
-				<section class=list-item>
-					<h1 class=title><a href=/posts/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%EC%97%90%EC%84%9C%EC%9D%98-%EB%B9%84%EB%8F%99%EA%B8%B0%EC%B2%98%EB%A6%AC/>자바스크립트에서의 비동기처리</a></h1>
-					<time>May 5, 2022</time>
-					<br><div class=description>
-	
-	<p><strong>Promise</strong></p>
-<p>자바스크립트 ES6이후에 등장하게 된 promise객체는 비동기 처리 작업 할 때 콜백함수가 쌓이게되는 콜백지옥을 해결하기 위해 처음 등장이 되었다.</p>
-<p>같은 원리이지만, promise객체를 통해 더 가독성이 쉽게 표시할 수 있어서 이용하게 되었고,</p>
-<p>promise 또한 많은 promise변수를 사용하여 리턴하게 되면 promise지옥을 경험 할 수 있다.</p>
-<p><strong>콜백함수, promise, async/await의 응답속도</strong></p>
-<p>콜백함수나 promise의 응답속도는 거의 같다.</p>
-<p>처음 호이스팅 환경에서 차례로 읽기 때문에 비동기 처리 되는 영역은 처리 완료 되지 않은 상태에서 다음을 읽는다. 따라서, setTimeout함수와 같이 딜레이를 주게 되어도 응답속도는 딜레이를 무시하고 먼저 처리한다.</p>&hellip;
-	
-</div>
-					<a class=readmore href=/posts/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%EC%97%90%EC%84%9C%EC%9D%98-%EB%B9%84%EB%8F%99%EA%B8%B0%EC%B2%98%EB%A6%AC/>Read more ⟶</a>
-				</section>
-				
-				<section class=list-item>
-					<h1 class=title><a href=/posts/%EC%9B%B9%EC%84%9C%EB%B9%84%EC%8A%A4%EA%B0%80-%EB%8F%99%EC%9E%91%ED%95%98%EA%B2%8C-%ED%95%98%EB%8A%94-%EA%B8%B0%EB%B3%B8-%ED%94%8C%EB%A1%9C%EC%9A%B0/>웹서비스가 동작하게 하는 기본 플로우</a></h1>
-					<time>May 5, 2022</time>
-					<br><div class=description>
-	
-	<p>웹브라우저의 구성 요소</p>
-<ul>
-<li>Call Stack : 자바스크립트에서 수행해야 할 함수들을 순차적으로 스택에 담아 처리</li>
-<li>Web API : 웹 브라우저에서 제공하는 API로 AJAX나 TimeOut등의 <strong>비동기 작업 수행</strong></li>
-<li>Task Queue : Callback Queue 라고도 하며, Web API에서 넘겨받은 Callback함수를 저장.</li>
-<li>Event Loop : Call Stack이 비워져있다면, Task Queue의 작업을 Call Stack으로 옮김.</li>
-</ul>
-<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-js data-lang=js><span style=display:flex><span><span style=color:#a6e22e>setTimeout</span>(() =&gt; <span style=color:#a6e22e>console</span>.<span style=color:#a6e22e>log</span>(<span style=color:#e6db74>&#34;Async Hi hun&#34;</span>));
+</span></span></code></pre></div><p>먼저, 업로드 버튼을 만들고, 모든이미지를 허용하고, file타입으로 input태그를 만든다.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-tsx data-lang=tsx><span style=display:flex><span><span style=color:#66d9ef>const</span> <span style=color:#a6e22e>handleUploadIcon</span> <span style=color:#f92672>=</span> (<span style=color:#a6e22e>e</span>: <span style=color:#66d9ef>ChangeEvent</span>&lt;<span style=color:#f92672>HTMLInputElement</span>&gt;) <span style=color:#f92672>=&gt;</span> {
+</span></span><span style=display:flex><span>  <span style=color:#a6e22e>setImgFile</span>(<span style=color:#a6e22e>e</span>.<span style=color:#a6e22e>target</span>.<span style=color:#a6e22e>files</span>[<span style=color:#ae81ff>0</span>])
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>const</span> <span style=color:#a6e22e>imagePromise</span> <span style=color:#f92672>=</span> <span style=color:#a6e22e>e</span>.<span style=color:#a6e22e>target</span>.<span style=color:#a6e22e>files</span>[<span style=color:#ae81ff>0</span>].<span style=color:#a6e22e>arrayBuffer</span>().<span style=color:#a6e22e>then</span>((<span style=color:#a6e22e>buf</span>) <span style=color:#f92672>=&gt;</span> {
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>return</span> <span style=color:#a6e22e>makeImage</span>(<span style=color:#a6e22e>buf</span>, <span style=color:#a6e22e>figure</span>, <span style=color:#a6e22e>borderColor</span>)
+</span></span><span style=display:flex><span>  })
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>  <span style=color:#a6e22e>imagePromise</span>.<span style=color:#a6e22e>then</span>((<span style=color:#a6e22e>resized</span>) <span style=color:#f92672>=&gt;</span> {
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>const</span> <span style=color:#a6e22e>fileReader</span> <span style=color:#f92672>=</span> <span style=color:#66d9ef>new</span> <span style=color:#a6e22e>FileReader</span>()
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>fileReader</span>.<span style=color:#a6e22e>readAsDataURL</span>(<span style=color:#a6e22e>resized</span>)
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>fileReader</span>.<span style=color:#a6e22e>onload</span> <span style=color:#f92672>=</span> (<span style=color:#a6e22e>e</span>) <span style=color:#f92672>=&gt;</span> {
+</span></span><span style=display:flex><span>      <span style=color:#66d9ef>const</span> <span style=color:#a6e22e>image</span> <span style=color:#f92672>=</span> <span style=color:#66d9ef>new</span> <span style=color:#a6e22e>Image</span>()
+</span></span><span style=display:flex><span>      <span style=color:#a6e22e>image</span>.<span style=color:#a6e22e>src</span> <span style=color:#f92672>=</span> <span style=color:#a6e22e>e</span>.<span style=color:#a6e22e>target</span>.<span style=color:#a6e22e>result</span> <span style=color:#66d9ef>as</span> <span style=color:#66d9ef>string</span>
+</span></span><span style=display:flex><span>      <span style=color:#a6e22e>image</span>.<span style=color:#a6e22e>onload</span> <span style=color:#f92672>=</span> () <span style=color:#f92672>=&gt;</span> {
+</span></span><span style=display:flex><span>        <span style=color:#66d9ef>const</span> <span style=color:#a6e22e>base64Img</span> <span style=color:#f92672>=</span> <span style=color:#a6e22e>e</span>.<span style=color:#a6e22e>target</span>.<span style=color:#a6e22e>result</span> <span style=color:#66d9ef>as</span> <span style=color:#66d9ef>string</span>
+</span></span><span style=display:flex><span>        <span style=color:#75715e>//   //! 아이콘 해쉬 변환
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>        <span style=color:#66d9ef>const</span> <span style=color:#a6e22e>hash</span> <span style=color:#f92672>=</span> <span style=color:#a6e22e>CryptoJS</span>.<span style=color:#a6e22e>SHA256</span>(<span style=color:#a6e22e>base64Img</span>).<span style=color:#a6e22e>toString</span>()
+</span></span><span style=display:flex><span>        <span style=color:#66d9ef>const</span> <span style=color:#a6e22e>file</span> <span style=color:#f92672>=</span> <span style=color:#a6e22e>dataURLtoFile</span>(<span style=color:#a6e22e>base64Img</span>, <span style=color:#e6db74>&#39;MaskedImage.png&#39;</span>)
+</span></span><span style=display:flex><span>        <span style=color:#a6e22e>dispatch</span>(<span style=color:#a6e22e>setInfo</span>(<span style=color:#a6e22e>base64Img</span>, <span style=color:#e6db74>&#39;base64Img&#39;</span>))
+</span></span><span style=display:flex><span>        <span style=color:#a6e22e>dispatch</span>(<span style=color:#a6e22e>setInfo</span>(<span style=color:#a6e22e>hash</span>, <span style=color:#e6db74>&#39;아이콘 추가&#39;</span>))
+</span></span><span style=display:flex><span>        <span style=color:#a6e22e>setFile</span>(<span style=color:#a6e22e>file</span>)
+</span></span><span style=display:flex><span>      }
+</span></span><span style=display:flex><span>    }
+</span></span><span style=display:flex><span>  })
+</span></span><span style=display:flex><span>}
+</span></span></code></pre></div><p>makeImage함수로 이미지를 masking 그리고, dataURLtoFile 함수로 파일객체로 만들어준다.</p>&mldr;</div><a class=readmore href=/posts/imgmask/>Read more ⟶</a></section><section class=list-item><h1 class=title><a href=/posts/reduxtoolkit/>리덕스툴킷 찍먹하기</a></h1><time>May 19, 2022</time><br><div class=description><p><strong>인트로</strong></p><p>지금껏 프로젝트를 하면서, 리덕스를 사용하여 상태관리를 해왔다.</p><p>상태관리 라이브러리는 정말 많다. 최근에 들어본 상태관리 라이브러리는 Mobx , Recoil, Zustand 등등..</p><p><img src=images/redux.png alt=NpmTrends></p><p>다른 상태관리를 직접 프로젝트에서 적용해보진 않았지만, 통계적으로 압도적이다.</p><p>지금까지 리액트와 리덕스를 사용하면서 큰 불편함을 느낀적은 없었다.</p><p>하지만, 리덕스의 타입정의, 액션함수, 리듀서를 왔다갔다 하며 변경해줘야하는 번거로움이 있었다.</p><p>리액트 18버전으로 업그레이드 하면서, 기존에 내가 사용하던 리덕스의 문법이 Legacy한 문법이라고 하여 찾다보니 리덕스 툴킷이라는 라이브러리가 기존의 리덕스의 불편함을 보완 해줄 수 있다고 어렴풋하게 알고있었다.</p>&mldr;</div><a class=readmore href=/posts/reduxtoolkit/>Read more ⟶</a></section><section class=list-item><h1 class=title><a href=/posts/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%EC%97%90%EC%84%9C%EC%9D%98-%EB%B9%84%EB%8F%99%EA%B8%B0%EC%B2%98%EB%A6%AC/>자바스크립트에서의 비동기처리</a></h1><time>May 5, 2022</time><br><div class=description><p><strong>Promise</strong></p><p>자바스크립트 ES6이후에 등장하게 된 promise객체는 비동기 처리 작업 할 때 콜백함수가 쌓이게되는 콜백지옥을 해결하기 위해 처음 등장이 되었다.</p><p>같은 원리이지만, promise객체를 통해 더 가독성이 쉽게 표시할 수 있어서 이용하게 되었고,</p><p>promise 또한 많은 promise변수를 사용하여 리턴하게 되면 promise지옥을 경험 할 수 있다.</p><p><strong>콜백함수, promise, async/await의 응답속도</strong></p><p>콜백함수나 promise의 응답속도는 거의 같다.</p><p>처음 호이스팅 환경에서 차례로 읽기 때문에 비동기 처리 되는 영역은 처리 완료 되지 않은 상태에서 다음을 읽는다. 따라서, setTimeout함수와 같이 딜레이를 주게 되어도 응답속도는 딜레이를 무시하고 먼저 처리한다.</p>&mldr;</div><a class=readmore href=/posts/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%EC%97%90%EC%84%9C%EC%9D%98-%EB%B9%84%EB%8F%99%EA%B8%B0%EC%B2%98%EB%A6%AC/>Read more ⟶</a></section><section class=list-item><h1 class=title><a href=/posts/%EC%9B%B9%EC%84%9C%EB%B9%84%EC%8A%A4%EA%B0%80-%EB%8F%99%EC%9E%91%ED%95%98%EA%B2%8C-%ED%95%98%EB%8A%94-%EA%B8%B0%EB%B3%B8-%ED%94%8C%EB%A1%9C%EC%9A%B0/>웹서비스가 동작하게 하는 기본 플로우</a></h1><time>May 5, 2022</time><br><div class=description><p>웹브라우저의 구성 요소</p><ul><li>Call Stack : 자바스크립트에서 수행해야 할 함수들을 순차적으로 스택에 담아 처리</li><li>Web API : 웹 브라우저에서 제공하는 API로 AJAX나 TimeOut등의 <strong>비동기 작업 수행</strong></li><li>Task Queue : Callback Queue 라고도 하며, Web API에서 넘겨받은 Callback함수를 저장.</li><li>Event Loop : Call Stack이 비워져있다면, Task Queue의 작업을 Call Stack으로 옮김.</li></ul><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-js data-lang=js><span style=display:flex><span><span style=color:#a6e22e>setTimeout</span>(() =&gt; <span style=color:#a6e22e>console</span>.<span style=color:#a6e22e>log</span>(<span style=color:#e6db74>&#34;Async Hi hun&#34;</span>));
 </span></span><span style=display:flex><span><span style=color:#a6e22e>console</span>.<span style=color:#a6e22e>log</span>(<span style=color:#e6db74>&#34;Hello! World&#34;</span>);
 </span></span><span style=display:flex><span><span style=color:#75715e>// Hello! World
 </span></span></span><span style=display:flex><span><span style=color:#75715e>// Async Hi hun
-</span></span></span></code></pr&hellip;
-	
-</div>
-					<a class=readmore href=/posts/%EC%9B%B9%EC%84%9C%EB%B9%84%EC%8A%A4%EA%B0%80-%EB%8F%99%EC%9E%91%ED%95%98%EA%B2%8C-%ED%95%98%EB%8A%94-%EA%B8%B0%EB%B3%B8-%ED%94%8C%EB%A1%9C%EC%9A%B0/>Read more ⟶</a>
-				</section>
-				
-				
-
-<ul class=pagination>
-	<span class="page-item page-prev">
-	
-    <a href=/ class=page-link aria-label=Previous><span aria-hidden=true>← Prev</span></a>
-	
-	</span>
-	<span class="page-item page-next">
-	
-	</span>
-</ul>
-
-
-			</main>
-			<footer>
-  <div style=display:flex></div>
-  <div class=footer-info>
-    2024  © Im Hun |  <a href=https://github.com/athul/archie>Archie Theme</a> | Built with <a href=https://gohugo.io>Hugo</a>
-  </div>
-</footer>
-
-
-
-		</div>
-		
-	</body>
-</html>
+</span></span></span></code></pre></div><p>비동기 코드는 먼저 실행됨에도 불구하고, 나중에 출력되는걸 볼 수 있다.</p>&mldr;</div><a class=readmore href=/posts/%EC%9B%B9%EC%84%9C%EB%B9%84%EC%8A%A4%EA%B0%80-%EB%8F%99%EC%9E%91%ED%95%98%EA%B2%8C-%ED%95%98%EB%8A%94-%EA%B8%B0%EB%B3%B8-%ED%94%8C%EB%A1%9C%EC%9A%B0/>Read more ⟶</a></section><ul class=pagination><span class="page-item page-prev"><a href=/ class=page-link aria-label=Previous><span aria-hidden=true>← Prev</span></a>
+</span><span class="page-item page-next"></span></ul></main><footer><div style=display:flex><a class=soc href=https://github.com/findmytrueself rel=me title=github><i data-feather></i></a>
+<a class=border></a><a class=soc href=https://instagram.com/instant.coffee_ rel=me title=instagram><i data-feather></i></a>
+<a class=border></a></div><div class=footer-info>2024 © Im Hun | <a href=https://github.com/athul/archie>Archie Theme</a> | Built with <a href=https://gohugo.io>Hugo</a></div></footer><script>feather.replace()</script></div></body></html>
