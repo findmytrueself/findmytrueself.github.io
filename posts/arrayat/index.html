@@ -19,19 +19,7 @@ Array.at(idx)은 es2022부터 등장한 메소드이다.
 기존 방식의 Array[idx]과 어떤 차이가 있는지 알아보자.
 차이
 가장 극명한 차이는 음수 인덱스 지원에 있다.
-const arr = [10, 20, 30] console.log(arr[-1]) // undefined const arr = [10, 20, 30] console.log(arr.at(-1)) // 30 "><script src=https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js></script><link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@1,500&display=swap" rel=stylesheet><link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel=stylesheet><link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel=stylesheet><link rel=stylesheet type=text/css media=screen href=https://findmytrueself.github.io/css/main.fa747a9bb099b7bfd5d71b78a6e8ca2e23a425384e48bf533f1d357aeb61d265.css><link id=darkModeStyle rel=stylesheet type=text/css href=https://findmytrueself.github.io/css/dark.acc27faeb64bfb288fd545d29d5ec804495d962a1c2bee862cc5f8270ee6f6f8.css disabled><script type=text/javascript src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script><script type=text/x-mathjax-config>
-		MathJax.Hub.Config({
-			tex2jax: {
-				inlineMath: [['$','$'], ['\\(','\\)']],
-				displayMath: [['$$','$$'], ['\[','\]']],
-				processEscapes: true,
-				processEnvironments: true,
-				skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
-				TeX: { equationNumbers: { autoNumber: "AMS" },
-						 extensions: ["AMSmath.js", "AMSsymbols.js"] }
-			}
-		});
-		</script><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.min.css><script defer src=https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.min.js></script><script defer src=https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/contrib/auto-render.min.js onload=renderMathInElement(document.body)></script><script>document.addEventListener("DOMContentLoaded",function(){renderMathInElement(document.body,{delimiters:[{left:"$$",right:"$$",display:!0},{left:"$",right:"$",display:!1}]})})</script></head><body><div class=content><header><div class=main><a href=https://findmytrueself.github.io/>Hun's Blog ✍️</a></div><nav><a href=/life>LIFE</a>
+const arr = [10, 20, 30] console.log(arr[-1]) // undefined const arr = [10, 20, 30] console.log(arr.at(-1)) // 30 "><script src=https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js></script><link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@1,500&display=swap" rel=stylesheet><link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel=stylesheet><link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel=stylesheet><link rel=stylesheet type=text/css media=screen href=https://findmytrueself.github.io/css/main.fa747a9bb099b7bfd5d71b78a6e8ca2e23a425384e48bf533f1d357aeb61d265.css><link id=darkModeStyle rel=stylesheet type=text/css href=https://findmytrueself.github.io/css/dark.acc27faeb64bfb288fd545d29d5ec804495d962a1c2bee862cc5f8270ee6f6f8.css disabled></head><body><div class=content><header><div class=main><a href=https://findmytrueself.github.io/>Hun's Blog ✍️</a></div><nav><a href=/life>LIFE</a>
 <a href=/posts>POSTS</a>
 <a href=/pdfs/3%EB%85%84%EC%B0%A8_%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C_%EC%9E%84%ED%9B%88.pdf>RESUME</a>
 <a href=/tags>TAGS</a>
