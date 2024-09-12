@@ -7,21 +7,21 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© Im Hun</copyright>
-    <lastBuildDate>Thu, 12 Sep 2024 17:30:13 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 12 Sep 2024 13:30:13 +0900</lastBuildDate>
     <atom:link href="https://findmytrueself.github.io/tags/ethereum/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Ethereum</title>
-      <link>https://findmytrueself.github.io/posts/ethereum/</link>
-      <pubDate>Thu, 12 Sep 2024 17:30:13 +0900</pubDate>
-      <guid>https://findmytrueself.github.io/posts/ethereum/</guid>
-      <description>&lt;h3 id=&#34;이더리움이란&#34;&gt;이더리움이란?&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;블록체인 기반 플랫폼: 스마트 계약과 탈중앙화 애플리케이션(dApps) 실행하는데 사용 된다.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;암호화폐 거래 이상의 다양한 기능(스마트계약 함수)을 제공한다&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;이더리움 네트워크는 수많은 노드로 구성되어 있으며, 각 노드는 이더리움 블록체인을 유지하고 검증하는 역할을 한다.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;&lt;strong&gt;이더리움 가상 머신 (EVM, Ethereum Virtual Machine)&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;이더리움 네트워크 내에서 스마트 계약을 실행하는 가상화된 컴퓨팅 환경&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;스마트 계약과 탈중앙화 애플리케이션의 핵심요소&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;가상화된 컴퓨터로, 이더리움 네트워크에서 분산적으로 실행&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;스마트 계약은 Solidity 언어로, 바이트코드로 컴파일되어, EVM에서 이 바이트코드를 읽어 실행한다.&lt;/p&gt;</description>
-    </item>
     <item>
       <title>Ethereum Private Blockchain with Besu</title>
       <link>https://findmytrueself.github.io/posts/besu/</link>
       <pubDate>Thu, 12 Sep 2024 13:30:13 +0900</pubDate>
       <guid>https://findmytrueself.github.io/posts/besu/</guid>
       <description>&lt;p&gt;기업에서 사용 될 이더리움 기반 프라이빗 블록체인 대표적으로 Hyperledger Besu에 대해 알아보자.&lt;/p&gt;&#xA;&lt;p&gt;먼저, 의문점이 있다. 블록체인이란 기본적인 컨셉은 퍼블릭한 투명성을 목표로 탈중앙화가 목표인데, 프라이빗이란 개념이 들어간다는건, 블록체인의 컨셉에 어긋나는게 아닌가?&lt;/p&gt;&#xA;&lt;p&gt;프라이빗 블록체인의 기본적인 컨셉은 기업이나 개인 환경에서 사용이다.&lt;/p&gt;&#xA;&lt;p&gt;한마디로, 구축자의 특성에 맞는 또 다른 이더리움 세계를 구축한다는 것이다.&lt;/p&gt;&#xA;&lt;p&gt;어떤 환경 내에서도 불변성, 투명성이 필요하다. 그래서 특정 환경일때, DB를 사용하지 않고, 이러한 장점이 있는 프라이빗 블록체인을 사용한다.&lt;/p&gt;&#xA;&lt;h2 id=&#34;hyperledger-besu&#34;&gt;Hyperledger Besu&lt;/h2&gt;&#xA;&lt;p&gt;Besu는 EVM을 지원하는 오픈소스이다. 자체 네트워크를 구성 할 수 있는 프라이빗 블록체인 및 이더리움과 연동가능한 퍼블릭 네트워크 구성까지 가능하다.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Ethereum</title>
+      <link>https://findmytrueself.github.io/posts/ethereum/</link>
+      <pubDate>Wed, 11 Sep 2024 17:30:13 +0900</pubDate>
+      <guid>https://findmytrueself.github.io/posts/ethereum/</guid>
+      <description>&lt;h3 id=&#34;이더리움이란&#34;&gt;이더리움이란?&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;블록체인 기반 플랫폼: 스마트 계약과 탈중앙화 애플리케이션(dApps) 실행하는데 사용 된다.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;암호화폐 거래 이상의 다양한 기능(스마트계약 함수)을 제공한다&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;이더리움 네트워크는 수많은 노드로 구성되어 있으며, 각 노드는 이더리움 블록체인을 유지하고 검증하는 역할을 한다.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;&lt;strong&gt;이더리움 가상 머신 (EVM, Ethereum Virtual Machine)&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;이더리움 네트워크 내에서 스마트 계약을 실행하는 가상화된 컴퓨팅 환경&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;스마트 계약과 탈중앙화 애플리케이션의 핵심요소&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;가상화된 컴퓨터로, 이더리움 네트워크에서 분산적으로 실행&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;스마트 계약은 Solidity 언어로, 바이트코드로 컴파일되어, EVM에서 이 바이트코드를 읽어 실행한다.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
