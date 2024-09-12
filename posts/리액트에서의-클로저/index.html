@@ -20,13 +20,25 @@ export default function Home() {
     </div>
   )
 }
-"><meta property="og:image" content><meta property="og:url" content="https://findmytrueself.github.io/posts/%EB%A6%AC%EC%95%A1%ED%8A%B8%EC%97%90%EC%84%9C%EC%9D%98-%ED%81%B4%EB%A1%9C%EC%A0%80/"><meta property="og:site_name" content="Hun's Blog ✍️"><meta property="og:title" content="리액트에서의 클로저"><meta property="og:description" content="인트로
+import React, { useEffect } from 'react'
+
+const useCustom = (func: Function, state: any) => {
+  console.log('params state:', state)
+  useEffect(() => {
+    return () => func()
+  }, [])
+
+  return <div>useCustom</div>
+}
+
+export default useCustom
+코드 설명"><meta property="og:image" content><meta property="og:url" content="https://findmytrueself.github.io/posts/%EB%A6%AC%EC%95%A1%ED%8A%B8%EC%97%90%EC%84%9C%EC%9D%98-%ED%81%B4%EB%A1%9C%EC%A0%80/"><meta property="og:site_name" content="Hun's Blog ✍️"><meta property="og:title" content="리액트에서의 클로저"><meta property="og:description" content="인트로
 클로저는 자바스크립트에서 기본이 되는 아주 중요한 개념이다.
 항상, 기술면접으로 1순위로 물어보는 개념이기 때문에, 말그대로 답변을 달달달 외우며, 기술면접을 준비했던 기억이 난다.
 하지만, 여전히 실무에서 어떻게 쓰여아하는지는 이해를 못했고, 응용을 못하고 있었던 때, 해당 개념을 더 심도있게 공부해보고자 한다.
 문제
 customHook에 함수를 parameter로 넘겨줄 때, useCustom 컴포넌트가 unmount되는 상황에 실행될 때, 해당 함수가 출력되고, 함수에 포함된 state값은 어떻게 출력이 되는가?
-import useCustom from './hooks/useCustom' import { useState } from 'react' export default function Home() { const [state, setState] = useState(0) useCustom(() => console.log('inner func state:', state)) return ( <div className=&#34;grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]&#34;> <div>{state}</div> <button onClick={() => setState(state + 1)}>+</button> </div> ) } "><meta property="og:locale" content="en_us"><meta property="og:type" content="article"><meta property="article:section" content="posts"><meta property="article:published_time" content="2024-09-11T13:53:35+09:00"><meta property="article:modified_time" content="2024-09-11T13:53:35+09:00"><meta property="article:tag" content="Javascript"><meta property="article:tag" content="React"><meta name=twitter:card content="summary"><meta name=twitter:title content="리액트에서의 클로저"><meta name=twitter:description content="인트로
+import useCustom from './hooks/useCustom' import { useState } from 'react' export default function Home() { const [state, setState] = useState(0) useCustom(() => console.log('inner func state:', state)) return ( <div className=&#34;grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]&#34;> <div>{state}</div> <button onClick={() => setState(state + 1)}>+</button> </div> ) } import React, { useEffect } from 'react' const useCustom = (func: Function, state: any) => { console.log('params state:', state) useEffect(() => { return () => func() }, []) return <div>useCustom</div> } export default useCustom 코드 설명"><meta property="og:locale" content="en_us"><meta property="og:type" content="article"><meta property="article:section" content="posts"><meta property="article:published_time" content="2024-09-11T13:53:35+09:00"><meta property="article:modified_time" content="2024-09-11T13:53:35+09:00"><meta property="article:tag" content="Javascript"><meta property="article:tag" content="React"><meta name=twitter:card content="summary"><meta name=twitter:title content="리액트에서의 클로저"><meta name=twitter:description content="인트로
 클로저는 자바스크립트에서 기본이 되는 아주 중요한 개념이다.
 항상, 기술면접으로 1순위로 물어보는 개념이기 때문에, 말그대로 답변을 달달달 외우며, 기술면접을 준비했던 기억이 난다.
 하지만, 여전히 실무에서 어떻게 쓰여아하는지는 이해를 못했고, 응용을 못하고 있었던 때, 해당 개념을 더 심도있게 공부해보고자 한다.
