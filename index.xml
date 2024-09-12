@@ -10,6 +10,13 @@
     <lastBuildDate>Wed, 11 Sep 2024 13:53:35 +0900</lastBuildDate>
     <atom:link href="https://findmytrueself.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>개인기술면접 준비</title>
+      <link>https://findmytrueself.github.io/posts/%EA%B0%9C%EC%9D%B8%EA%B8%B0%EC%88%A0%EB%A9%B4%EC%A0%91%EC%A4%80%EB%B9%84/</link>
+      <pubDate>Wed, 11 Sep 2024 13:53:35 +0900</pubDate>
+      <guid>https://findmytrueself.github.io/posts/%EA%B0%9C%EC%9D%B8%EA%B8%B0%EC%88%A0%EB%A9%B4%EC%A0%91%EC%A4%80%EB%B9%84/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Javascript&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;웹 브라우저에서 동작하는 유일한 프로그래밍 언어&lt;/li&gt;&#xA;&lt;li&gt;인터프리터 언어이다.&#xA;&lt;ul&gt;&#xA;&lt;li&gt;컴파일러 언어와 인터프리터 언어의 차이&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
       <title>리액트에서의 클로저</title>
       <link>https://findmytrueself.github.io/posts/%EB%A6%AC%EC%95%A1%ED%8A%B8%EC%97%90%EC%84%9C%EC%9D%98-%ED%81%B4%EB%A1%9C%EC%A0%80/</link>
       <pubDate>Wed, 11 Sep 2024 13:53:35 +0900</pubDate>
@@ -78,6 +85,13 @@
       <pubDate>Tue, 27 Feb 2024 17:26:35 +0900</pubDate>
       <guid>https://findmytrueself.github.io/posts/flexbox/</guid>
       <description>&lt;p&gt;&lt;strong&gt;flex-basis&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;width&lt;/code&gt; 랑 비슷한 개념&lt;/p&gt;&#xA;&lt;p&gt;최초의 박스의 크기를 지정 할 수 있다.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;flex-grow&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;전체 박스의 크기에서 빈 부분을 값을 1을 주면 채울 수 있다.&#xA;기본값 0&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;flex-shrink&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;동적으로 해당 박스의 크기를 줄일 수 있다.&#xA;기본값 1&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;flex-wrap&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;박스의 화면을 초과 하면 밑으로 내릴 수 있다.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Ethereum Private Blockchain A.K.A Hyperledger Besu</title>
+      <link>https://findmytrueself.github.io/posts/besu/</link>
+      <pubDate>Tue, 21 Mar 2023 13:30:13 +0900</pubDate>
+      <guid>https://findmytrueself.github.io/posts/besu/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;인트로&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;기업에서 사용 될 이더리움 기반 프라이빗 블록체인 Hyperledger Besu에 대해 알아보자.&lt;/p&gt;</description>
     </item>
     <item>
       <title>블록체인 지갑 Chrome Extension 개발기</title>

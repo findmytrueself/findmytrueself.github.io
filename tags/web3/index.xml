@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© Im Hun</copyright>
-    <lastBuildDate>Tue, 21 Mar 2023 13:30:13 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 11 Sep 2024 13:53:35 +0900</lastBuildDate>
     <atom:link href="https://findmytrueself.github.io/tags/web3/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>개인기술면접 준비</title>
+      <link>https://findmytrueself.github.io/posts/%EA%B0%9C%EC%9D%B8%EA%B8%B0%EC%88%A0%EB%A9%B4%EC%A0%91%EC%A4%80%EB%B9%84/</link>
+      <pubDate>Wed, 11 Sep 2024 13:53:35 +0900</pubDate>
+      <guid>https://findmytrueself.github.io/posts/%EA%B0%9C%EC%9D%B8%EA%B8%B0%EC%88%A0%EB%A9%B4%EC%A0%91%EC%A4%80%EB%B9%84/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Javascript&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;웹 브라우저에서 동작하는 유일한 프로그래밍 언어&lt;/li&gt;&#xA;&lt;li&gt;인터프리터 언어이다.&#xA;&lt;ul&gt;&#xA;&lt;li&gt;컴파일러 언어와 인터프리터 언어의 차이&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>블록체인 지갑 Chrome Extension 개발기</title>
       <link>https://findmytrueself.github.io/posts/blockchainwalletchromeextension/</link>
