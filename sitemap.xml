@@ -2,19 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://findmytrueself.github.io/tags/blockchain/</loc>
+    <lastmod>2024-09-12T13:30:13+09:00</lastmod>
+  </url><url>
+    <loc>https://findmytrueself.github.io/tags/ethereum/</loc>
+    <lastmod>2024-09-12T13:30:13+09:00</lastmod>
+  </url><url>
+    <loc>https://findmytrueself.github.io/posts/besu/</loc>
+    <lastmod>2024-09-12T13:30:13+09:00</lastmod>
+  </url><url>
     <loc>https://findmytrueself.github.io/</loc>
-    <lastmod>2024-09-11T13:53:35+09:00</lastmod>
+    <lastmod>2024-09-12T13:30:13+09:00</lastmod>
+  </url><url>
+    <loc>https://findmytrueself.github.io/posts/</loc>
+    <lastmod>2024-09-12T13:30:13+09:00</lastmod>
+  </url><url>
+    <loc>https://findmytrueself.github.io/tags/</loc>
+    <lastmod>2024-09-12T13:30:13+09:00</lastmod>
   </url><url>
     <loc>https://findmytrueself.github.io/tags/javascript/</loc>
     <lastmod>2024-09-11T13:53:35+09:00</lastmod>
   </url><url>
-    <loc>https://findmytrueself.github.io/posts/</loc>
-    <lastmod>2024-09-11T13:53:35+09:00</lastmod>
-  </url><url>
     <loc>https://findmytrueself.github.io/tags/react/</loc>
-    <lastmod>2024-09-11T13:53:35+09:00</lastmod>
-  </url><url>
-    <loc>https://findmytrueself.github.io/tags/</loc>
     <lastmod>2024-09-11T13:53:35+09:00</lastmod>
   </url><url>
     <loc>https://findmytrueself.github.io/tags/web3/</loc>
@@ -61,12 +70,6 @@
   </url><url>
     <loc>https://findmytrueself.github.io/posts/flexbox/</loc>
     <lastmod>2024-02-27T17:26:35+09:00</lastmod>
-  </url><url>
-    <loc>https://findmytrueself.github.io/tags/blockchain/</loc>
-    <lastmod>2023-03-21T13:30:13+09:00</lastmod>
-  </url><url>
-    <loc>https://findmytrueself.github.io/posts/besu/</loc>
-    <lastmod>2023-03-21T13:30:13+09:00</lastmod>
   </url><url>
     <loc>https://findmytrueself.github.io/posts/blockchainwalletchromeextension/</loc>
     <lastmod>2023-03-21T13:30:13+09:00</lastmod>
