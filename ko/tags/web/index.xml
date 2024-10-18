@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Web on Hun&#39;s Blog ✍️</title>
+    <link>https://findmytrueself.github.io/ko/tags/web/</link>
+    <description>Recent content in Web on Hun&#39;s Blog ✍️</description>
+    <generator>Hugo</generator>
+    <language>ko</language>
+    <copyright>Im Hun</copyright>
+    <lastBuildDate>Thu, 05 May 2022 19:30:13 +0900</lastBuildDate>
+    <atom:link href="https://findmytrueself.github.io/ko/tags/web/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>웹서비스가 동작하게 하는 기본 플로우</title>
+      <link>https://findmytrueself.github.io/ko/frontend/%EC%9B%B9%EC%84%9C%EB%B9%84%EC%8A%A4%EA%B0%80-%EB%8F%99%EC%9E%91%ED%95%98%EA%B2%8C-%ED%95%98%EB%8A%94-%EA%B8%B0%EB%B3%B8-%ED%94%8C%EB%A1%9C%EC%9A%B0/</link>
+      <pubDate>Thu, 05 May 2022 19:30:13 +0900</pubDate>
+      <guid>https://findmytrueself.github.io/ko/frontend/%EC%9B%B9%EC%84%9C%EB%B9%84%EC%8A%A4%EA%B0%80-%EB%8F%99%EC%9E%91%ED%95%98%EA%B2%8C-%ED%95%98%EB%8A%94-%EA%B8%B0%EB%B3%B8-%ED%94%8C%EB%A1%9C%EC%9A%B0/</guid>
+      <description>&lt;p&gt;웹브라우저의 구성 요소&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Call Stack : 자바스크립트에서 수행해야 할 함수들을 순차적으로 스택에 담아 처리&lt;/li&gt;&#xA;&lt;li&gt;Web API : 웹 브라우저에서 제공하는 API로 AJAX나 TimeOut등의 &lt;strong&gt;비동기 작업 수행&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;Task Queue : Callback Queue 라고도 하며, Web API에서 넘겨받은 Callback함수를 저장.&lt;/li&gt;&#xA;&lt;li&gt;Event Loop : Call Stack이 비워져있다면, Task Queue의 작업을 Call Stack으로 옮김.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;setTimeout&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(()&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;console&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;log&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Async Hi hun&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;));&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;console&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;log&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Hello! World&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;// Hello! World&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;// Async Hi hun&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;비동기 코드는 먼저 실행됨에도 불구하고, 나중에 출력되는걸 볼 수 있다.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

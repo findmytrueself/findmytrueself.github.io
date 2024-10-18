@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ethereum on Hun&#39;s Blog ✍️</title>
+    <link>https://findmytrueself.github.io/en/tags/ethereum/</link>
+    <description>Recent content in Ethereum on Hun&#39;s Blog ✍️</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>Im Hun</copyright>
+    <lastBuildDate>Thu, 17 Oct 2024 17:30:13 +0900</lastBuildDate>
+    <atom:link href="https://findmytrueself.github.io/en/tags/ethereum/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Normal Transactions and Internal Transactions</title>
+      <link>https://findmytrueself.github.io/en/blockchain/internaltx/</link>
+      <pubDate>Thu, 17 Oct 2024 17:30:13 +0900</pubDate>
+      <guid>https://findmytrueself.github.io/en/blockchain/internaltx/</guid>
+      <description>&lt;h2 id=&#34;what-is-a-normal-transaction&#34;&gt;What is a Normal Transaction?&lt;/h2&gt;&#xA;&lt;p&gt;A typical transaction on the Ethereum blockchain refers to the simple transfer of Ether (ETH) or tokens between two wallet addresses.&lt;/p&gt;&#xA;&lt;p&gt;These transactions are initiated by users and are directly recorded on the blockchain, making them easy to track.&lt;/p&gt;&#xA;&lt;h3 id=&#34;characteristics&#34;&gt;Characteristics&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;User-Initiated: A normal transaction is typically initiated by an individual or entity sending ETH or tokens from one address to another.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Recorded on the Blockchain: All normal transactions are permanently recorded on the Ethereum blockchain, providing a transparent and immutable record.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Ethereum Private Blockchain with Besu</title>
+      <link>https://findmytrueself.github.io/en/blockchain/besu/</link>
+      <pubDate>Thu, 12 Sep 2024 15:30:13 +0900</pubDate>
+      <guid>https://findmytrueself.github.io/en/blockchain/besu/</guid>
+      <description>&lt;p&gt;Let&amp;rsquo;s take a look at Hyperledger Besu, one of the representative private blockchains based on Ethereum, used in enterprise environments.&lt;/p&gt;&#xA;&lt;p&gt;First, there&amp;rsquo;s a question: Blockchain&amp;rsquo;s fundamental concept is aimed at decentralization with a focus on public transparency, so doesn’t the concept of a &amp;ldquo;private&amp;rdquo; blockchain contradict that?&lt;/p&gt;&#xA;&lt;p&gt;The basic concept of a private blockchain is its use in corporate or personal environments.&lt;/p&gt;&#xA;&lt;p&gt;In short, it means creating another Ethereum world tailored to the needs of the builder.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Ethereum</title>
+      <link>https://findmytrueself.github.io/en/blockchain/ethereum/</link>
+      <pubDate>Wed, 11 Sep 2024 17:30:13 +0900</pubDate>
+      <guid>https://findmytrueself.github.io/en/blockchain/ethereum/</guid>
+      <description>&lt;h3 id=&#34;what-is-ethereum&#34;&gt;What is Ethereum?&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;A blockchain-based platform used to run smart contracts and decentralized applications (dApps).&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;It offers various features beyond cryptocurrency transactions, including smart contract functionality.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;The Ethereum network consists of numerous nodes, each responsible for maintaining and validating the Ethereum blockchain.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;&lt;strong&gt;Ethereum Virtual Machine (EVM)&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;A virtualized computing environment that runs smart contracts within the Ethereum network.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;The core component of smart contracts and decentralized applications.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Acts as a virtual computer that operates in a decentralized manner on the Ethereum network.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

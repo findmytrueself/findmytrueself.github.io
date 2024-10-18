@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Hun&#39;s Blog ✍️</title>
+    <link>https://findmytrueself.github.io/en/posts/</link>
+    <description>Recent content in Posts on Hun&#39;s Blog ✍️</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>Im Hun</copyright>
+    <lastBuildDate>Wed, 16 Oct 2024 10:53:35 +0900</lastBuildDate>
+    <atom:link href="https://findmytrueself.github.io/en/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ABOUT ME</title>
+      <link>https://findmytrueself.github.io/en/posts/about-me/</link>
+      <pubDate>Wed, 16 Oct 2024 10:53:35 +0900</pubDate>
+      <guid>https://findmytrueself.github.io/en/posts/about-me/</guid>
+      <description>&lt;h1 id=&#34;3rd-year-web3-frontend-developer---hun-im&#34;&gt;3rd Year Web3 Frontend Developer - Hun Im&lt;/h1&gt;&#xA;&lt;h2 id=&#34;experience&#34;&gt;Experience&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Web3 Frontend Developer&lt;/strong&gt;&#xA;Aergo  |  2023.01 – present&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Responsible for developing and maintaining frontend open-source functionalities for Aergo Blockchain.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Developed the &lt;code&gt;Aergo Connect 3.0&lt;/code&gt; Chrome extension personal wallet. ( 📎  &lt;a href=&#34;https://chromewebstore.google.com/detail/aergo-connect-30/mcijhnoalllmbiehiebonblllpimlnle&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;배포&lt;/a&gt;&#xA; | &lt;a href=&#34;https://github.com/aergoio/aergo-connect-3.0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;깃헙&lt;/a&gt;&#xA;  )&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Migrated from Manifest2 to Manifest3&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Added Multi Accounts management and Private Network functionality&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Integrated Hardware Wallet Nano Ledger support&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;#Typescript #Vuejs #Vuex #Chrome Extension #Manifest3 #IndexedDb #ServiceWorker&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Improved UI and developed contracts interactive (Read &amp;amp; Write) features for &lt;code&gt;Aergo Scan&lt;/code&gt;. ( 📎  &lt;a href=&#34;https://mainnet.aergoscan.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;배포&lt;/a&gt;&#xA; | &lt;a href=&#34;https://github.com/aergoio/aergoscan_v2_frontend&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;깃헙&lt;/a&gt;&#xA;  )&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Web3 on Hun&#39;s Blog ✍️</title>
+    <link>https://findmytrueself.github.io/en/tags/web3/</link>
+    <description>Recent content in Web3 on Hun&#39;s Blog ✍️</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>Im Hun</copyright>
+    <lastBuildDate>Tue, 21 Mar 2023 13:30:13 +0900</lastBuildDate>
+    <atom:link href="https://findmytrueself.github.io/en/tags/web3/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Developing a Blockchain Wallet Chrome Extension</title>
+      <link>https://findmytrueself.github.io/en/blockchain/blockchainwalletchromeextension/</link>
+      <pubDate>Tue, 21 Mar 2023 13:30:13 +0900</pubDate>
+      <guid>https://findmytrueself.github.io/en/blockchain/blockchainwalletchromeextension/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;September: Initial Setup and Code Analysis&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;In September 2022, I was tasked with renewing an existing blockchain wallet that had already been deployed on Chrome.&lt;/p&gt;&#xA;&lt;p&gt;When I first took on this project, I felt completely overwhelmed. The existing project was developed in Vue 2, and I had to modify it. Additionally, since Chrome follows the Manifest policy, I had to study that as well.&lt;/p&gt;&#xA;&lt;p&gt;The Manifest v3 issue was there from the start, and since I was more familiar with React, I thought about rewriting the whole project from scratch. I attempted it, but I wasn’t confident enough to restructure everything from the ground up.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

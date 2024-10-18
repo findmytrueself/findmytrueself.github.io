@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Hun&#39;s Blog ✍️</title>
+    <link>https://findmytrueself.github.io/ko/posts/</link>
+    <description>Recent content in Posts on Hun&#39;s Blog ✍️</description>
+    <generator>Hugo</generator>
+    <language>ko</language>
+    <copyright>Im Hun</copyright>
+    <lastBuildDate>Wed, 16 Oct 2024 10:53:35 +0900</lastBuildDate>
+    <atom:link href="https://findmytrueself.github.io/ko/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ABOUT ME</title>
+      <link>https://findmytrueself.github.io/ko/posts/about-me/</link>
+      <pubDate>Wed, 16 Oct 2024 10:53:35 +0900</pubDate>
+      <guid>https://findmytrueself.github.io/ko/posts/about-me/</guid>
+      <description>&lt;h1 id=&#34;3년차-web3-프론트엔드-개발자---임훈&#34;&gt;3년차 Web3 프론트엔드 개발자 - 임훈&lt;/h1&gt;&#xA;&lt;h2 id=&#34;experience&#34;&gt;Experience&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Web3 Frontend Developer&lt;/strong&gt;&#xA;Aergo  |  2023.01 – present&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;아르고 블록체인에서 운영 중인 프론트엔드 오픈소스 기능 개발 및 유지 보수를 담당.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;code&gt;Aergo Connect 3.0&lt;/code&gt; 크롬익스텐션 개인지갑 개발 및 배포 ( 📎  &lt;a href=&#34;https://chromewebstore.google.com/detail/aergo-connect-30/mcijhnoalllmbiehiebonblllpimlnle&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;배포&lt;/a&gt;&#xA; | &lt;a href=&#34;https://github.com/aergoio/aergo-connect-3.0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;깃헙&lt;/a&gt;&#xA;  )&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Manifest2 → Manifest3 마이그레이션&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Multi Accounts 관리 및 Private Network 기능 추가&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Hardware Wallet Nano Ledger 기능 추가&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;#Typescript #Vuejs #Vuex #Chrome Extension #Manifest3 #IndexedDb #ServiceWorker&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;code&gt;Aergo Scan&lt;/code&gt; UI 개선 및 개발자 인터렉티브(Read &amp;amp; Write) 기능 개발 ( 📎  &lt;a href=&#34;https://mainnet.aergoscan.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;배포&lt;/a&gt;&#xA; | &lt;a href=&#34;https://github.com/aergoio/aergoscan_v2_frontend&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;깃헙&lt;/a&gt;&#xA;  )&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

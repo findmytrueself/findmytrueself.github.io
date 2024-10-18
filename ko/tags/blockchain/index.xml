@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blockchain on Hun&#39;s Blog ✍️</title>
+    <link>https://findmytrueself.github.io/ko/tags/blockchain/</link>
+    <description>Recent content in Blockchain on Hun&#39;s Blog ✍️</description>
+    <generator>Hugo</generator>
+    <language>ko</language>
+    <copyright>Im Hun</copyright>
+    <lastBuildDate>Thu, 17 Oct 2024 17:30:13 +0900</lastBuildDate>
+    <atom:link href="https://findmytrueself.github.io/ko/tags/blockchain/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>일반 거래와 내부 거래(Internal Tx)</title>
+      <link>https://findmytrueself.github.io/ko/blockchain/internaltx/</link>
+      <pubDate>Thu, 17 Oct 2024 17:30:13 +0900</pubDate>
+      <guid>https://findmytrueself.github.io/ko/blockchain/internaltx/</guid>
+      <description>&lt;h2 id=&#34;일반-거래란-무엇인가요&#34;&gt;일반 거래란 무엇인가요?&lt;/h2&gt;&#xA;&lt;p&gt;이더리움 블록체인 에서의 일반적인 거래는 두 지갑 주소 간의 이더(ETH) 또는 토큰 의 간단한 전송을 말합니다.&lt;/p&gt;&#xA;&lt;p&gt;이러한 거래는 사용자가 시작하고 블록체인 에 직접 기록되므로 쉽게 추적할 수 있습니다.&lt;/p&gt;&#xA;&lt;h3 id=&#34;특징&#34;&gt;특징&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;사용자가 시작함: 일반적인 거래는 일반적으로 개인이나 단체가 한 주소에서 다른 주소로 ETH 또는 토큰을 보내면서 시작됩니다.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;블록체인에 기록됨: 모든 일반적인 거래는 이더리움 블록체인에 영구적으로 기록되어 투명하고 변경 불가능한 기록을 제공합니다.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;거래 수수료: 사용자는 거래를 처리하고 확인하기 위해 채굴자에게 가스 수수료를 지불해야 합니다. 수수료는 네트워크 혼잡과 거래의 복잡성에 따라 다릅니다.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Ethereum Private Blockchain with Besu</title>
+      <link>https://findmytrueself.github.io/ko/blockchain/besu/</link>
+      <pubDate>Thu, 12 Sep 2024 15:30:13 +0900</pubDate>
+      <guid>https://findmytrueself.github.io/ko/blockchain/besu/</guid>
+      <description>&lt;p&gt;기업에서 사용 될 이더리움 기반 프라이빗 블록체인 대표적으로 Hyperledger Besu에 대해 알아보자.&lt;/p&gt;&#xA;&lt;p&gt;먼저, 의문점이 있다. 블록체인이란 기본적인 컨셉은 퍼블릭한 투명성을 목표로 탈중앙화가 목표인데, 프라이빗이란 개념이 들어간다는건, 블록체인의 컨셉에 어긋나는게 아닌가?&lt;/p&gt;&#xA;&lt;p&gt;프라이빗 블록체인의 기본적인 컨셉은 기업이나 개인 환경에서 사용이다.&lt;/p&gt;&#xA;&lt;p&gt;한마디로, 구축자의 특성에 맞는 또 다른 이더리움 세계를 구축한다는 것이다.&lt;/p&gt;&#xA;&lt;p&gt;어떤 환경 내에서도 불변성, 투명성이 필요하다. 그래서 특정 환경일때, DB를 사용하지 않고, 이러한 장점이 있는 프라이빗 블록체인을 사용한다.&lt;/p&gt;&#xA;&lt;h2 id=&#34;hyperledger-besu&#34;&gt;Hyperledger Besu&lt;/h2&gt;&#xA;&lt;p&gt;Besu는 EVM을 지원하는 오픈소스이다. 자체 네트워크를 구성 할 수 있는 프라이빗 블록체인 및 이더리움과 연동가능한 퍼블릭 네트워크 구성까지 가능하다.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>합의 알고리즘</title>
+      <link>https://findmytrueself.github.io/ko/blockchain/%ED%95%A9%EC%9D%98-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/</link>
+      <pubDate>Thu, 12 Sep 2024 13:30:13 +0900</pubDate>
+      <guid>https://findmytrueself.github.io/ko/blockchain/%ED%95%A9%EC%9D%98-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/</guid>
+      <description>&lt;h3 id=&#34;주요-합의-알고리즘-종류&#34;&gt;주요 합의 알고리즘 종류&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;작업 증명 (Proof of Work, PoW)&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;네트워크 참여자들이 매우 복잡한 수학적 문제를 해결하는 경쟁을 통해 블록을 생성하는 방식입니다. 이 문제를 먼저 해결한 노드가 새로운 블록을 추가할 권리를 얻게 됩니다.&lt;/li&gt;&#xA;&lt;li&gt;예시: 비트코인, 이더리움(2.0 이전).&lt;/li&gt;&#xA;&lt;li&gt;장점: 보안성이 높고, 중앙화된 권한 없이 탈중앙화된 네트워크에서 동작 가능.&lt;/li&gt;&#xA;&lt;li&gt;단점: 에너지 소모가 매우 크고, 처리 속도가 느릴 수 있음.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;ol start=&#34;2&#34;&gt;&#xA;&lt;li&gt;지분 증명 (Proof of Stake, PoS)&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;설명: 노드가 보유한 암호화폐의 양(지분)에 따라 블록 생성 권한을 얻는 방식입니다. 지분이 많을수록 새로운 블록을 추가할 확률이 높아집니다.&lt;/li&gt;&#xA;&lt;li&gt;예시: 이더리움(2.0), 카르다노(Cardano), 폴카닷(Polkadot).&lt;/li&gt;&#xA;&lt;li&gt;장점: 에너지 효율이 높고, PoW에 비해 블록 생성 속도가 빠름.&lt;/li&gt;&#xA;&lt;li&gt;단점: 지분이 많은 노드에 의한 중앙화 가능성.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;ol start=&#34;3&#34;&gt;&#xA;&lt;li&gt;위임 지분 증명 (Delegated Proof of Stake, DPoS)&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;설명: 사용자가 일정 수의 대표자를 선출하고, 이 대표자들이 블록을 생성하는 방식입니다. 대표자는 네트워크 참여자들의 투표에 의해 선정되며, 이들이 블록 검증과 생성 작업을 수행합니다.&lt;/li&gt;&#xA;&lt;li&gt;예시: EOS, 트론(Tron), 스팀(Steem).&lt;/li&gt;&#xA;&lt;li&gt;장점: PoS에 비해 더 빠른 처리 속도를 제공하며, 에너지 효율이 좋음.&lt;/li&gt;&#xA;&lt;li&gt;단점: 선출된 소수의 노드에 의해 중앙화될 가능성이 있음.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;ol start=&#34;4&#34;&gt;&#xA;&lt;li&gt;권한 증명 (Proof of Authority, PoA)&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;설명: 신뢰할 수 있는 소수의 검증자가 블록을 생성하는 방식입니다. 검증자는 네트워크 내에서 신뢰할 수 있는 인물로 인증된 상태여야 하며, 이들이 블록을 추가하는 역할을 합니다.&lt;/li&gt;&#xA;&lt;li&gt;예시: VeChain, 일부 프라이빗 블록체인.&lt;/li&gt;&#xA;&lt;li&gt;장점: 매우 빠르고, 신뢰할 수 있는 환경에서 효율적으로 동작.&lt;/li&gt;&#xA;&lt;li&gt;단점: 중앙화되어 있을 가능성이 높고, 소수의 검증자에게 의존.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;ol start=&#34;5&#34;&gt;&#xA;&lt;li&gt;지연된 작업 증명 (Delayed Proof of Work, dPoW)&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;설명: 블록체인의 보안을 강화하기 위해 기존 PoW 블록체인의 해시를 사용하여 추가 보안 레이어를 제공하는 방식입니다. 즉, 보조 체인이 주요 PoW 체인의 보안을 빌려와 활용하는 형태입니다.&lt;/li&gt;&#xA;&lt;li&gt;예시: Komodo.&lt;/li&gt;&#xA;&lt;li&gt;장점: 기존 PoW 블록체인의 보안성을 활용하면서도 효율성을 높임.&lt;/li&gt;&#xA;&lt;li&gt;단점: 기존 PoW 체인에 의존성이 있음.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;ol start=&#34;6&#34;&gt;&#xA;&lt;li&gt;비잔틴 장애 허용 (Byzantine Fault Tolerance, BFT)&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;설명: 비잔틴 장군 문제를 해결하기 위한 방식으로, 네트워크 내 일부 노드가 악의적인 행위를 하거나 응답하지 않는 상황에서도 시스템이 정상적으로 동작할 수 있게 합니다.&lt;/li&gt;&#xA;&lt;li&gt;예시: Hyperledger, Tendermint.&lt;/li&gt;&#xA;&lt;li&gt;장점: 높은 보안성을 제공하고, 네트워크 내에서 신뢰할 수 없는 노드가 있더라도 신뢰할 수 있는 결과를 얻을 수 있음.&lt;/li&gt;&#xA;&lt;li&gt;단점: PoW나 PoS에 비해 복잡하며, 네트워크가 커질수록 속도가 느려질 수 있음.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;ol start=&#34;7&#34;&gt;&#xA;&lt;li&gt;실용 비잔틴 장애 허용 (Practical Byzantine Fault Tolerance, PBFT):&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;사용 예시: Hyperledger Fabric&lt;/li&gt;&#xA;&lt;li&gt;특징: 네트워크 내에서 과반수 이상의 노드가 동일한 상태에 도달해야 합의가 이루어짐.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;ol start=&#34;8&#34;&gt;&#xA;&lt;li&gt;QBFT (Quorum-based Byzantine Fault Tolerance)&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;설명: QBFT는 비잔틴 장애 허용(Byzantine Fault Tolerance, BFT) 계열의 합의 알고리즘 중 하나로, 네트워크 내의 노드들이 합의에 도달하기 위해 과반수 이상의 노드의 승인을 요구하는 방식입니다. 비잔틴 장애를 허용하면서도 네트워크의 안전성과 효율성을 유지하려는 목적에서 개발되었습니다. PBFT(Practical Byzantine Fault Tolerance) 알고리즘에서 발전된 형태입니다.&lt;/li&gt;&#xA;&lt;li&gt;예시: Hyperledger Besu에서 사용되며, 주로 기업용 블록체인에 적합한 알고리즘으로 알려져 있습니다.&lt;/li&gt;&#xA;&lt;li&gt;장점: 네트워크 내 악의적인 노드가 있더라도, 과반수의 신뢰할 수 있는 노드가 있으면 안전하게 합의에 도달할 수 있습니다. 또한, PoW처럼 에너지 소비가 크지 않으며, 빠른 트랜잭션 처리가 가능합니다.&lt;/li&gt;&#xA;&lt;li&gt;단점: 네트워크 규모가 커질수록 합의에 필요한 통신 비용이 증가하여 성능이 저하될 수 있습니다. 노드 수가 많아질수록 네트워크의 처리 속도가 느려질 수 있습니다.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;QBFT는 비잔틴 장애 허용을 기반으로 하면서도 성능과 확장성을 유지하려는 알고리즘으로, 주로 엔터프라이즈 블록체인 환경에서 사용됩니다.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Ethereum</title>
+      <link>https://findmytrueself.github.io/ko/blockchain/ethereum/</link>
+      <pubDate>Wed, 11 Sep 2024 17:30:13 +0900</pubDate>
+      <guid>https://findmytrueself.github.io/ko/blockchain/ethereum/</guid>
+      <description>&lt;h3 id=&#34;이더리움이란&#34;&gt;이더리움이란?&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;블록체인 기반 플랫폼: 스마트 계약과 탈중앙화 애플리케이션(dApps) 실행하는데 사용 된다.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;암호화폐 거래 이상의 다양한 기능(스마트계약 함수)을 제공한다&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;이더리움 네트워크는 수많은 노드로 구성되어 있으며, 각 노드는 이더리움 블록체인을 유지하고 검증하는 역할을 한다.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;&lt;strong&gt;이더리움 가상 머신 (EVM, Ethereum Virtual Machine)&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;이더리움 네트워크 내에서 스마트 계약을 실행하는 가상화된 컴퓨팅 환경&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;스마트 계약과 탈중앙화 애플리케이션의 핵심요소&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;가상화된 컴퓨터로, 이더리움 네트워크에서 분산적으로 실행&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;스마트 계약은 Solidity 언어로, 바이트코드로 컴파일되어, EVM에서 이 바이트코드를 읽어 실행한다.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>블록체인 지갑 Chrome Extension 개발기</title>
+      <link>https://findmytrueself.github.io/ko/blockchain/blockchainwalletchromeextension/</link>
+      <pubDate>Tue, 21 Mar 2023 13:30:13 +0900</pubDate>
+      <guid>https://findmytrueself.github.io/ko/blockchain/blockchainwalletchromeextension/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;9월, 개발 세팅 및 코드 분석&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;22년 9월, 기존 크롬에 배포 된 블록체인 지갑을 리뉴얼 하는 작업을 맡게 되었다.&lt;/p&gt;&#xA;&lt;p&gt;최초 이 일을 맡게 되었을 당시에 정말 막막했었다. Vue2로 개발되어있던 기존 프로젝트를 수정해야 했었고, 크롬은 Manifest라는 정책을 따르기 때문에 관련해서 또 공부를 했어야 했다.&lt;/p&gt;&#xA;&lt;p&gt;Manifest v3 이슈가 처음부터 있었고, 리액트로 개발을 주로 하였어서 처음부터 다시 짜는게 어떨까 생각하고, 시도를 해봤지만, 처음 구조부터 다시 짤 자신이 없었다.&lt;/p&gt;&#xA;&lt;p&gt;SPA 구조를 알았기 때문에, Vue2 문법과 구조를 쉽게 파악 할 수 있었지만, 크롬 개발은 기존 웹개발과 또 다른 영역 같았다.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

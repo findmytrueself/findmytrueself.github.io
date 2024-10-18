@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Web3 on Hun&#39;s Blog ✍️</title>
+    <link>https://findmytrueself.github.io/ko/tags/web3/</link>
+    <description>Recent content in Web3 on Hun&#39;s Blog ✍️</description>
+    <generator>Hugo</generator>
+    <language>ko</language>
+    <copyright>Im Hun</copyright>
+    <lastBuildDate>Tue, 21 Mar 2023 13:30:13 +0900</lastBuildDate>
+    <atom:link href="https://findmytrueself.github.io/ko/tags/web3/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>블록체인 지갑 Chrome Extension 개발기</title>
+      <link>https://findmytrueself.github.io/ko/blockchain/blockchainwalletchromeextension/</link>
+      <pubDate>Tue, 21 Mar 2023 13:30:13 +0900</pubDate>
+      <guid>https://findmytrueself.github.io/ko/blockchain/blockchainwalletchromeextension/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;9월, 개발 세팅 및 코드 분석&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;22년 9월, 기존 크롬에 배포 된 블록체인 지갑을 리뉴얼 하는 작업을 맡게 되었다.&lt;/p&gt;&#xA;&lt;p&gt;최초 이 일을 맡게 되었을 당시에 정말 막막했었다. Vue2로 개발되어있던 기존 프로젝트를 수정해야 했었고, 크롬은 Manifest라는 정책을 따르기 때문에 관련해서 또 공부를 했어야 했다.&lt;/p&gt;&#xA;&lt;p&gt;Manifest v3 이슈가 처음부터 있었고, 리액트로 개발을 주로 하였어서 처음부터 다시 짜는게 어떨까 생각하고, 시도를 해봤지만, 처음 구조부터 다시 짤 자신이 없었다.&lt;/p&gt;&#xA;&lt;p&gt;SPA 구조를 알았기 때문에, Vue2 문법과 구조를 쉽게 파악 할 수 있었지만, 크롬 개발은 기존 웹개발과 또 다른 영역 같았다.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

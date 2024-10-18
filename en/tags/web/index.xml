@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Web on Hun&#39;s Blog ✍️</title>
+    <link>https://findmytrueself.github.io/en/tags/web/</link>
+    <description>Recent content in Web on Hun&#39;s Blog ✍️</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>Im Hun</copyright>
+    <lastBuildDate>Thu, 05 May 2022 19:30:13 +0900</lastBuildDate>
+    <atom:link href="https://findmytrueself.github.io/en/tags/web/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Basic Flow of How Web Services Operate</title>
+      <link>https://findmytrueself.github.io/en/frontend/%EC%9B%B9%EC%84%9C%EB%B9%84%EC%8A%A4%EA%B0%80-%EB%8F%99%EC%9E%91%ED%95%98%EA%B2%8C-%ED%95%98%EB%8A%94-%EA%B8%B0%EB%B3%B8-%ED%94%8C%EB%A1%9C%EC%9A%B0/</link>
+      <pubDate>Thu, 05 May 2022 19:30:13 +0900</pubDate>
+      <guid>https://findmytrueself.github.io/en/frontend/%EC%9B%B9%EC%84%9C%EB%B9%84%EC%8A%A4%EA%B0%80-%EB%8F%99%EC%9E%91%ED%95%98%EA%B2%8C-%ED%95%98%EB%8A%94-%EA%B8%B0%EB%B3%B8-%ED%94%8C%EB%A1%9C%EC%9A%B0/</guid>
+      <description>&lt;p&gt;Components of a Web Browser&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Call Stack: A stack that holds functions to be executed sequentially in JavaScript.&lt;/li&gt;&#xA;&lt;li&gt;Web API: APIs provided by the web browser for performing &lt;code&gt;asynchronous tasks&lt;/code&gt;, such as AJAX and setTimeout.&lt;/li&gt;&#xA;&lt;li&gt;Task Queue: Also known as the Callback Queue, it stores callback functions passed from the Web API.&lt;/li&gt;&#xA;&lt;li&gt;Event Loop: Checks if the Call Stack is empty; if it is, it moves tasks from the Task Queue to the Call Stack.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;setTimeout&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(()&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;console&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;log&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Async Hi hun&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;));&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;console&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;log&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Hello! World&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;// Hello! World&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;// Async Hi hun&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Even though asynchronous code is executed first, we can see it printed later.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CSS on Hun&#39;s Blog ✍️</title>
+    <link>https://findmytrueself.github.io/en/tags/css/</link>
+    <description>Recent content in CSS on Hun&#39;s Blog ✍️</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>Im Hun</copyright>
+    <lastBuildDate>Tue, 27 Feb 2024 17:26:35 +0900</lastBuildDate>
+    <atom:link href="https://findmytrueself.github.io/en/tags/css/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>FlexBox</title>
+      <link>https://findmytrueself.github.io/en/frontend/flexbox/</link>
+      <pubDate>Tue, 27 Feb 2024 17:26:35 +0900</pubDate>
+      <guid>https://findmytrueself.github.io/en/frontend/flexbox/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;flex-basis&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Similar to &lt;code&gt;width&lt;/code&gt;, it allows you to specify the initial size of the box.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;flex-grow&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;You can fill the available space in the overall box by giving it a value of 1. The default value is 0.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;flex-shrink&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;It allows you to dynamically reduce the size of the box. The default value is 1.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;flex-wrap&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;If the boxes exceed the screen width, they can be wrapped to the next line.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

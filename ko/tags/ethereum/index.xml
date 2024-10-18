@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ethereum on Hun&#39;s Blog ✍️</title>
+    <link>https://findmytrueself.github.io/ko/tags/ethereum/</link>
+    <description>Recent content in Ethereum on Hun&#39;s Blog ✍️</description>
+    <generator>Hugo</generator>
+    <language>ko</language>
+    <copyright>Im Hun</copyright>
+    <lastBuildDate>Thu, 17 Oct 2024 17:30:13 +0900</lastBuildDate>
+    <atom:link href="https://findmytrueself.github.io/ko/tags/ethereum/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>일반 거래와 내부 거래(Internal Tx)</title>
+      <link>https://findmytrueself.github.io/ko/blockchain/internaltx/</link>
+      <pubDate>Thu, 17 Oct 2024 17:30:13 +0900</pubDate>
+      <guid>https://findmytrueself.github.io/ko/blockchain/internaltx/</guid>
+      <description>&lt;h2 id=&#34;일반-거래란-무엇인가요&#34;&gt;일반 거래란 무엇인가요?&lt;/h2&gt;&#xA;&lt;p&gt;이더리움 블록체인 에서의 일반적인 거래는 두 지갑 주소 간의 이더(ETH) 또는 토큰 의 간단한 전송을 말합니다.&lt;/p&gt;&#xA;&lt;p&gt;이러한 거래는 사용자가 시작하고 블록체인 에 직접 기록되므로 쉽게 추적할 수 있습니다.&lt;/p&gt;&#xA;&lt;h3 id=&#34;특징&#34;&gt;특징&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;사용자가 시작함: 일반적인 거래는 일반적으로 개인이나 단체가 한 주소에서 다른 주소로 ETH 또는 토큰을 보내면서 시작됩니다.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;블록체인에 기록됨: 모든 일반적인 거래는 이더리움 블록체인에 영구적으로 기록되어 투명하고 변경 불가능한 기록을 제공합니다.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;거래 수수료: 사용자는 거래를 처리하고 확인하기 위해 채굴자에게 가스 수수료를 지불해야 합니다. 수수료는 네트워크 혼잡과 거래의 복잡성에 따라 다릅니다.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Ethereum Private Blockchain with Besu</title>
+      <link>https://findmytrueself.github.io/ko/blockchain/besu/</link>
+      <pubDate>Thu, 12 Sep 2024 15:30:13 +0900</pubDate>
+      <guid>https://findmytrueself.github.io/ko/blockchain/besu/</guid>
+      <description>&lt;p&gt;기업에서 사용 될 이더리움 기반 프라이빗 블록체인 대표적으로 Hyperledger Besu에 대해 알아보자.&lt;/p&gt;&#xA;&lt;p&gt;먼저, 의문점이 있다. 블록체인이란 기본적인 컨셉은 퍼블릭한 투명성을 목표로 탈중앙화가 목표인데, 프라이빗이란 개념이 들어간다는건, 블록체인의 컨셉에 어긋나는게 아닌가?&lt;/p&gt;&#xA;&lt;p&gt;프라이빗 블록체인의 기본적인 컨셉은 기업이나 개인 환경에서 사용이다.&lt;/p&gt;&#xA;&lt;p&gt;한마디로, 구축자의 특성에 맞는 또 다른 이더리움 세계를 구축한다는 것이다.&lt;/p&gt;&#xA;&lt;p&gt;어떤 환경 내에서도 불변성, 투명성이 필요하다. 그래서 특정 환경일때, DB를 사용하지 않고, 이러한 장점이 있는 프라이빗 블록체인을 사용한다.&lt;/p&gt;&#xA;&lt;h2 id=&#34;hyperledger-besu&#34;&gt;Hyperledger Besu&lt;/h2&gt;&#xA;&lt;p&gt;Besu는 EVM을 지원하는 오픈소스이다. 자체 네트워크를 구성 할 수 있는 프라이빗 블록체인 및 이더리움과 연동가능한 퍼블릭 네트워크 구성까지 가능하다.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Ethereum</title>
+      <link>https://findmytrueself.github.io/ko/blockchain/ethereum/</link>
+      <pubDate>Wed, 11 Sep 2024 17:30:13 +0900</pubDate>
+      <guid>https://findmytrueself.github.io/ko/blockchain/ethereum/</guid>
+      <description>&lt;h3 id=&#34;이더리움이란&#34;&gt;이더리움이란?&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;블록체인 기반 플랫폼: 스마트 계약과 탈중앙화 애플리케이션(dApps) 실행하는데 사용 된다.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;암호화폐 거래 이상의 다양한 기능(스마트계약 함수)을 제공한다&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;이더리움 네트워크는 수많은 노드로 구성되어 있으며, 각 노드는 이더리움 블록체인을 유지하고 검증하는 역할을 한다.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;&lt;strong&gt;이더리움 가상 머신 (EVM, Ethereum Virtual Machine)&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;이더리움 네트워크 내에서 스마트 계약을 실행하는 가상화된 컴퓨팅 환경&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;스마트 계약과 탈중앙화 애플리케이션의 핵심요소&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;가상화된 컴퓨터로, 이더리움 네트워크에서 분산적으로 실행&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;스마트 계약은 Solidity 언어로, 바이트코드로 컴파일되어, EVM에서 이 바이트코드를 읽어 실행한다.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
