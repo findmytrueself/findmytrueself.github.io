@@ -2,6 +2,45 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://findmytrueself.github.io/en/diary/</loc>
+    <lastmod>2024-10-20T09:52:35+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://findmytrueself.github.io/ko/diary/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://findmytrueself.github.io/en/diary/"
+                />
+  </url><url>
+    <loc>https://findmytrueself.github.io/en/</loc>
+    <lastmod>2024-10-20T09:52:35+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://findmytrueself.github.io/ko/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://findmytrueself.github.io/en/"
+                />
+  </url><url>
+    <loc>https://findmytrueself.github.io/en/diary/%EC%98%81%EC%96%B4%EA%B3%B5%EB%B6%80/</loc>
+    <lastmod>2024-10-20T09:52:35+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://findmytrueself.github.io/ko/diary/%EC%98%81%EC%96%B4%EA%B3%B5%EB%B6%80/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://findmytrueself.github.io/en/diary/%EC%98%81%EC%96%B4%EA%B3%B5%EB%B6%80/"
+                />
+  </url><url>
     <loc>https://findmytrueself.github.io/en/tags/blockchain/</loc>
     <lastmod>2024-10-17T17:30:13+09:00</lastmod>
     <xhtml:link
@@ -39,19 +78,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://findmytrueself.github.io/en/tags/ethereum/"
-                />
-  </url><url>
-    <loc>https://findmytrueself.github.io/en/</loc>
-    <lastmod>2024-10-17T17:30:13+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ko"
-                href="https://findmytrueself.github.io/ko/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://findmytrueself.github.io/en/"
                 />
   </url><url>
     <loc>https://findmytrueself.github.io/en/blockchain/internaltx/</loc>
@@ -286,19 +312,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://findmytrueself.github.io/en/diary/%EB%AF%B8%EB%9E%98%EC%97%90-%EB%8C%80%ED%95%9C-%EA%B3%A0%EB%AF%BC/"
-                />
-  </url><url>
-    <loc>https://findmytrueself.github.io/en/diary/</loc>
-    <lastmod>2024-09-09T14:52:35+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ko"
-                href="https://findmytrueself.github.io/ko/diary/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://findmytrueself.github.io/en/diary/"
                 />
   </url><url>
     <loc>https://findmytrueself.github.io/en/algorithm/set/</loc>

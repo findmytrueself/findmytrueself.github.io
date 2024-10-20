@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>Im Hun</copyright>
-    <lastBuildDate>Thu, 17 Oct 2024 17:30:13 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 20 Oct 2024 09:52:35 +0900</lastBuildDate>
     <atom:link href="https://findmytrueself.github.io/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Studying English</title>
+      <link>https://findmytrueself.github.io/en/diary/%EC%98%81%EC%96%B4%EA%B3%B5%EB%B6%80/</link>
+      <pubDate>Sun, 20 Oct 2024 09:52:35 +0900</pubDate>
+      <guid>https://findmytrueself.github.io/en/diary/%EC%98%81%EC%96%B4%EA%B3%B5%EB%B6%80/</guid>
+      <description>&lt;p&gt;English has always been important, but living in Korea, it&amp;rsquo;s easy to forget its significance.&lt;/p&gt;&#xA;&lt;p&gt;Recently, I attended Ethcon and realized how many people were proficient in English, which motivated me.&lt;/p&gt;&#xA;&lt;p&gt;Simply telling myself, &amp;ldquo;I need to study English, I need to study English,&amp;rdquo; doesn’t mean much unless I actually take action.&lt;/p&gt;&#xA;&lt;p&gt;So now, I’m going to make it happen.&lt;/p&gt;&#xA;&lt;p&gt;Like studying algorithms, improving English skills also requires consistent effort.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Normal Transactions and Internal Transactions</title>
       <link>https://findmytrueself.github.io/en/blockchain/internaltx/</link>
@@ -164,7 +171,7 @@
       <description>&lt;p&gt;While using React, I mostly relied on the built-in hooks to handle most of my logic. However, I often pondered how to increase reusability for repetitive code.&lt;/p&gt;&#xA;&lt;p&gt;I believed that effectively using custom hooks would help me become a higher-level frontend developer.&lt;/p&gt;&#xA;&lt;p&gt;The most important principle of custom hooks is &amp;ldquo;reusability of logic, not values.&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;By specifying only the values related to state changes as parameters within the hook, we can define the logic based on side effects.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>2023 목표</title>
+      <title>2023 Goals</title>
       <link>https://findmytrueself.github.io/en/diary/2023goal/</link>
       <pubDate>Tue, 10 Jan 2023 13:41:35 +0900</pubDate>
       <guid>https://findmytrueself.github.io/en/diary/2023goal/</guid>
