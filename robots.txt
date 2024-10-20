@@ -1,1 +1,4 @@
 User-agent: *
+Disallow: /admin/
+Allow: /
+Sitemap: https://findmytrueself.github.io/sitemap.xml
