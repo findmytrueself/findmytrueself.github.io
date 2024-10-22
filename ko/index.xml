@@ -7,8 +7,22 @@
     <generator>Hugo</generator>
     <language>ko</language>
     <copyright>Im Hun</copyright>
-    <lastBuildDate>Thu, 17 Oct 2024 17:30:13 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 22 Oct 2024 10:00:04 +0900</lastBuildDate>
     <atom:link href="https://findmytrueself.github.io/ko/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>소수 체크</title>
+      <link>https://findmytrueself.github.io/ko/algorithm/%EC%86%8C%EC%88%98%EC%B2%B4%ED%81%AC/</link>
+      <pubDate>Tue, 22 Oct 2024 10:00:04 +0900</pubDate>
+      <guid>https://findmytrueself.github.io/ko/algorithm/%EC%86%8C%EC%88%98%EC%B2%B4%ED%81%AC/</guid>
+      <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kd&#34;&gt;function&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;isPrime&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;num&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;num&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;===&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;else&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;num&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;%&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;===&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;false&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;kd&#34;&gt;let&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;sqrt&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;parseInt&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;Math&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;sqrt&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;num&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;kd&#34;&gt;let&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;i&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;i&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;sqrt&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;i&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;i&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;num&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;%&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;i&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;===&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;false&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>영어 공부</title>
+      <link>https://findmytrueself.github.io/ko/diary/%EC%98%81%EC%96%B4%EA%B3%B5%EB%B6%80/</link>
+      <pubDate>Sun, 20 Oct 2024 09:52:35 +0900</pubDate>
+      <guid>https://findmytrueself.github.io/ko/diary/%EC%98%81%EC%96%B4%EA%B3%B5%EB%B6%80/</guid>
+      <description>&lt;p&gt;영어는 언제나 중요했지만, 한국에서 살다보면 그 중요성을 까먹을 때가 많다.&lt;/p&gt;&#xA;&lt;p&gt;나는 최근 ethcon에 가서 많은 사람들이 영어를 잘하는 것을 알게 되었고, 자극이 되었다.&lt;/p&gt;&#xA;&lt;p&gt;항상 마음속으로만 영어공부해야지 영어공부해야지 하는건 의미가 없다.&lt;/p&gt;&#xA;&lt;p&gt;그래서 이제 실천해보려고 한다.&lt;/p&gt;&#xA;&lt;p&gt;영어 또한 알고리즘 공부와 마찬가지로 꾸준하게 해야 실력이 는다.&lt;/p&gt;&#xA;&lt;p&gt;사실상 업무에서 가장 중요한건 중국어보다는 영어이기 때문에, 나는 무조건 해야 한다.&lt;/p&gt;&#xA;&lt;p&gt;다시 초심으로 돌아가서, 영문법과 스피킹 책을 다독하며 연습 할 생각이다.&lt;/p&gt;&#xA;&lt;p&gt;1단계, 김성태 영문법 다독&lt;/p&gt;&#xA;&lt;p&gt;2단계, 스피킹 매트릭스 3단계 다독 및 스피킹 연습 + ChatGPT 활용&lt;/p&gt;</description>
+    </item>
     <item>
       <title>일반 거래와 내부 거래(Internal Tx)</title>
       <link>https://findmytrueself.github.io/ko/blockchain/internaltx/</link>
@@ -28,7 +42,7 @@
       <link>https://findmytrueself.github.io/ko/posts/about-me/</link>
       <pubDate>Wed, 16 Oct 2024 10:53:35 +0900</pubDate>
       <guid>https://findmytrueself.github.io/ko/posts/about-me/</guid>
-      <description>&lt;h1 id=&#34;3년차-web3-프론트엔드-개발자---임훈&#34;&gt;3년차 Web3 프론트엔드 개발자 - 임훈&lt;/h1&gt;&#xA;&lt;h2 id=&#34;experience&#34;&gt;Experience&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Web3 Frontend Developer&lt;/strong&gt;&#xA;Aergo  |  2023.01 – present&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;아르고 블록체인에서 운영 중인 프론트엔드 오픈소스 기능 개발 및 유지 보수를 담당.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;code&gt;Aergo Connect 3.0&lt;/code&gt; 크롬익스텐션 개인지갑 개발 및 배포 ( 📎  &lt;a href=&#34;https://chromewebstore.google.com/detail/aergo-connect-30/mcijhnoalllmbiehiebonblllpimlnle&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;배포&lt;/a&gt;&#xA; | &lt;a href=&#34;https://github.com/aergoio/aergo-connect-3.0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;깃헙&lt;/a&gt;&#xA;  )&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Manifest2 → Manifest3 마이그레이션&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Multi Accounts 관리 및 Private Network 기능 추가&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Hardware Wallet Nano Ledger 기능 추가&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;#Typescript #Vuejs #Vuex #Chrome Extension #Manifest3 #IndexedDb #ServiceWorker&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;code&gt;Aergo Scan&lt;/code&gt; UI 개선 및 개발자 인터렉티브(Read &amp;amp; Write) 기능 개발 ( 📎  &lt;a href=&#34;https://mainnet.aergoscan.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;배포&lt;/a&gt;&#xA; | &lt;a href=&#34;https://github.com/aergoio/aergoscan_v2_frontend&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;깃헙&lt;/a&gt;&#xA;  )&lt;/p&gt;</description>
+      <description>&lt;h1 id=&#34;4년차-프론트엔드-개발자---임훈&#34;&gt;4년차 프론트엔드 개발자 - 임훈&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;저는 열정적으로 몰두하는 사람입니다.&lt;/li&gt;&#xA;&lt;li&gt;저는 끊임없는 호기심을 가진 사람입니다.&lt;/li&gt;&#xA;&lt;li&gt;저는 긍정적인 마인드를 지닌 사람입니다.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;experience&#34;&gt;Experience&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Web3 Frontend Developer&lt;/strong&gt;&#xA;Aergo  |  2023.01 – present&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;아르고 블록체인에서 운영 중인 프론트엔드 오픈소스 기능 개발 및 유지 보수를 담당.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;code&gt;Aergo Connect 3.0&lt;/code&gt; 크롬익스텐션 개인지갑 개발 및 배포 ( 📎  &lt;a href=&#34;https://chromewebstore.google.com/detail/aergo-connect-30/mcijhnoalllmbiehiebonblllpimlnle&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;배포&lt;/a&gt;&#xA; | &lt;a href=&#34;https://github.com/aergoio/aergo-connect-3.0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;깃헙&lt;/a&gt;&#xA;  )&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Manifest2 → Manifest3 마이그레이션&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Multi Accounts 관리 및 Private Network 기능 추가&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Hardware Wallet Nano Ledger 기능 추가&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;#Typescript #Vuejs #Vuex #Chrome Extension #Manifest3 #IndexedDb #ServiceWorker&lt;/p&gt;</description>
     </item>
     <item>
       <title>숫자 문자열과 영단어(LV1)</title>
@@ -218,76 +232,6 @@
       <pubDate>Thu, 05 May 2022 19:30:13 +0900</pubDate>
       <guid>https://findmytrueself.github.io/ko/frontend/%EC%9B%B9%EC%84%9C%EB%B9%84%EC%8A%A4%EA%B0%80-%EB%8F%99%EC%9E%91%ED%95%98%EA%B2%8C-%ED%95%98%EB%8A%94-%EA%B8%B0%EB%B3%B8-%ED%94%8C%EB%A1%9C%EC%9A%B0/</guid>
       <description>&lt;p&gt;웹브라우저의 구성 요소&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Call Stack : 자바스크립트에서 수행해야 할 함수들을 순차적으로 스택에 담아 처리&lt;/li&gt;&#xA;&lt;li&gt;Web API : 웹 브라우저에서 제공하는 API로 AJAX나 TimeOut등의 &lt;strong&gt;비동기 작업 수행&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;Task Queue : Callback Queue 라고도 하며, Web API에서 넘겨받은 Callback함수를 저장.&lt;/li&gt;&#xA;&lt;li&gt;Event Loop : Call Stack이 비워져있다면, Task Queue의 작업을 Call Stack으로 옮김.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;setTimeout&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(()&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;console&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;log&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Async Hi hun&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;));&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;console&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;log&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Hello! World&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;// Hello! World&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;// Async Hi hun&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;비동기 코드는 먼저 실행됨에도 불구하고, 나중에 출력되는걸 볼 수 있다.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://findmytrueself.github.io/manifest.json</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://findmytrueself.github.io/manifest.json</guid>
-      <description></description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://findmytrueself.github.io/ko/search/_index.de/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://findmytrueself.github.io/ko/search/_index.de/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://findmytrueself.github.io/ko/search/_index.es/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://findmytrueself.github.io/ko/search/_index.es/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://findmytrueself.github.io/ko/search/_index.fr/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://findmytrueself.github.io/ko/search/_index.fr/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://findmytrueself.github.io/ko/search/_index.hi/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://findmytrueself.github.io/ko/search/_index.hi/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://findmytrueself.github.io/ko/search/_index.jp/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://findmytrueself.github.io/ko/search/_index.jp/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://findmytrueself.github.io/ko/search/_index.nl/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://findmytrueself.github.io/ko/search/_index.nl/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://findmytrueself.github.io/ko/search/_index.pl/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://findmytrueself.github.io/ko/search/_index.pl/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://findmytrueself.github.io/ko/search/_index.ru/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://findmytrueself.github.io/ko/search/_index.ru/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://findmytrueself.github.io/ko/search/_index.zh-cn/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://findmytrueself.github.io/ko/search/_index.zh-cn/</guid>
-      <description></description>
     </item>
   </channel>
 </rss>

@@ -7,8 +7,22 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>Im Hun</copyright>
-    <lastBuildDate>Thu, 17 Oct 2024 17:30:13 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 22 Oct 2024 10:00:04 +0900</lastBuildDate>
     <atom:link href="https://findmytrueself.github.io/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Prime number check</title>
+      <link>https://findmytrueself.github.io/en/algorithm/%EC%86%8C%EC%88%98%EC%B2%B4%ED%81%AC/</link>
+      <pubDate>Tue, 22 Oct 2024 10:00:04 +0900</pubDate>
+      <guid>https://findmytrueself.github.io/en/algorithm/%EC%86%8C%EC%88%98%EC%B2%B4%ED%81%AC/</guid>
+      <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kd&#34;&gt;function&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;isPrime&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;num&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;num&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;===&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;else&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;num&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;%&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;===&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;false&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;kd&#34;&gt;let&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;sqrt&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;parseInt&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;Math&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;sqrt&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;num&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;kd&#34;&gt;let&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;i&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;i&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;sqrt&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;i&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;i&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;num&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;%&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;i&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;===&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;false&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>Studying English</title>
+      <link>https://findmytrueself.github.io/en/diary/%EC%98%81%EC%96%B4%EA%B3%B5%EB%B6%80/</link>
+      <pubDate>Sun, 20 Oct 2024 09:52:35 +0900</pubDate>
+      <guid>https://findmytrueself.github.io/en/diary/%EC%98%81%EC%96%B4%EA%B3%B5%EB%B6%80/</guid>
+      <description>&lt;p&gt;English has always been important, but living in Korea, it&amp;rsquo;s easy to forget its significance.&lt;/p&gt;&#xA;&lt;p&gt;Recently, I attended Ethcon and realized how many people were proficient in English, which motivated me.&lt;/p&gt;&#xA;&lt;p&gt;Simply telling myself, &amp;ldquo;I need to study English, I need to study English,&amp;rdquo; doesn’t mean much unless I actually take action.&lt;/p&gt;&#xA;&lt;p&gt;So now, I’m going to make it happen.&lt;/p&gt;&#xA;&lt;p&gt;Like studying algorithms, improving English skills also requires consistent effort.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Normal Transactions and Internal Transactions</title>
       <link>https://findmytrueself.github.io/en/blockchain/internaltx/</link>
@@ -28,7 +42,7 @@
       <link>https://findmytrueself.github.io/en/posts/about-me/</link>
       <pubDate>Wed, 16 Oct 2024 10:53:35 +0900</pubDate>
       <guid>https://findmytrueself.github.io/en/posts/about-me/</guid>
-      <description>&lt;h1 id=&#34;3rd-year-web3-frontend-developer---hun-im&#34;&gt;3rd Year Web3 Frontend Developer - Hun Im&lt;/h1&gt;&#xA;&lt;h2 id=&#34;experience&#34;&gt;Experience&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Web3 Frontend Developer&lt;/strong&gt;&#xA;Aergo  |  2023.01 – present&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Responsible for developing and maintaining frontend open-source functionalities for Aergo Blockchain.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Developed the &lt;code&gt;Aergo Connect 3.0&lt;/code&gt; Chrome extension personal wallet. ( 📎  &lt;a href=&#34;https://chromewebstore.google.com/detail/aergo-connect-30/mcijhnoalllmbiehiebonblllpimlnle&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;배포&lt;/a&gt;&#xA; | &lt;a href=&#34;https://github.com/aergoio/aergo-connect-3.0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;깃헙&lt;/a&gt;&#xA;  )&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Migrated from Manifest2 to Manifest3&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Added Multi Accounts management and Private Network functionality&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Integrated Hardware Wallet Nano Ledger support&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;#Typescript #Vuejs #Vuex #Chrome Extension #Manifest3 #IndexedDb #ServiceWorker&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Improved UI and developed contracts interactive (Read &amp;amp; Write) features for &lt;code&gt;Aergo Scan&lt;/code&gt;. ( 📎  &lt;a href=&#34;https://mainnet.aergoscan.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;배포&lt;/a&gt;&#xA; | &lt;a href=&#34;https://github.com/aergoio/aergoscan_v2_frontend&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;깃헙&lt;/a&gt;&#xA;  )&lt;/p&gt;</description>
+      <description>&lt;h1 id=&#34;4years-frontend-developer---hun-im&#34;&gt;4years Frontend Developer - Hun Im&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;I am a person who passionately immerses myself.&lt;/li&gt;&#xA;&lt;li&gt;I am a person with endless curiosity.&lt;/li&gt;&#xA;&lt;li&gt;I am a person with a positive mindset&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;experience&#34;&gt;Experience&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Web3 Frontend Developer&lt;/strong&gt;&#xA;Aergo  |  2023.01 – present&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Responsible for developing and maintaining frontend open-source functionalities for Aergo Blockchain.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Developed the &lt;code&gt;Aergo Connect 3.0&lt;/code&gt; Chrome extension personal wallet. ( 📎  &lt;a href=&#34;https://chromewebstore.google.com/detail/aergo-connect-30/mcijhnoalllmbiehiebonblllpimlnle&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;배포&lt;/a&gt;&#xA; | &lt;a href=&#34;https://github.com/aergoio/aergo-connect-3.0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;깃헙&lt;/a&gt;&#xA;  )&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Migrated from Manifest2 to Manifest3&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Added Multi Accounts management and Private Network functionality&lt;/p&gt;</description>
     </item>
     <item>
       <title>Number Strings and Words (Level 1)</title>
@@ -164,7 +178,7 @@
       <description>&lt;p&gt;While using React, I mostly relied on the built-in hooks to handle most of my logic. However, I often pondered how to increase reusability for repetitive code.&lt;/p&gt;&#xA;&lt;p&gt;I believed that effectively using custom hooks would help me become a higher-level frontend developer.&lt;/p&gt;&#xA;&lt;p&gt;The most important principle of custom hooks is &amp;ldquo;reusability of logic, not values.&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;By specifying only the values related to state changes as parameters within the hook, we can define the logic based on side effects.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>2023 목표</title>
+      <title>2023 Goals</title>
       <link>https://findmytrueself.github.io/en/diary/2023goal/</link>
       <pubDate>Tue, 10 Jan 2023 13:41:35 +0900</pubDate>
       <guid>https://findmytrueself.github.io/en/diary/2023goal/</guid>
@@ -218,6 +232,76 @@
       <pubDate>Thu, 05 May 2022 19:30:13 +0900</pubDate>
       <guid>https://findmytrueself.github.io/en/frontend/%EC%9B%B9%EC%84%9C%EB%B9%84%EC%8A%A4%EA%B0%80-%EB%8F%99%EC%9E%91%ED%95%98%EA%B2%8C-%ED%95%98%EB%8A%94-%EA%B8%B0%EB%B3%B8-%ED%94%8C%EB%A1%9C%EC%9A%B0/</guid>
       <description>&lt;p&gt;Components of a Web Browser&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Call Stack: A stack that holds functions to be executed sequentially in JavaScript.&lt;/li&gt;&#xA;&lt;li&gt;Web API: APIs provided by the web browser for performing &lt;code&gt;asynchronous tasks&lt;/code&gt;, such as AJAX and setTimeout.&lt;/li&gt;&#xA;&lt;li&gt;Task Queue: Also known as the Callback Queue, it stores callback functions passed from the Web API.&lt;/li&gt;&#xA;&lt;li&gt;Event Loop: Checks if the Call Stack is empty; if it is, it moves tasks from the Task Queue to the Call Stack.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;setTimeout&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(()&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;console&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;log&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Async Hi hun&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;));&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;console&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;log&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Hello! World&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;// Hello! World&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;// Async Hi hun&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Even though asynchronous code is executed first, we can see it printed later.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://findmytrueself.github.io/manifest.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://findmytrueself.github.io/manifest.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://findmytrueself.github.io/en/search/_index.de/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://findmytrueself.github.io/en/search/_index.de/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://findmytrueself.github.io/en/search/_index.es/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://findmytrueself.github.io/en/search/_index.es/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://findmytrueself.github.io/en/search/_index.fr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://findmytrueself.github.io/en/search/_index.fr/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://findmytrueself.github.io/en/search/_index.hi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://findmytrueself.github.io/en/search/_index.hi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://findmytrueself.github.io/en/search/_index.jp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://findmytrueself.github.io/en/search/_index.jp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://findmytrueself.github.io/en/search/_index.nl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://findmytrueself.github.io/en/search/_index.nl/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://findmytrueself.github.io/en/search/_index.pl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://findmytrueself.github.io/en/search/_index.pl/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://findmytrueself.github.io/en/search/_index.ru/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://findmytrueself.github.io/en/search/_index.ru/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://findmytrueself.github.io/en/search/_index.zh-cn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://findmytrueself.github.io/en/search/_index.zh-cn/</guid>
+      <description></description>
     </item>
   </channel>
 </rss>
