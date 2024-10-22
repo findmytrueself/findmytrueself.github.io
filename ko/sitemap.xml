@@ -2,6 +2,84 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://findmytrueself.github.io/ko/frontend/</loc>
+    <lastmod>2024-10-22T10:40:35+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://findmytrueself.github.io/en/frontend/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://findmytrueself.github.io/ko/frontend/"
+                />
+  </url><url>
+    <loc>https://findmytrueself.github.io/ko/</loc>
+    <lastmod>2024-10-22T10:40:35+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://findmytrueself.github.io/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://findmytrueself.github.io/ko/"
+                />
+  </url><url>
+    <loc>https://findmytrueself.github.io/ko/tags/javascript/</loc>
+    <lastmod>2024-10-22T10:40:35+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://findmytrueself.github.io/en/tags/javascript/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://findmytrueself.github.io/ko/tags/javascript/"
+                />
+  </url><url>
+    <loc>https://findmytrueself.github.io/ko/tags/react/</loc>
+    <lastmod>2024-10-22T10:40:35+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://findmytrueself.github.io/en/tags/react/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://findmytrueself.github.io/ko/tags/react/"
+                />
+  </url><url>
+    <loc>https://findmytrueself.github.io/ko/tags/</loc>
+    <lastmod>2024-10-22T10:40:35+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://findmytrueself.github.io/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://findmytrueself.github.io/ko/tags/"
+                />
+  </url><url>
+    <loc>https://findmytrueself.github.io/ko/frontend/%EB%A6%AC%EC%95%A1%ED%8A%B819/</loc>
+    <lastmod>2024-10-22T10:40:35+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://findmytrueself.github.io/en/frontend/%EB%A6%AC%EC%95%A1%ED%8A%B819/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://findmytrueself.github.io/ko/frontend/%EB%A6%AC%EC%95%A1%ED%8A%B819/"
+                />
+  </url><url>
     <loc>https://findmytrueself.github.io/ko/tags/algorithm/</loc>
     <lastmod>2024-10-22T10:00:04+09:00</lastmod>
     <xhtml:link
@@ -26,45 +104,6 @@
                 rel="alternate"
                 hreflang="ko"
                 href="https://findmytrueself.github.io/ko/algorithm/"
-                />
-  </url><url>
-    <loc>https://findmytrueself.github.io/ko/</loc>
-    <lastmod>2024-10-22T10:00:04+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://findmytrueself.github.io/en/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ko"
-                href="https://findmytrueself.github.io/ko/"
-                />
-  </url><url>
-    <loc>https://findmytrueself.github.io/ko/tags/javascript/</loc>
-    <lastmod>2024-10-22T10:00:04+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://findmytrueself.github.io/en/tags/javascript/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ko"
-                href="https://findmytrueself.github.io/ko/tags/javascript/"
-                />
-  </url><url>
-    <loc>https://findmytrueself.github.io/ko/tags/</loc>
-    <lastmod>2024-10-22T10:00:04+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://findmytrueself.github.io/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ko"
-                href="https://findmytrueself.github.io/ko/tags/"
                 />
   </url><url>
     <loc>https://findmytrueself.github.io/ko/algorithm/%EC%86%8C%EC%88%98%EC%B2%B4%ED%81%AC/</loc>
@@ -273,32 +312,6 @@
                 rel="alternate"
                 hreflang="ko"
                 href="https://findmytrueself.github.io/ko/blockchain/ethereum/"
-                />
-  </url><url>
-    <loc>https://findmytrueself.github.io/ko/frontend/</loc>
-    <lastmod>2024-09-11T13:53:35+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://findmytrueself.github.io/en/frontend/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ko"
-                href="https://findmytrueself.github.io/ko/frontend/"
-                />
-  </url><url>
-    <loc>https://findmytrueself.github.io/ko/tags/react/</loc>
-    <lastmod>2024-09-11T13:53:35+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://findmytrueself.github.io/en/tags/react/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ko"
-                href="https://findmytrueself.github.io/ko/tags/react/"
                 />
   </url><url>
     <loc>https://findmytrueself.github.io/ko/frontend/%EB%A6%AC%EC%95%A1%ED%8A%B8%EC%97%90%EC%84%9C%EC%9D%98-%ED%81%B4%EB%A1%9C%EC%A0%80/</loc>

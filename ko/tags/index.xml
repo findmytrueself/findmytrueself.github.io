@@ -7,20 +7,27 @@
     <generator>Hugo</generator>
     <language>ko</language>
     <copyright>Im Hun</copyright>
-    <lastBuildDate>Tue, 22 Oct 2024 10:00:04 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 22 Oct 2024 10:40:35 +0900</lastBuildDate>
     <atom:link href="https://findmytrueself.github.io/ko/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Javascript</title>
+      <link>https://findmytrueself.github.io/ko/tags/javascript/</link>
+      <pubDate>Tue, 22 Oct 2024 10:40:35 +0900</pubDate>
+      <guid>https://findmytrueself.github.io/ko/tags/javascript/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>React</title>
+      <link>https://findmytrueself.github.io/ko/tags/react/</link>
+      <pubDate>Tue, 22 Oct 2024 10:40:35 +0900</pubDate>
+      <guid>https://findmytrueself.github.io/ko/tags/react/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Algorithm</title>
       <link>https://findmytrueself.github.io/ko/tags/algorithm/</link>
       <pubDate>Tue, 22 Oct 2024 10:00:04 +0900</pubDate>
       <guid>https://findmytrueself.github.io/ko/tags/algorithm/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Javascript</title>
-      <link>https://findmytrueself.github.io/ko/tags/javascript/</link>
-      <pubDate>Tue, 22 Oct 2024 10:00:04 +0900</pubDate>
-      <guid>https://findmytrueself.github.io/ko/tags/javascript/</guid>
       <description></description>
     </item>
     <item>
@@ -35,13 +42,6 @@
       <link>https://findmytrueself.github.io/ko/tags/ethereum/</link>
       <pubDate>Thu, 17 Oct 2024 17:30:13 +0900</pubDate>
       <guid>https://findmytrueself.github.io/ko/tags/ethereum/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>React</title>
-      <link>https://findmytrueself.github.io/ko/tags/react/</link>
-      <pubDate>Wed, 11 Sep 2024 13:53:35 +0900</pubDate>
-      <guid>https://findmytrueself.github.io/ko/tags/react/</guid>
       <description></description>
     </item>
     <item>
