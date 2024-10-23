@@ -56,6 +56,16 @@
   </url><url>
     <loc>https://findmytrueself.github.io/ko/frontend/%EB%B6%80%EB%8F%99%EC%86%8C%EC%88%98%EC%A0%90/</loc>
     <lastmod>2024-10-23T13:53:35+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://findmytrueself.github.io/en/frontend/%EB%B6%80%EB%8F%99%EC%86%8C%EC%88%98%EC%A0%90/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://findmytrueself.github.io/ko/frontend/%EB%B6%80%EB%8F%99%EC%86%8C%EC%88%98%EC%A0%90/"
+                />
   </url><url>
     <loc>https://findmytrueself.github.io/ko/tags/react/</loc>
     <lastmod>2024-10-22T10:40:35+09:00</lastmod>

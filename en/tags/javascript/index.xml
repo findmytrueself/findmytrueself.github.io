@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>Im Hun</copyright>
-    <lastBuildDate>Tue, 22 Oct 2024 10:40:35 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 23 Oct 2024 13:53:35 +0900</lastBuildDate>
     <atom:link href="https://findmytrueself.github.io/en/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Floating-Point Numbers</title>
+      <link>https://findmytrueself.github.io/en/frontend/%EB%B6%80%EB%8F%99%EC%86%8C%EC%88%98%EC%A0%90/</link>
+      <pubDate>Wed, 23 Oct 2024 13:53:35 +0900</pubDate>
+      <guid>https://findmytrueself.github.io/en/frontend/%EB%B6%80%EB%8F%99%EC%86%8C%EC%88%98%EC%A0%90/</guid>
+      <description>&lt;p&gt;In JavaScript, floating-point numbers are represented using the 64-bit floating-point format defined by the IEEE 754 standard.&lt;/p&gt;&#xA;&lt;p&gt;Some numbers cannot be represented exactly, which can lead to errors.&lt;/p&gt;&#xA;&lt;h3 id=&#34;issues-with-floating-point-numbers&#34;&gt;Issues with Floating-Point Numbers&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;strong&gt;Limitations of Binary Representation&lt;/strong&gt;: Some decimal fractions cannot be represented exactly in binary form. For example, numbers like 0.1 or 0.2 become repeating decimals when converted to binary floating-point and are stored as approximations.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;console&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;log&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mf&#34;&gt;0.1&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;0.2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// 예상: 0.3, 실제: 0.30000000000000004&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol start=&#34;2&#34;&gt;&#xA;&lt;li&gt;&lt;strong&gt;Loss of Precision&lt;/strong&gt;: Small errors during calculations can accumulate into significant errors. This is particularly problematic in iterative calculations or financial computations.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;solutions&#34;&gt;Solutions&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Using the &lt;code&gt;toFixed()&lt;/code&gt; Method&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;The &lt;code&gt;toFixed()&lt;/code&gt; method rounds a number to a specified number of decimal places and returns it as a string.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Summary of React Version 19</title>
       <link>https://findmytrueself.github.io/en/frontend/%EB%A6%AC%EC%95%A1%ED%8A%B819/</link>
