@@ -10,7 +10,7 @@
 </i><span class=ml-0>Javascript</span></a></li><li><a href=/ko/tags/react/ class="flex flex-row text-sm mr-2 py-1"><i class="h-5 w-5 flex-none"><svg class="icon icon-tabler icon-tabler-hash" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 9h14"/><path d="M5 15h14"/><path d="M11 4 7 20"/><path d="M17 4l-4 16"/></svg>
 </i><span class=ml-0>React</span></a></li></ul><div class="flex flex-col gap-y-1 md:flex-row md:gap-y-0 md:gap-x-4 text-slate-500 dark:text-slate-300"><div class="flex flex-row text-base gap-x-1"><i class="h-6 w-6 flex-none"><svg class="icon icon-tabler icon-tabler-calendar" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 7a2 2 0 012-2h12a2 2 0 012 2v12a2 2 0 01-2 2H6a2 2 0 01-2-2V7z"/><path d="M16 3v4"/><path d="M8 3v4"/><path d="M4 11h16"/><path d="M11 15h1"/><path d="M12 15v3"/></svg>
 </i><time datetime=2024-10-22T10:40:35+09:00>2024-10-22</time></div><div class="flex flex-row text-base gap-x-1"><i class="h-6 w-6 flex-none"><svg class="icon icon-tabler icon-tabler-hourglass-high" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M6.5 7h11"/><path d="M6 20v-2a6 6 0 1112 0v2a1 1 0 01-1 1H7a1 1 0 01-1-1z"/><path d="M6 4v2a6 6 0 1012 0V4a1 1 0 00-1-1H7A1 1 0 006 4z"/></svg>
-</i><span>읽는 시간 4분</span></div></div><section class="prose prose-slate dark:prose-invert w-full max-w-4xl lg:max-w-5xl mt-6"><h2>목차</h2><aside><nav id=TableOfContents><ul><li><a href=#주요-새로운-기능>주요 새로운 기능</a></li><li><a href=#개선-사항>개선 사항</a></li></ul></nav></aside></section><article class="mt-6 w-full max-w-4xl lg:max-w-5xl prose prose-slate dark:prose-invert prose-quoteless post-content"><h2 id=주요-새로운-기능>주요 새로운 기능</h2><ol><li>Actions</li></ol><ul><li>비동기 함수 지원 강화: <code>useTransition</code>을 사용하여 비동기 함수에서 자동으로 pending 상태, 오류 처리, 낙관적 업데이트를 관리할 수 있습니다.</li></ul><div class=highlight><pre tabindex=0 class=chroma><code class=language-jsx data-lang=jsx><span class=line><span class=cl><span class=kr>const</span> <span class=p>[</span><span class=nx>isPending</span><span class=p>,</span> <span class=nx>startTransition</span><span class=p>]</span> <span class=o>=</span> <span class=nx>useTransition</span><span class=p>()</span>
+</i><span>읽는 시간 3분</span></div></div><section class="prose prose-slate dark:prose-invert w-full max-w-4xl lg:max-w-5xl mt-6"><h2>목차</h2><aside><nav id=TableOfContents><ul><li><a href=#주요-새로운-기능>주요 새로운 기능</a></li><li><a href=#개선-사항>개선 사항</a></li></ul></nav></aside></section><article class="mt-6 w-full max-w-4xl lg:max-w-5xl prose prose-slate dark:prose-invert prose-quoteless post-content"><h2 id=주요-새로운-기능>주요 새로운 기능</h2><ol><li>Actions</li></ol><ul><li>비동기 함수 지원 강화: <code>useTransition</code>을 사용하여 비동기 함수에서 자동으로 pending 상태, 오류 처리, 낙관적 업데이트를 관리할 수 있습니다.</li></ul><div class=highlight><pre tabindex=0 class=chroma><code class=language-jsx data-lang=jsx><span class=line><span class=cl><span class=kr>const</span> <span class=p>[</span><span class=nx>isPending</span><span class=p>,</span> <span class=nx>startTransition</span><span class=p>]</span> <span class=o>=</span> <span class=nx>useTransition</span><span class=p>()</span>
 </span></span><span class=line><span class=cl>
 </span></span><span class=line><span class=cl><span class=kr>const</span> <span class=nx>handleSubmit</span> <span class=o>=</span> <span class=p>()</span> <span class=p>=&gt;</span> <span class=p>{</span>
 </span></span><span class=line><span class=cl>  <span class=nx>startTransition</span><span class=p>(</span><span class=kr>async</span> <span class=p>()</span> <span class=p>=&gt;</span> <span class=p>{</span>
@@ -64,151 +64,34 @@
 </span></span><span class=line><span class=cl>  <span class=p>}}</span>
 </span></span><span class=line><span class=cl><span class=p>/&gt;</span>
 </span></span></code></pre></div><ol start=5><li>useDeferredValue의 초기 값 지원</li></ol><ul><li>초기 값 설정: useDeferredValue에 initialValue 옵션을 추가하여 초기 렌더링 시 사용할 값을 지정할 수 있습니다.</li></ul><div class=highlight><pre tabindex=0 class=chroma><code class=language-jsx data-lang=jsx><span class=line><span class=cl><span class=kr>const</span> <span class=nx>value</span> <span class=o>=</span> <span class=nx>useDeferredValue</span><span class=p>(</span><span class=nx>deferredValue</span><span class=p>,</span> <span class=s1>&#39;&#39;</span><span class=p>)</span>
-</span></span></code></pre></div><ol start=6><li>문서 메타데이터 지원</li></ol><ul><li><title>, <meta>, <link> 태그의 자연스러운 사용: 컴포넌트 내에서 문서의 메타데이터를 직접 정의하고, React가 이를 <head>로 자동 호이스팅합니다.
-</li>
-</ul>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-jsx" data-lang="jsx"><span class="line"><span class="cl"><span class="kd">function</span> <span class="nx">BlogPost</span><span class="p">({</span> <span class="nx">post</span> <span class="p">})</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl"> <span class="k">return</span> <span class="p">(</span>
-</span></span><span class="line"><span class="cl"> <span class="p">&lt;</span><span class="nt">article</span><span class="p">></span>
-</span></span><span class="line"><span class="cl"> <span class="p">&lt;</span><span class="nt">h1</span><span class="p">>{</span><span class="nx">post</span><span class="p">.</span><span class="nx">title</span><span class="p">}&lt;/</span><span class="nt">h1</span><span class="p">></span>
-</span></span><span class="line"><span class="cl"> <span class="p">&lt;</span><span class="nt">title</span><span class="p">>{</span><span class="nx">post</span><span class="p">.</span><span class="nx">title</span><span class="p">}&lt;/</span><span class="nt">title</span><span class="p">></span>
-</span></span><span class="line"><span class="cl"> <span class="p">&lt;</span><span class="nt">meta</span> <span class="na">name</span><span class="o">=</span><span class="s">"author"</span> <span class="na">content</span><span class="o">=</span><span class="s">"Author Name"</span> <span class="p">/></span>
-</span></span><span class="line"><span class="cl"> <span class="p">&lt;/</span><span class="nt">article</span><span class="p">></span>
-</span></span><span class="line"><span class="cl"> <span class="p">)</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></div><ol start="7">
-<li>스타일시트 지원 개선</li>
-</ol>
-<ul>
-<li>스타일시트의 우선순위 관리: <link> 태그에 precedence 속성을 사용하여 스타일시트의 삽입 순서를 제어할 수 있습니다.</li>
-</ul>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-jsx" data-lang="jsx"><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">link</span> <span class="na">rel</span><span class="o">=</span><span class="s">"stylesheet"</span> <span class="na">href</span><span class="o">=</span><span class="s">"style.css"</span> <span class="na">precedence</span><span class="o">=</span><span class="s">"high"</span> <span class="p">/></span>
-</span></span></code></pre></div><ol start="8">
-<li>비동기 스크립트 지원</li>
-</ol>
-<ul>
-<li>중복 제거 및 로드 순서 관리: 비동기 스크립트를 컴포넌트 내에서 선언하고, React가 로드 순서와 중복을 관리합니다.</li>
-</ul>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-jsx" data-lang="jsx"><span class="line"><span class="cl"><span class="kd">function</span> <span class="nx">MyComponent</span><span class="p">()</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl"> <span class="k">return</span> <span class="p">(</span>
-</span></span><span class="line"><span class="cl"> <span class="p">&lt;</span><span class="nt">div</span><span class="p">></span>
-</span></span><span class="line"><span class="cl"> <span class="p">&lt;</span><span class="nt">script</span> <span class="na">async</span> <span class="na">src</span><span class="o">=</span><span class="s">"script.js"</span> <span class="p">/></span>
-</span></span><span class="line"><span class="cl"> <span class="nx">Content</span>
-</span></span><span class="line"><span class="cl"> <span class="p">&lt;/</span><span class="nt">div</span><span class="p">></span>
-</span></span><span class="line"><span class="cl"> <span class="p">)</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></div><ol start="9">
-<li>리소스 프리로딩 지원</li>
-</ol>
-<ul>
-<li>성능 최적화: preload, prefetchDNS, preconnect 등의 API를 제공하여 브라우저 리소스 로딩을 최적화합니다.</li>
-</ul>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-jsx" data-lang="jsx"><span class="line"><span class="cl"><span class="kr">import</span> <span class="p">{</span> <span class="nx">prefetchDNS</span><span class="p">,</span> <span class="nx">preconnect</span><span class="p">,</span> <span class="nx">preload</span><span class="p">,</span> <span class="nx">preinit</span> <span class="p">}</span> <span class="nx">from</span> <span class="s1">'react-dom'</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="kd">function</span> <span class="nx">MyComponent</span><span class="p">()</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl"> <span class="nx">preinit</span><span class="p">(</span><span class="s1">'https://example.com/script.js'</span><span class="p">,</span> <span class="p">{</span> <span class="nx">as</span><span class="o">:</span> <span class="s1">'script'</span> <span class="p">})</span>
-</span></span><span class="line"><span class="cl"> <span class="nx">preload</span><span class="p">(</span><span class="s1">'https://example.com/font.woff'</span><span class="p">,</span> <span class="p">{</span> <span class="nx">as</span><span class="o">:</span> <span class="s1">'font'</span> <span class="p">})</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></div><ol start="10">
-<li>서드파티 스크립트 및 확장 프로그램과의 호환성 향상</li>
-</ol>
-<ul>
-<li>Hydration 개선: 예기치 않은 태그나 요소로 인한 Hydration 오류를 방지하고, 서드파티 스크립트나 브라우저 확장 프로그램과의 충돌을 최소화합니다.</li>
-</ul>
-<ol start="11">
-<li>오류 보고 개선</li>
-</ol>
-<ul>
-<li>중복 제거 및 상세 정보 제공: 오류 메시지의 중복을 제거하고, <code>onCaughtError</code>, <code>onUncaughtError</code> 등의 새로운 루트 옵션을 추가하여 오류 처리를 유연하게 합니다.</li>
-</ul>
-<p>g12. 커스텀 엘리먼트 지원</p>
-<ul>
-<li>속성 및 프로퍼티 관리 개선: 커스텀 엘리먼트에 대한 속성과 프로퍼티 처리가 개선되어, 클라이언트 및 SSR 환경에서 일관성 있게 동작합니다.</li>
-</ul>
-</article>
-<div id="disqus_thread"></div>
-<script>
-window.disqus_config = function () {
-};
-(function() {
-if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
-document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
-return;
-}
-var d = document, s = d.createElement('script'); s.async = true;
-s.src = '//' + "https-findmytrueself-github-io" + '.disqus.com/embed.js';
-s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-</div>
-</div>
-</div>
-</main>
-<footer class="flex flex-none justify-center">
-<section class="flex flex-col md:flex-row mx-2 md:mx-0 gap-2 md:gap-0 justify-between w-full max-w-4xl lg:max-w-5xl py-6 text-slate-500 dark:text-slate-300">
-<div class="flex flex-row">
-<a href="https://github.com/findmytrueself" target="_blank" title="GitHub" class="flex flex-row mr-2">
-<span class="hidden">GitHub</span>
-<i class="h-6 w-6 flex-none"> <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-<path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5"></path>
-</svg>
-</i>
-</a>
-<a href="https://instagram.com/instant.coffee_" target="_blank" title="Instagram" class="flex flex-row mr-2">
-<span class="hidden">Instagram</span>
-<i class="h-6 w-6 flex-none"> <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-<path d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z"></path>
-<path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"></path>
-<path d="M16.5 7.5l0 .01"></path>
-</svg>
-</i>
-</a>
-<a href="https://www.linkedin.com/in/findmytrueself" target="_blank" title="LinkedIn" class="flex flex-row mr-2">
-<span class="hidden">LinkedIn</span>
-<i class="h-6 w-6 flex-none"> <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-linkedin" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-<path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z"></path>
-<path d="M8 11l0 5"></path>
-<path d="M8 8l0 .01"></path>
-<path d="M12 16l0 -5"></path>
-<path d="M16 16v-3a2 2 0 0 0 -4 0"></path>
-</svg>
-</i>
-</a>
-</div>
-<div class="grow"></div>
-<div class="flex flex-row">
-<i class="h-6 w-6 flex-none"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-<path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"></path>
-<path d="M14 9.75a3.016 3.016 0 0 0 -4.163 .173a2.993 2.993 0 0 0 0 4.154a3.016 3.016 0 0 0 4.163 .173"></path>
-</svg>
-</i> 2024 Im Hun
-</div>
-</section>
-</footer>
-<script src="/main.min.65ca5b0808abf278fcec5d424701ebf0b4bc46a737129cd5e57fdb739f463e79.js"></script>
-<div class="hidden top-1 right-1" id="code-copy">
-<i class="h-6 w-6 block">
-<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copy" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-<path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-<path d="M7 7m0 2.667a2.667 2.667 0 0 1 2.667 -2.667h8.666a2.667 2.667 0 0 1 2.667 2.667v8.666a2.667 2.667 0 0 1 -2.667 2.667h-8.666a2.667 2.667 0 0 1 -2.667 -2.667z" />
-<path d="M4.012 16.737a2.005 2.005 0 0 1 -1.012 -1.737v-10c0 -1.1 .9 -2 2 -2h10c.75 0 1.158 .385 1.5 1" />
-</svg>
-</i>
-</div>
-<div class="hidden top-1 right-1" id="code-copy-done">
-<i class="h-6 w-6 block">
-<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-check" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-<path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-<path d="M5 12l5 5l10 -10" />
-</svg>
-</i>
-</div><script src="/code-copy.min.e7b2a74adef1ed474c335c8bd5e7832b2316b8842b0f9184d65286c5bd64f51a.js"></script>
-</body>
-</html>
+</span></span></code></pre></div><ol start=6><li>문서 메타데이터 지원</li></ol><ul><li><code>&lt;title>, &lt;meta>, &lt;link></code>태그의 자연스러운 사용: 컴포넌트 내에서 문서의 메타데이터를 직접 정의하고, React가 이를 <code>&lt;head></code>로 자동 호이스팅합니다.</li></ul><div class=highlight><pre tabindex=0 class=chroma><code class=language-jsx data-lang=jsx><span class=line><span class=cl><span class=kd>function</span> <span class=nx>BlogPost</span><span class=p>({</span> <span class=nx>post</span> <span class=p>})</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>  <span class=k>return</span> <span class=p>(</span>
+</span></span><span class=line><span class=cl>    <span class=p>&lt;</span><span class=nt>article</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl>      <span class=p>&lt;</span><span class=nt>h1</span><span class=p>&gt;{</span><span class=nx>post</span><span class=p>.</span><span class=nx>title</span><span class=p>}&lt;/</span><span class=nt>h1</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl>      <span class=p>&lt;</span><span class=nt>title</span><span class=p>&gt;{</span><span class=nx>post</span><span class=p>.</span><span class=nx>title</span><span class=p>}&lt;/</span><span class=nt>title</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl>      <span class=p>&lt;</span><span class=nt>meta</span> <span class=na>name</span><span class=o>=</span><span class=s>&#34;author&#34;</span> <span class=na>content</span><span class=o>=</span><span class=s>&#34;Author Name&#34;</span> <span class=p>/&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=p>&lt;/</span><span class=nt>article</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl>  <span class=p>)</span>
+</span></span><span class=line><span class=cl><span class=p>}</span>
+</span></span></code></pre></div><ol start=7><li>스타일시트 지원 개선</li></ol><ul><li>스타일시트의 우선순위 관리: <link>태그에 precedence 속성을 사용하여 스타일시트의 삽입 순서를 제어할 수 있습니다.</li></ul><div class=highlight><pre tabindex=0 class=chroma><code class=language-jsx data-lang=jsx><span class=line><span class=cl><span class=p>&lt;</span><span class=nt>link</span> <span class=na>rel</span><span class=o>=</span><span class=s>&#34;stylesheet&#34;</span> <span class=na>href</span><span class=o>=</span><span class=s>&#34;style.css&#34;</span> <span class=na>precedence</span><span class=o>=</span><span class=s>&#34;high&#34;</span> <span class=p>/&gt;</span>
+</span></span></code></pre></div><ol start=8><li>비동기 스크립트 지원</li></ol><ul><li>중복 제거 및 로드 순서 관리: 비동기 스크립트를 컴포넌트 내에서 선언하고, React가 로드 순서와 중복을 관리합니다.</li></ul><div class=highlight><pre tabindex=0 class=chroma><code class=language-jsx data-lang=jsx><span class=line><span class=cl><span class=kd>function</span> <span class=nx>MyComponent</span><span class=p>()</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>  <span class=k>return</span> <span class=p>(</span>
+</span></span><span class=line><span class=cl>    <span class=p>&lt;</span><span class=nt>div</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl>      <span class=p>&lt;</span><span class=nt>script</span> <span class=na>async</span> <span class=na>src</span><span class=o>=</span><span class=s>&#34;script.js&#34;</span> <span class=p>/&gt;</span>
+</span></span><span class=line><span class=cl>      <span class=nx>Content</span>
+</span></span><span class=line><span class=cl>    <span class=p>&lt;/</span><span class=nt>div</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl>  <span class=p>)</span>
+</span></span><span class=line><span class=cl><span class=p>}</span>
+</span></span></code></pre></div><ol start=9><li>리소스 프리로딩 지원</li></ol><ul><li>성능 최적화: preload, prefetchDNS, preconnect 등의 API를 제공하여 브라우저 리소스 로딩을 최적화합니다.</li></ul><div class=highlight><pre tabindex=0 class=chroma><code class=language-jsx data-lang=jsx><span class=line><span class=cl><span class=kr>import</span> <span class=p>{</span> <span class=nx>prefetchDNS</span><span class=p>,</span> <span class=nx>preconnect</span><span class=p>,</span> <span class=nx>preload</span><span class=p>,</span> <span class=nx>preinit</span> <span class=p>}</span> <span class=nx>from</span> <span class=s1>&#39;react-dom&#39;</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=kd>function</span> <span class=nx>MyComponent</span><span class=p>()</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>  <span class=nx>preinit</span><span class=p>(</span><span class=s1>&#39;https://example.com/script.js&#39;</span><span class=p>,</span> <span class=p>{</span> <span class=nx>as</span><span class=o>:</span> <span class=s1>&#39;script&#39;</span> <span class=p>})</span>
+</span></span><span class=line><span class=cl>  <span class=nx>preload</span><span class=p>(</span><span class=s1>&#39;https://example.com/font.woff&#39;</span><span class=p>,</span> <span class=p>{</span> <span class=nx>as</span><span class=o>:</span> <span class=s1>&#39;font&#39;</span> <span class=p>})</span>
+</span></span><span class=line><span class=cl><span class=p>}</span>
+</span></span></code></pre></div><ol start=10><li>서드파티 스크립트 및 확장 프로그램과의 호환성 향상</li></ol><ul><li>Hydration 개선: 예기치 않은 태그나 요소로 인한 Hydration 오류를 방지하고, 서드파티 스크립트나 브라우저 확장 프로그램과의 충돌을 최소화합니다.</li></ul><ol start=11><li>오류 보고 개선</li></ol><ul><li>중복 제거 및 상세 정보 제공: 오류 메시지의 중복을 제거하고, <code>onCaughtError</code>, <code>onUncaughtError</code> 등의 새로운 루트 옵션을 추가하여 오류 처리를 유연하게 합니다.</li></ul><ol start=12><li>커스텀 엘리먼트 지원</li></ol><ul><li>속성 및 프로퍼티 관리 개선: 커스텀 엘리먼트에 대한 속성과 프로퍼티 처리가 개선되어, 클라이언트 및 SSR 환경에서 일관성 있게 동작합니다.</li></ul></article><div id=disqus_thread></div><script>window.disqus_config=function(){},function(){if(["localhost","127.0.0.1"].indexOf(window.location.hostname)!=-1){document.getElementById("disqus_thread").innerHTML="Disqus comments not available by default when the website is previewed locally.";return}var t=document,e=t.createElement("script");e.async=!0,e.src="//https-findmytrueself-github-io.disqus.com/embed.js",e.setAttribute("data-timestamp",+new Date),(t.head||t.body).appendChild(e)}()</script><noscript>Please enable JavaScript to view the <a href=https://disqus.com/?ref_noscript>comments powered by Disqus.</a></noscript><a href=https://disqus.com class=dsq-brlink>comments powered by <span class=logo-disqus>Disqus</span></a></div></div></div></main><footer class="flex flex-none justify-center"><section class="flex flex-col md:flex-row mx-2 md:mx-0 gap-2 md:gap-0 justify-between w-full max-w-4xl lg:max-w-5xl py-6 text-slate-500 dark:text-slate-300"><div class="flex flex-row"><a href=https://github.com/findmytrueself target=_blank title=GitHub class="flex flex-row mr-2"><span class=hidden>GitHub</span>
+<i class="h-6 w-6 flex-none"><svg class="icon icon-tabler icon-tabler-brand-github" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6.0 00-1.3-3.2 4.2 4.2.0 00-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3.0 00-6.2.0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2.0 00-.1 3.2A4.6 4.6.0 004 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21"/></svg>
+</i></a><a href=https://instagram.com/instant.coffee_ target=_blank title=Instagram class="flex flex-row mr-2"><span class=hidden>Instagram</span>
+<i class="h-6 w-6 flex-none"><svg class="icon icon-tabler icon-tabler-brand-instagram" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 4m0 4a4 4 0 014-4h8a4 4 0 014 4v8a4 4 0 01-4 4H8a4 4 0 01-4-4z"/><path d="M12 12m-3 0a3 3 0 106 0 3 3 0 10-6 0"/><path d="M16.5 7.5v.01"/></svg>
+</i></a><a href=https://www.linkedin.com/in/findmytrueself target=_blank title=LinkedIn class="flex flex-row mr-2"><span class=hidden>LinkedIn</span>
+<i class="h-6 w-6 flex-none"><svg class="icon icon-tabler icon-tabler-brand-linkedin" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 4m0 2a2 2 0 012-2h12a2 2 0 012 2v12a2 2 0 01-2 2H6a2 2 0 01-2-2z"/><path d="M8 11v5"/><path d="M8 8v.01"/><path d="M12 16v-5"/><path d="M16 16v-3a2 2 0 00-4 0"/></svg></i></a></div><div class=grow></div><div class="flex flex-row"><i class="h-6 w-6 flex-none"><svg class="icon icon-tabler icon-tabler-copyright" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 12m-9 0a9 9 0 1018 0A9 9 0 103 12"/><path d="M14 9.75a3.016 3.016.0 00-4.163.173 2.993 2.993.0 000 4.154A3.016 3.016.0 0014 14.25"/></svg>
+</i>2024 Im Hun</div></section></footer><script src=/main.min.65ca5b0808abf278fcec5d424701ebf0b4bc46a737129cd5e57fdb739f463e79.js></script><div class="hidden top-1 right-1" id=code-copy><i class="h-6 w-6 block"><svg class="icon icon-tabler icon-tabler-copy" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M7 7m0 2.667A2.667 2.667.0 019.667 7h8.666A2.667 2.667.0 0121 9.667v8.666A2.667 2.667.0 0118.333 21H9.667A2.667 2.667.0 017 18.333z"/><path d="M4.012 16.737A2.005 2.005.0 013 15V5c0-1.1.9-2 2-2h10c.75.0 1.158.385 1.5 1"/></svg></i></div><div class="hidden top-1 right-1" id=code-copy-done><i class="h-6 w-6 block"><svg class="icon icon-tabler icon-tabler-check" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 12l5 5L20 7"/></svg></i></div><script src=/code-copy.min.e7b2a74adef1ed474c335c8bd5e7832b2316b8842b0f9184d65286c5bd64f51a.js></script></body></html>
