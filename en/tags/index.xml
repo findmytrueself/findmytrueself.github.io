@@ -7,20 +7,27 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>Im Hun</copyright>
-    <lastBuildDate>Wed, 23 Oct 2024 13:53:35 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 01 Nov 2024 14:00:04 +0900</lastBuildDate>
     <atom:link href="https://findmytrueself.github.io/en/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>React</title>
+      <link>https://findmytrueself.github.io/en/tags/react/</link>
+      <pubDate>Fri, 01 Nov 2024 14:00:04 +0900</pubDate>
+      <guid>https://findmytrueself.github.io/en/tags/react/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Javascript</title>
       <link>https://findmytrueself.github.io/en/tags/javascript/</link>
-      <pubDate>Wed, 23 Oct 2024 13:53:35 +0900</pubDate>
+      <pubDate>Wed, 30 Oct 2024 14:26:25 +0900</pubDate>
       <guid>https://findmytrueself.github.io/en/tags/javascript/</guid>
       <description></description>
     </item>
     <item>
-      <title>React</title>
-      <link>https://findmytrueself.github.io/en/tags/react/</link>
-      <pubDate>Tue, 22 Oct 2024 10:40:35 +0900</pubDate>
-      <guid>https://findmytrueself.github.io/en/tags/react/</guid>
+      <title>Node.js</title>
+      <link>https://findmytrueself.github.io/en/tags/node.js/</link>
+      <pubDate>Wed, 30 Oct 2024 14:26:25 +0900</pubDate>
+      <guid>https://findmytrueself.github.io/en/tags/node.js/</guid>
       <description></description>
     </item>
     <item>

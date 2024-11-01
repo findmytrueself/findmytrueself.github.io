@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Node.js on Hun&#39;s Blog ✍️</title>
+    <link>https://findmytrueself.github.io/en/tags/node.js/</link>
+    <description>Recent content in Node.js on Hun&#39;s Blog ✍️</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>Im Hun</copyright>
+    <lastBuildDate>Wed, 30 Oct 2024 14:26:25 +0900</lastBuildDate>
+    <atom:link href="https://findmytrueself.github.io/en/tags/node.js/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Enable openSSL Legacy Mode</title>
+      <link>https://findmytrueself.github.io/en/frontend/openssl%EB%A0%88%EA%B1%B0%EC%8B%9C%EB%AA%A8%EB%93%9C%ED%99%9C%EC%84%B1%ED%99%94/</link>
+      <pubDate>Wed, 30 Oct 2024 14:26:25 +0900</pubDate>
+      <guid>https://findmytrueself.github.io/en/frontend/openssl%EB%A0%88%EA%B1%B0%EC%8B%9C%EB%AA%A8%EB%93%9C%ED%99%9C%EC%84%B1%ED%99%94/</guid>
+      <description>&lt;p&gt;After upgrading Node.js, you may encounter errors when loading scripts.&lt;/p&gt;&#xA;&lt;p&gt;If you’re seeing openSSL errors, try enabling legacy mode as follows:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-gdscript3&#34; data-lang=&#34;gdscript3&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;export&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;NODE_OPTIONS&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=--&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;openssl&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;legacy&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;provider&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;scripts&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;s2&#34;&gt;&amp;#34;build&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;NODE_OPTIONS=--openssl-legacy-provider webpack --mode production&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+  </channel>
+</rss>
